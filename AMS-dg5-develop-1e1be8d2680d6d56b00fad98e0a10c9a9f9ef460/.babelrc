@@ -1,0 +1,22 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "react"
+  ],
+  "env": {
+    "test": {
+      "presets": ["env", "react"],
+      "plugins": [
+        ["transform-class-properties", { "spec": true }]
+      ]
+    }
+  },
+  "plugins": [
+    "react-hot-loader/babel",
+    "syntax-dynamic-import",
+    "transform-decorators-legacy",
+    ["transform-object-rest-spread", { "useBuiltIns": true }],
+    ["transform-class-properties", { "spec": true }],
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}

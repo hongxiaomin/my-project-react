@@ -1,0 +1,10 @@
+*.log
+npm-debug.*
+node_modules
+dist
+reports
+.idea/
+.yarn-cache
+.vscode
+.DS_STORE
+yarn.lock

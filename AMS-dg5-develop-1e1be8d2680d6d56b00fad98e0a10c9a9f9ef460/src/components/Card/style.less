@@ -1,0 +1,40 @@
+@import (reference) '../../utils/style.less';
+@cardBaseColor: #dcd6d9;
+
+.card-style {
+  width: 100%;
+  height: auto;
+  border: 1px solid @cardBaseColor;
+  padding-bottom: 20px;
+  .transition(all, 0.2s);
+  .border-radius(3px);
+  .box-shadow(1px, 1px, 2px);
+  .card-area {
+    width: 100%;
+    height: auto;
+    display: table;
+    table-layout: fixed;
+    .title {
+      width: auto;
+      max-width: 200px;
+      height: 50px;
+      padding-left: 10px;
+      font-family: 'Microsoft JhengHei';
+      font-size: medium;
+      font-weight: bold;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .body {
+      margin-left: 5%;
+      width: 90%;
+      height: auto;
+    }
+  }
+  .hr {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid @cardBaseColor;
+    font-size: medium;
+  }
+}

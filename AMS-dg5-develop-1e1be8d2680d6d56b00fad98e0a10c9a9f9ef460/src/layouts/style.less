@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  .navigator {
+    padding: 0px !important;
+  }
+  #app {
+    height: 100%;
+    .app-wrapper-style {
+      width: 100%;
+      height: 100%;
+      .app-wrapper-header {
+        width: 100%;
+        height: 56px;
+      }
+      .app-wrapper-content {
+        width: 100%;
+        height: ~"calc(100% - 56px)";
+      }
+    }
+  }
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+.col-loop (@i) when (@i > 0) {
+  .col-@{i} {
+    flex: @i;
+  }
+  .col-loop(@i - 1);
+}
+.col-loop(24);
+.align-right {
+  float: right;
+}
+.align-left {
+  float: left;
+}
+.margin-horizontal-loop (@i, @rate) when (@i > 0) {
+  .margin-horizontal-@{i} {
+    margin: 0 (@i * @rate);
+  }
+  .margin-horizontal-loop(@i - 1, @rate);
+}
+.margin-horizontal-loop(5, 10);
+.margin-vertical-loop (@i, @rate) when (@i > 0) {
+  .margin-vertical-@{i} {
+    margin: (@i * @rate) 0;
+  }
+  .margin-vertical-loop(@i - 1, @rate);
+}
+.margin-vertical-loop(5, 10);
+.title-modal {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Microsoft JhengHei;
+}
+.rt-td{
+  text-align: center;
+}

@@ -1,0 +1,4851 @@
+{
+  "index": 1,
+  "currentPage": "use_cases",
+  "routes": [
+    {
+      "path": "index",
+      "stencils": {
+        "12a2c23e-097d-4dda-b6fe-4a863658fa74": {
+          "id": "12a2c23e-097d-4dda-b6fe-4a863658fa74",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 280,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "bfa73345-ca2d-48cd-bfb5-9c2cab32cfb0"
+          },
+          "parentId": "c70829e0-7c77-45c2-91b3-897394f34e6f",
+          "children": [
+            "7676a10c-7634-482e-9a0d-8909d50ebfad",
+            "1d078975-21df-4342-977b-3fc1e479fdc3",
+            "c68c7aaa-827d-4fca-a7a2-5d7780753361"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "9ae57102-2929-4297-8966-07de59c5cf20": {
+          "id": "9ae57102-2929-4297-8966-07de59c5cf20",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#8b572a",
+              "fontFamily": "Montserrat",
+              "fontSize": 40,
+              "fontWeight": "bold",
+              "textAlign": "center",
+              "marginBottom": 0,
+              "marginTop": 35
+            },
+            "key": "9ae57102-2929-4297-8966-07de59c5cf20",
+            "value": "I am a h1 style"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "60bba6c1-13ad-486f-b1bc-a158e4aa7a2c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "b8524469-c6c3-4204-8118-ec27a6b202cd": {
+          "id": "b8524469-c6c3-4204-8118-ec27a6b202cd",
+          "namespace": "primitiveString",
+          "name": "26 pieces",
+          "props": {
+            "key": "b8524469-c6c3-4204-8118-ec27a6b202cd",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "ca09b7b9-b729-476f-b2ff-e0fec8ef9524",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "bac2727c-c10a-47e9-8c85-fe4e8187dff7": {
+          "id": "bac2727c-c10a-47e9-8c85-fe4e8187dff7",
+          "namespace": "primitiveString",
+          "name": "Data Interface",
+          "props": {
+            "key": "bac2727c-c10a-47e9-8c85-fe4e8187dff7",
+            "value": "I am a h6 style"
+          },
+          "parentId": "1d078975-21df-4342-977b-3fc1e479fdc3",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "c588a53e-5cbf-49ce-afbf-b383ca215e58": {
+          "id": "c588a53e-5cbf-49ce-afbf-b383ca215e58",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "80%",
+              "overflow": "auto",
+              "height": "500",
+              "textAlign": "center",
+              "paddingTop": 10
+            },
+            "key": "c588a53e-5cbf-49ce-afbf-b383ca215e58"
+          },
+          "parentId": "be6bd16d-9a05-4053-ae95-0d0cdf9d613d",
+          "children": [
+            "dcebfef9-de12-41ee-8245-28dfecd2443f",
+            "0a8189a4-3f99-4ac3-80a6-4dafb3f0eb21",
+            "090386f7-ad63-45d4-b35f-591060508610",
+            "25be2dbd-a68e-4c48-9219-e46cbcb5b30f",
+            "c8f66745-9ccb-4c14-89ff-920ce2d7f1e7"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "2efc6f0d-7ba9-4bed-be12-294e76106edf": {
+          "id": "2efc6f0d-7ba9-4bed-be12-294e76106edf",
+          "namespace": "material-ui",
+          "name": "FlatButton",
+          "props": {
+            "style": {
+              "color": "#4f4f4e",
+              "fontFamily": "Open Sans",
+              "fontSize": 16,
+              "textTransform": "capitalize"
+            },
+            "key": "2efc6f0d-7ba9-4bed-be12-294e76106edf",
+            "label": "Use Cases",
+            "primary": false,
+            "onTouchTap": [
+              {
+                "name": "push",
+                "args": [
+                  "use_cases"
+                ]
+              }
+            ]
+          },
+          "parentId": "1ca0dfd1-8404-4215-9f72-7c29700f57bf",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Flat Button"
+        },
+        "25be2dbd-a68e-4c48-9219-e46cbcb5b30f": {
+          "id": "25be2dbd-a68e-4c48-9219-e46cbcb5b30f",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "color": "#fff",
+              "fontFamily": "Montserrat",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "textAlign": "center",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "key": "25be2dbd-a68e-4c48-9219-e46cbcb5b30f",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "c588a53e-5cbf-49ce-afbf-b383ca215e58",
+          "children": [
+            "bcfa17ed-7ecf-4bba-b0fe-2ea1c9010b55"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "1df55db1-70b3-460e-b578-b2a117d2f825": {
+          "id": "1df55db1-70b3-460e-b578-b2a117d2f825",
+          "namespace": "primitiveString",
+          "name": "Supports upload & download JSON file",
+          "props": {
+            "key": "1df55db1-70b3-460e-b578-b2a117d2f825",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "79b4939a-4f07-489a-b83c-d6a2441c6f0c",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "6718c1b6-05d9-4adb-8d8a-5a2d3e7f11fc": {
+          "id": "6718c1b6-05d9-4adb-8d8a-5a2d3e7f11fc",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              280,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "1c8b7c08-8b25-4e3b-822d-fed2e348b55e"
+          },
+          "parentId": "0900ce9b-08f9-452e-b519-826007b0d855",
+          "children": [
+            "99717065-0731-4689-bc1c-ac520b67a3b4"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "57b809fd-8670-49e4-afb8-92336671401d": {
+          "id": "57b809fd-8670-49e4-afb8-92336671401d",
+          "namespace": "primitiveString",
+          "name": "UI UTILITY",
+          "props": {
+            "key": "57b809fd-8670-49e4-afb8-92336671401d",
+            "value": "I am a text"
+          },
+          "parentId": "676edc23-34f5-406a-af6c-30a5000e971f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "741ea0e8-9688-4936-ab73-a1fbfbe5447a": {
+          "id": "741ea0e8-9688-4936-ab73-a1fbfbe5447a",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "741ea0e8-9688-4936-ab73-a1fbfbe5447a",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "5dad6ed3-05d0-4ae0-bb95-8feefb077dc5",
+          "children": [
+            "b8c634f3-88aa-4742-9bd5-0c6ba1b36ab7"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "2b9d0db4-d7cb-40d1-bf6a-9a927bff55d2": {
+          "id": "2b9d0db4-d7cb-40d1-bf6a-9a927bff55d2",
+          "namespace": "primitiveString",
+          "name": "For Historical Data",
+          "props": {
+            "key": "2b9d0db4-d7cb-40d1-bf6a-9a927bff55d2",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "0e6346ec-d9b7-44eb-bc9b-19670d43465f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "0cadced3-7ecb-429f-adde-5e1ac55fc34d": {
+          "id": "0cadced3-7ecb-429f-adde-5e1ac55fc34d",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "0cadced3-7ecb-429f-adde-5e1ac55fc34d",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-06-at-3-41-46-pm.png?1499327097"
+          },
+          "parentId": "d80c586c-5077-463d-93ba-0332f012a858",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "d4aa242c-f826-47a7-9d70-40cfbe70b3c9": {
+          "id": "d4aa242c-f826-47a7-9d70-40cfbe70b3c9",
+          "namespace": "primitiveString",
+          "name": "Exports the entire pages with automatically generate React code",
+          "props": {
+            "key": "d4aa242c-f826-47a7-9d70-40cfbe70b3c9",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "0b41b5cf-dc60-4c9d-960e-f71f963e6968",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "4ce16e5f-e018-44d1-af2d-f4561c1b3cbe": {
+          "id": "4ce16e5f-e018-44d1-af2d-f4561c1b3cbe",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              80,
+              100
+            ],
+            "contentPosition": [
+              "middle-left",
+              "middle-right"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              2,
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "39cc8869-c215-444b-aa9e-0ab6fab4af62"
+          },
+          "parentId": "d80c586c-5077-463d-93ba-0332f012a858",
+          "children": [
+            "daa88aa6-6d6b-4c4e-9e01-2163cde7fa72",
+            "0abe2976-908c-48fe-9798-d4f25a697a05"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "01c66d27-03fa-411c-9bd4-5228b2a68be8": {
+          "id": "01c66d27-03fa-411c-9bd4-5228b2a68be8",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              800,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "932078ce-df58-4359-96ae-65652d876d7c"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "11e65611-18c7-465c-8679-bc6de81ab001"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "91d25259-7576-4222-98bf-645fb2c5322a": {
+          "id": "91d25259-7576-4222-98bf-645fb2c5322a",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "100%",
+              "height": "610",
+              "backgroundColor": "#fff",
+              "overflow": "auto",
+              "textAlign": "center"
+            },
+            "key": "91d25259-7576-4222-98bf-645fb2c5322a"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "c0ff590e-ff8a-4de3-8aab-9b831a007c9e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "d891e39b-0138-401a-96bb-b4f0c13c9877": {
+          "id": "d891e39b-0138-401a-96bb-b4f0c13c9877",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {
+              "fontSize": 24
+            },
+            "key": "d891e39b-0138-401a-96bb-b4f0c13c9877",
+            "primaryText": "Instantly share URLs  and present design to clients by auto deploy.",
+            "nestedItems": []
+          },
+          "parentId": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "2c911839-f4ad-493a-8846-4571521209f4": {
+          "id": "2c911839-f4ad-493a-8846-4571521209f4",
+          "namespace": "primitiveString",
+          "name": "Grid Structure",
+          "props": {
+            "key": "2c911839-f4ad-493a-8846-4571521209f4",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "39729788-2fe9-47cf-ada7-263ec45caa7e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "2d1730bc-0700-4763-918d-5a57153d8f7a": {
+          "id": "2d1730bc-0700-4763-918d-5a57153d8f7a",
+          "namespace": "primitiveString",
+          "name": "Gets URL instantly by auto deploy",
+          "props": {
+            "key": "2d1730bc-0700-4763-918d-5a57153d8f7a",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "f8c4519a-7e84-4b79-9fa4-624558da0306",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "39729788-2fe9-47cf-ada7-263ec45caa7e": {
+          "id": "39729788-2fe9-47cf-ada7-263ec45caa7e",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "39729788-2fe9-47cf-ada7-263ec45caa7e",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "0abe2976-908c-48fe-9798-d4f25a697a05",
+          "children": [
+            "2c911839-f4ad-493a-8846-4571521209f4"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "0a8189a4-3f99-4ac3-80a6-4dafb3f0eb21": {
+          "id": "0a8189a4-3f99-4ac3-80a6-4dafb3f0eb21",
+          "namespace": "native",
+          "name": "h2",
+          "props": {
+            "style": {
+              "color": "#ffffff",
+              "fontFamily": "Montserrat",
+              "fontSize": 48,
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "key": "0a8189a4-3f99-4ac3-80a6-4dafb3f0eb21",
+            "value": "I am a h2 style"
+          },
+          "parentId": "c588a53e-5cbf-49ce-afbf-b383ca215e58",
+          "children": [
+            "937f9d0f-7b41-41dd-b276-bed54a5e9ce3"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 2"
+        },
+        "8f17bbab-9d57-48ed-8760-40f0e890ae13": {
+          "id": "8f17bbab-9d57-48ed-8760-40f0e890ae13",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              280,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "aa600a94-40fe-47e7-9f68-fc2b22a3eaf4"
+          },
+          "parentId": "f897d010-7ce1-432c-8603-da29b02155c3",
+          "children": [
+            "b27fa039-79fa-4c7a-b42b-d3814fb5430b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "24f35271-670f-4b88-9380-c0ecac85781c": {
+          "id": "24f35271-670f-4b88-9380-c0ecac85781c",
+          "namespace": "primitiveString",
+          "name": "Dynamic Dashboard",
+          "props": {
+            "key": "24f35271-670f-4b88-9380-c0ecac85781c",
+            "value": "I am a h6 style"
+          },
+          "parentId": "fdb02349-4606-425a-8489-220c0bbbcf3d",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "3e1d67f1-24c7-4436-a04d-a844aff6e1f7": {
+          "id": "3e1d67f1-24c7-4436-a04d-a844aff6e1f7",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 320,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 2,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "a8fe3107-161d-433a-a022-6621479f1593"
+          },
+          "parentId": "942488d2-9cc1-4f38-82b0-12aa3a30e197",
+          "children": [
+            "6823e60a-85a5-4d59-97b7-6e92fa333df2"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "99d1292f-7eb1-43d4-b29e-a09d9e9a63ba": {
+          "id": "99d1292f-7eb1-43d4-b29e-a09d9e9a63ba",
+          "namespace": "primitiveString",
+          "name": "Save & Load",
+          "props": {
+            "key": "99d1292f-7eb1-43d4-b29e-a09d9e9a63ba",
+            "value": "I am a h6 style"
+          },
+          "parentId": "55a8e62b-4398-4731-a4b3-6b1fb070ade4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "11e65611-18c7-465c-8679-bc6de81ab001": {
+          "id": "11e65611-18c7-465c-8679-bc6de81ab001",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 800,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "db62add4-593e-47e4-862a-4a53179ac521"
+          },
+          "parentId": "01c66d27-03fa-411c-9bd4-5228b2a68be8",
+          "children": [
+            "92b7c02f-6288-4f9b-9e05-e1c368ee4d5f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "498a7d21-2273-449e-905c-64f65987df6f": {
+          "id": "498a7d21-2273-449e-905c-64f65987df6f",
+          "namespace": "primitiveString",
+          "name": "Auto Deploy",
+          "props": {
+            "key": "498a7d21-2273-449e-905c-64f65987df6f",
+            "value": "I am a h6 style"
+          },
+          "parentId": "e812ac2a-62ee-4442-be1d-7740f86914d7",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "9d3519f4-ffa0-405d-99d6-5df48feac668": {
+          "id": "9d3519f4-ffa0-405d-99d6-5df48feac668",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {
+              "fontSize": 24
+            },
+            "key": "9d3519f4-ffa0-405d-99d6-5df48feac668",
+            "primaryText": "Not static wireframe. Interactivity to get real customer feedback.",
+            "nestedItems": []
+          },
+          "parentId": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "dd89b801-0a88-46e8-9a3c-d1b14d9e5c87": {
+          "id": "dd89b801-0a88-46e8-9a3c-d1b14d9e5c87",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 80,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "dd89b801-0a88-46e8-9a3c-d1b14d9e5c87"
+          },
+          "parentId": "4d1bd9bd-1822-477b-9da8-2d23e19545e9",
+          "children": [
+            "79b4939a-4f07-489a-b83c-d6a2441c6f0c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "a4483c37-ac12-4e37-9ef8-f86f2db8fbae": {
+          "id": "a4483c37-ac12-4e37-9ef8-f86f2db8fbae",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              440,
+              440
+            ],
+            "contentPosition": [
+              "middle-right",
+              "middle-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              2
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              32
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "4d0feb38-44da-4d28-8cb5-04a8f58cc95a"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "a963e838-c4cb-42bb-be5f-0bb7f7e695b3",
+            "3cc5c29a-f757-4bb5-a297-fe4dfab9cbe8"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "c9eb02ce-d070-4393-a84f-fd18297f97e4": {
+          "id": "c9eb02ce-d070-4393-a84f-fd18297f97e4",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 320,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "7411d64a-d8c1-472a-8566-088088ddb2c0"
+          },
+          "parentId": "942488d2-9cc1-4f38-82b0-12aa3a30e197",
+          "children": [
+            "c3d1f43a-cf6a-4611-b699-af3f67fc9546"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "c68c7aaa-827d-4fca-a7a2-5d7780753361": {
+          "id": "c68c7aaa-827d-4fca-a7a2-5d7780753361",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              100,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-right"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "e37a4001-0953-40f0-a237-86bb9d29d3f5"
+          },
+          "parentId": "12a2c23e-097d-4dda-b6fe-4a863658fa74",
+          "children": [
+            "5dad6ed3-05d0-4ae0-bb95-8feefb077dc5"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "25234187-6d61-4771-8b72-a8c4537bce19": {
+          "id": "25234187-6d61-4771-8b72-a8c4537bce19",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "25234187-6d61-4771-8b72-a8c4537bce19",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-06-at-3-42-07-pm.png?1499327419"
+          },
+          "parentId": "99717065-0731-4689-bc1c-ac520b67a3b4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "b5fc1200-6b28-45b6-ae37-adcd26705420": {
+          "id": "b5fc1200-6b28-45b6-ae37-adcd26705420",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "b5fc1200-6b28-45b6-ae37-adcd26705420",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "49ff21f3-7a69-4fc6-b861-b5612b5c138c",
+          "children": [
+            "29744329-fc15-4d74-8ef5-03c3ffa3128e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "0e6346ec-d9b7-44eb-bc9b-19670d43465f": {
+          "id": "0e6346ec-d9b7-44eb-bc9b-19670d43465f",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "0e6346ec-d9b7-44eb-bc9b-19670d43465f",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "8f2120f2-c0d0-4758-8326-e99531e5a625",
+          "children": [
+            "2b9d0db4-d7cb-40d1-bf6a-9a927bff55d2"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "f9826851-5555-4a75-b252-d472d1390a2e": {
+          "id": "f9826851-5555-4a75-b252-d472d1390a2e",
+          "namespace": "primitiveString",
+          "name": "Built-in UI Libraries",
+          "props": {
+            "key": "f9826851-5555-4a75-b252-d472d1390a2e",
+            "value": "I am a h6 style"
+          },
+          "parentId": "b4b502f5-1924-42b9-9a70-e977abbd1cd6",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "7e7f878f-36d8-4094-b88b-7240a207c302": {
+          "id": "7e7f878f-36d8-4094-b88b-7240a207c302",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 310,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 2,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "0a50682d-3632-4ceb-97d2-ea57151d4ffb"
+          },
+          "parentId": "d07f008f-59b3-4c89-8c17-b8e12c12b672",
+          "children": [
+            "ac2a0be3-2f9b-4a35-9ed1-8161329baf8a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "5dad6ed3-05d0-4ae0-bb95-8feefb077dc5": {
+          "id": "5dad6ed3-05d0-4ae0-bb95-8feefb077dc5",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 100,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "aabca742-80ee-4df1-9b14-be4474d169bf"
+          },
+          "parentId": "c68c7aaa-827d-4fca-a7a2-5d7780753361",
+          "children": [
+            "741ea0e8-9688-4936-ab73-a1fbfbe5447a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "3cc5c29a-f757-4bb5-a297-fe4dfab9cbe8": {
+          "id": "3cc5c29a-f757-4bb5-a297-fe4dfab9cbe8",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 440,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 8,
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 32,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "b514ab9c-64d1-4231-be08-2c9e8792c6db"
+          },
+          "parentId": "a4483c37-ac12-4e37-9ef8-f86f2db8fbae",
+          "children": [
+            "5d32942f-d9fa-4ae1-a9b7-6e6723358f49",
+            "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "6d4199cb-729b-433f-b07a-4acfce9a1f73": {
+          "id": "6d4199cb-729b-433f-b07a-4acfce9a1f73",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {
+              "fontSize": 24
+            },
+            "key": "6d4199cb-729b-433f-b07a-4acfce9a1f73",
+            "primaryText": "Easy drag & drop functionality. No technical experience required.",
+            "nestedItems": []
+          },
+          "parentId": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "ec31a418-3cef-4509-8023-6869153ec839": {
+          "id": "ec31a418-3cef-4509-8023-6869153ec839",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {
+              "marginRight": 15
+            },
+            "key": "ec31a418-3cef-4509-8023-6869153ec839",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/editor/screen-shot-2017-07-06-at-1-39-58-pm.png?1499321143"
+          },
+          "parentId": "a963e838-c4cb-42bb-be5f-0bb7f7e695b3",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "1d078975-21df-4342-977b-3fc1e479fdc3": {
+          "id": "1d078975-21df-4342-977b-3fc1e479fdc3",
+          "namespace": "native",
+          "name": "h6",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginTop": 4,
+              "marginBottom": 3,
+              "fontWeight": "bold",
+              "fontSize": 20,
+              "fontFamily": "Montserrat",
+              "color": "rgb(63, 63, 63)"
+            },
+            "key": "1d078975-21df-4342-977b-3fc1e479fdc3",
+            "value": "I am a h6 style"
+          },
+          "parentId": "12a2c23e-097d-4dda-b6fe-4a863658fa74",
+          "children": [
+            "bac2727c-c10a-47e9-8c85-fe4e8187dff7"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 6"
+        },
+        "b27fa039-79fa-4c7a-b42b-d3814fb5430b": {
+          "id": "b27fa039-79fa-4c7a-b42b-d3814fb5430b",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 280,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "d3f3550b-31ec-4b45-be04-373d87a01a35"
+          },
+          "parentId": "8f17bbab-9d57-48ed-8760-40f0e890ae13",
+          "children": [
+            "33e91f72-cdb4-47b3-93d8-0d03c11cbd3a",
+            "978e8ecf-7293-4e5e-80c4-39c5197fe6b3",
+            "7bf3d07f-ba39-4aa7-9b65-2c1d60ac440d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "187d549a-8f0e-42d9-b535-4393987fa298": {
+          "id": "187d549a-8f0e-42d9-b535-4393987fa298",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "187d549a-8f0e-42d9-b535-4393987fa298",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "0abe2976-908c-48fe-9798-d4f25a697a05",
+          "children": [
+            "3f19806e-4d1f-41e7-8c2c-7297c0dd3231"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "98d610d2-1964-4e2b-a566-f463d42a2440": {
+          "id": "98d610d2-1964-4e2b-a566-f463d42a2440",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 74,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "flex-end"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 3,
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "502b88bc-1db3-4c10-88ca-6e583587e24c"
+          },
+          "parentId": "09b5e98c-26f9-4e00-be3d-7bc44e42dc69",
+          "children": [
+            "676edc23-34f5-406a-af6c-30a5000e971f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "4d1bd9bd-1822-477b-9da8-2d23e19545e9": {
+          "id": "4d1bd9bd-1822-477b-9da8-2d23e19545e9",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              80,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-right"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "4d1bd9bd-1822-477b-9da8-2d23e19545e9"
+          },
+          "parentId": "50b08d36-7f5a-41e0-befd-c2d70266429e",
+          "children": [
+            "dd89b801-0a88-46e8-9a3c-d1b14d9e5c87"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "c3d1f43a-cf6a-4611-b699-af3f67fc9546": {
+          "id": "c3d1f43a-cf6a-4611-b699-af3f67fc9546",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "358",
+              "height": "300",
+              "overflow": "auto",
+              "borderColor": "rgb(213, 213, 213)",
+              "borderWidth": 1,
+              "borderStyle": "solid"
+            },
+            "key": "c3d1f43a-cf6a-4611-b699-af3f67fc9546"
+          },
+          "parentId": "c9eb02ce-d070-4393-a84f-fd18297f97e4",
+          "children": [
+            "dfd9eb8b-24cd-41bf-9579-ff3591bfed76"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "6fd7b0cf-f09a-46b5-8dfe-a9ef9349f90f": {
+          "id": "6fd7b0cf-f09a-46b5-8dfe-a9ef9349f90f",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 80,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "c1e9506f-524e-44df-b517-e3ec8c549599"
+          },
+          "parentId": "7bf3d07f-ba39-4aa7-9b65-2c1d60ac440d",
+          "children": [
+            "0b41b5cf-dc60-4c9d-960e-f71f963e6968"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "29744329-fc15-4d74-8ef5-03c3ffa3128e": {
+          "id": "29744329-fc15-4d74-8ef5-03c3ffa3128e",
+          "namespace": "primitiveString",
+          "name": "5 pieces",
+          "props": {
+            "key": "29744329-fc15-4d74-8ef5-03c3ffa3128e",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "b5fc1200-6b28-45b6-ae37-adcd26705420",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "09b5e98c-26f9-4e00-be3d-7bc44e42dc69": {
+          "id": "09b5e98c-26f9-4e00-be3d-7bc44e42dc69",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              74,
+              74
+            ],
+            "contentPosition": [
+              "bottom-right",
+              "bottom-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              3
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "horizontal"
+            ],
+            "key": "256c4d0c-d357-4fb5-b14e-c9ec6ae60b5b"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "98d610d2-1964-4e2b-a566-f463d42a2440",
+            "1ca0dfd1-8404-4215-9f72-7c29700f57bf"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "e0539779-0049-483c-98dd-4b54439b1122": {
+          "id": "e0539779-0049-483c-98dd-4b54439b1122",
+          "namespace": "primitiveString",
+          "name": "Meet customer needs much more effectively and efficiently.",
+          "props": {
+            "key": "e0539779-0049-483c-98dd-4b54439b1122",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "090386f7-ad63-45d4-b35f-591060508610",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "0b41b5cf-dc60-4c9d-960e-f71f963e6968": {
+          "id": "0b41b5cf-dc60-4c9d-960e-f71f963e6968",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "0b41b5cf-dc60-4c9d-960e-f71f963e6968",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "6fd7b0cf-f09a-46b5-8dfe-a9ef9349f90f",
+          "children": [
+            "d4aa242c-f826-47a7-9d70-40cfbe70b3c9"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "736a3f81-bd96-4105-8ee2-e9c6794729ed": {
+          "id": "736a3f81-bd96-4105-8ee2-e9c6794729ed",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {
+              "fontSize": 24
+            },
+            "key": "736a3f81-bd96-4105-8ee2-e9c6794729ed",
+            "primaryText": "Flexible data integration to enable data analysis & visualization.",
+            "nestedItems": []
+          },
+          "parentId": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "3b708a8f-c4a8-4bd7-9b08-f8420ca2f559": {
+          "id": "3b708a8f-c4a8-4bd7-9b08-f8420ca2f559",
+          "namespace": "material-ui",
+          "name": "FlatButton",
+          "props": {
+            "style": {
+              "color": "#f5a623",
+              "fontFamily": "Open Sans",
+              "fontSize": 16,
+              "textTransform": "capitalize",
+              "marginLeft": 44
+            },
+            "key": "3b708a8f-c4a8-4bd7-9b08-f8420ca2f559",
+            "label": "Home",
+            "primary": false
+          },
+          "parentId": "1ca0dfd1-8404-4215-9f72-7c29700f57bf",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Flat Button"
+        },
+        "676edc23-34f5-406a-af6c-30a5000e971f": {
+          "id": "676edc23-34f5-406a-af6c-30a5000e971f",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "fontSize": 28,
+              "fontFamily": "Montserrat",
+              "fontWeight": "bold"
+            },
+            "key": "676edc23-34f5-406a-af6c-30a5000e971f",
+            "value": "I am a text"
+          },
+          "parentId": "98d610d2-1964-4e2b-a566-f463d42a2440",
+          "children": [
+            "57b809fd-8670-49e4-afb8-92336671401d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "0900ce9b-08f9-452e-b519-826007b0d855": {
+          "id": "0900ce9b-08f9-452e-b519-826007b0d855",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "358",
+              "height": "300",
+              "overflow": "auto",
+              "borderColor": "rgb(213, 213, 213)",
+              "borderWidth": 1,
+              "borderStyle": "solid"
+            },
+            "key": "0900ce9b-08f9-452e-b519-826007b0d855"
+          },
+          "parentId": "81b1444a-71ed-425f-9888-299e1d41c3fd",
+          "children": [
+            "6718c1b6-05d9-4adb-8d8a-5a2d3e7f11fc"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "df6d8dc9-496c-4250-9e40-8dc038ca7f3f": {
+          "id": "df6d8dc9-496c-4250-9e40-8dc038ca7f3f",
+          "namespace": "primitiveString",
+          "name": "UI UTILITY",
+          "props": {
+            "key": "df6d8dc9-496c-4250-9e40-8dc038ca7f3f",
+            "value": "I am a h1 style"
+          },
+          "parentId": "dcebfef9-de12-41ee-8245-28dfecd2443f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "c70829e0-7c77-45c2-91b3-897394f34e6f": {
+          "id": "c70829e0-7c77-45c2-91b3-897394f34e6f",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              280,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "3c2ce41e-8984-4a53-8f95-426edde354ba"
+          },
+          "parentId": "6823e60a-85a5-4d59-97b7-6e92fa333df2",
+          "children": [
+            "12a2c23e-097d-4dda-b6fe-4a863658fa74"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "978e8ecf-7293-4e5e-80c4-39c5197fe6b3": {
+          "id": "978e8ecf-7293-4e5e-80c4-39c5197fe6b3",
+          "namespace": "native",
+          "name": "h6",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginTop": 4,
+              "marginBottom": 5,
+              "fontWeight": "bold",
+              "fontSize": 20,
+              "fontFamily": "Montserrat",
+              "color": "rgb(63, 63, 63)"
+            },
+            "key": "978e8ecf-7293-4e5e-80c4-39c5197fe6b3",
+            "value": "I am a h6 style"
+          },
+          "parentId": "b27fa039-79fa-4c7a-b42b-d3814fb5430b",
+          "children": [
+            "1cf66414-8b0e-456a-b3b0-dffdd8b1cd51"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 6"
+        },
+        "fdb02349-4606-425a-8489-220c0bbbcf3d": {
+          "id": "fdb02349-4606-425a-8489-220c0bbbcf3d",
+          "namespace": "native",
+          "name": "h6",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginTop": 4,
+              "marginBottom": 5,
+              "fontWeight": "bold",
+              "fontSize": 20,
+              "fontFamily": "Montserrat",
+              "color": "rgb(63, 63, 63)"
+            },
+            "key": "fdb02349-4606-425a-8489-220c0bbbcf3d",
+            "value": "I am a h6 style"
+          },
+          "parentId": "99717065-0731-4689-bc1c-ac520b67a3b4",
+          "children": [
+            "24f35271-670f-4b88-9380-c0ecac85781c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 6"
+        },
+        "0a82e6a7-fcc0-4aa1-a1f8-c9a31599bd65": {
+          "id": "0a82e6a7-fcc0-4aa1-a1f8-c9a31599bd65",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              280,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "45edf3ab-8471-43b4-95dc-6194d32705cf"
+          },
+          "parentId": "ac2a0be3-2f9b-4a35-9ed1-8161329baf8a",
+          "children": [
+            "c50cf91b-afaf-48d3-ad4e-a2f461c4f5fa"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "daa88aa6-6d6b-4c4e-9e01-2163cde7fa72": {
+          "id": "daa88aa6-6d6b-4c4e-9e01-2163cde7fa72",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 80,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 8,
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "da0797bf-f32c-486a-9269-0499f05f66b4"
+          },
+          "parentId": "4ce16e5f-e018-44d1-af2d-f4561c1b3cbe",
+          "children": [
+            "fcfe2ee1-4e95-4da2-90d2-bcfb3ac19049",
+            "c12dcd09-7972-430c-bdda-d9f8424ad496",
+            "65df0241-9832-4da5-aeb0-b30b690d6647"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "55a8e62b-4398-4731-a4b3-6b1fb070ade4": {
+          "id": "55a8e62b-4398-4731-a4b3-6b1fb070ade4",
+          "namespace": "native",
+          "name": "h6",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginTop": 4,
+              "marginBottom": 5,
+              "fontWeight": "bold",
+              "fontSize": 20,
+              "fontFamily": "Montserrat",
+              "color": "rgb(63, 63, 63)"
+            },
+            "key": "55a8e62b-4398-4731-a4b3-6b1fb070ade4",
+            "value": "I am a h6 style"
+          },
+          "parentId": "50b08d36-7f5a-41e0-befd-c2d70266429e",
+          "children": [
+            "99d1292f-7eb1-43d4-b29e-a09d9e9a63ba"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 6"
+        },
+        "65df0241-9832-4da5-aeb0-b30b690d6647": {
+          "id": "65df0241-9832-4da5-aeb0-b30b690d6647",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "65df0241-9832-4da5-aeb0-b30b690d6647",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "daa88aa6-6d6b-4c4e-9e01-2163cde7fa72",
+          "children": [
+            "616deb36-bd69-4637-b162-9894a5ca764c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "1cf66414-8b0e-456a-b3b0-dffdd8b1cd51": {
+          "id": "1cf66414-8b0e-456a-b3b0-dffdd8b1cd51",
+          "namespace": "primitiveString",
+          "name": "Code Generator",
+          "props": {
+            "key": "1cf66414-8b0e-456a-b3b0-dffdd8b1cd51",
+            "value": "I am a h6 style"
+          },
+          "parentId": "978e8ecf-7293-4e5e-80c4-39c5197fe6b3",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "49ff21f3-7a69-4fc6-b861-b5612b5c138c": {
+          "id": "49ff21f3-7a69-4fc6-b861-b5612b5c138c",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 100,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "6122f12a-13cb-40df-b9e7-a898a6670405"
+          },
+          "parentId": "cc9f6625-540f-43c6-a1a7-b2c64b860c8b",
+          "children": [
+            "b5fc1200-6b28-45b6-ae37-adcd26705420",
+            "20f74675-0170-4a89-9c1a-5306d1ba6c6e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "7b168b9b-91a1-4526-bb0d-c879be77308f": {
+          "id": "7b168b9b-91a1-4526-bb0d-c879be77308f",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "7b168b9b-91a1-4526-bb0d-c879be77308f",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "8f2120f2-c0d0-4758-8326-e99531e5a625",
+          "children": [
+            "aadb7ac6-25a0-45d7-af99-6e66cc7f6518"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "50b08d36-7f5a-41e0-befd-c2d70266429e": {
+          "id": "50b08d36-7f5a-41e0-befd-c2d70266429e",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 280,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "b8adbab3-d863-42ae-908c-bc8e840800ae"
+          },
+          "parentId": "bee53fb4-36d5-4449-8ff7-aac08051dd07",
+          "children": [
+            "98c1477e-e56f-4854-bdeb-3f1007c9c3a2",
+            "55a8e62b-4398-4731-a4b3-6b1fb070ade4",
+            "4d1bd9bd-1822-477b-9da8-2d23e19545e9"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "98c1477e-e56f-4854-bdeb-3f1007c9c3a2": {
+          "id": "98c1477e-e56f-4854-bdeb-3f1007c9c3a2",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "98c1477e-e56f-4854-bdeb-3f1007c9c3a2",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-06-at-3-42-50-pm.png?1499328500"
+          },
+          "parentId": "50b08d36-7f5a-41e0-befd-c2d70266429e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "b80d8bd2-3d1f-485c-9546-e98002694e88": {
+          "id": "b80d8bd2-3d1f-485c-9546-e98002694e88",
+          "namespace": "primitiveString",
+          "name": "HTML",
+          "props": {
+            "key": "b80d8bd2-3d1f-485c-9546-e98002694e88",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "c12dcd09-7972-430c-bdda-d9f8424ad496",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "bee53fb4-36d5-4449-8ff7-aac08051dd07": {
+          "id": "bee53fb4-36d5-4449-8ff7-aac08051dd07",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              280,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "e310e560-5788-434f-bab6-24ec5208531b"
+          },
+          "parentId": "baf38bde-c516-4731-9c2f-c0451c6c9bbc",
+          "children": [
+            "50b08d36-7f5a-41e0-befd-c2d70266429e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "1ca0dfd1-8404-4215-9f72-7c29700f57bf": {
+          "id": "1ca0dfd1-8404-4215-9f72-7c29700f57bf",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 74,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 9,
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "row",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      0deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "2ad5f731-631a-4032-96e3-020142fd69d7"
+          },
+          "parentId": "09b5e98c-26f9-4e00-be3d-7bc44e42dc69",
+          "children": [
+            "3b708a8f-c4a8-4bd7-9b08-f8420ca2f559",
+            "2efc6f0d-7ba9-4bed-be12-294e76106edf"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "cc9f6625-540f-43c6-a1a7-b2c64b860c8b": {
+          "id": "cc9f6625-540f-43c6-a1a7-b2c64b860c8b",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              80,
+              100
+            ],
+            "contentPosition": [
+              "middle-left",
+              "middle-right"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "d81b5a18-dfa7-4af9-9c9e-62aad9b414fb"
+          },
+          "parentId": "99717065-0731-4689-bc1c-ac520b67a3b4",
+          "children": [
+            "8f2120f2-c0d0-4758-8326-e99531e5a625",
+            "49ff21f3-7a69-4fc6-b861-b5612b5c138c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "7676a10c-7634-482e-9a0d-8909d50ebfad": {
+          "id": "7676a10c-7634-482e-9a0d-8909d50ebfad",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "7676a10c-7634-482e-9a0d-8909d50ebfad",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-06-at-3-42-34-pm.png?1499328138"
+          },
+          "parentId": "12a2c23e-097d-4dda-b6fe-4a863658fa74",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "f8c4519a-7e84-4b79-9fa4-624558da0306": {
+          "id": "f8c4519a-7e84-4b79-9fa4-624558da0306",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "f8c4519a-7e84-4b79-9fa4-624558da0306",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "d39967d5-3990-4e3a-9800-22e4ac5e421d",
+          "children": [
+            "2d1730bc-0700-4763-918d-5a57153d8f7a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "f897d010-7ce1-432c-8603-da29b02155c3": {
+          "id": "f897d010-7ce1-432c-8603-da29b02155c3",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "358",
+              "height": "340",
+              "overflow": "auto",
+              "borderColor": "rgb(213, 213, 213)",
+              "borderWidth": 1,
+              "borderStyle": "solid"
+            },
+            "key": "f897d010-7ce1-432c-8603-da29b02155c3"
+          },
+          "parentId": "0c7a2cf4-ce83-4bb5-b752-ea345217a43f",
+          "children": [
+            "8f17bbab-9d57-48ed-8760-40f0e890ae13"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "99717065-0731-4689-bc1c-ac520b67a3b4": {
+          "id": "99717065-0731-4689-bc1c-ac520b67a3b4",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 280,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "0d77199b-1f0a-4fef-a8de-ee6bdda48933"
+          },
+          "parentId": "6718c1b6-05d9-4adb-8d8a-5a2d3e7f11fc",
+          "children": [
+            "25234187-6d61-4771-8b72-a8c4537bce19",
+            "fdb02349-4606-425a-8489-220c0bbbcf3d",
+            "cc9f6625-540f-43c6-a1a7-b2c64b860c8b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "c50cf91b-afaf-48d3-ad4e-a2f461c4f5fa": {
+          "id": "c50cf91b-afaf-48d3-ad4e-a2f461c4f5fa",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 280,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "835b2bc3-16df-46e0-a311-6ded72c46947"
+          },
+          "parentId": "0a82e6a7-fcc0-4aa1-a1f8-c9a31599bd65",
+          "children": [
+            "16ac2858-a1dd-4d3a-a428-1c6a4610684d",
+            "e812ac2a-62ee-4442-be1d-7740f86914d7",
+            "f5f50a95-7690-4ac9-a11f-e561c4dcb176"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "3f19806e-4d1f-41e7-8c2c-7297c0dd3231": {
+          "id": "3f19806e-4d1f-41e7-8c2c-7297c0dd3231",
+          "namespace": "primitiveString",
+          "name": "11 pieces",
+          "props": {
+            "key": "3f19806e-4d1f-41e7-8c2c-7297c0dd3231",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "187d549a-8f0e-42d9-b535-4393987fa298",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "0c7a2cf4-ce83-4bb5-b752-ea345217a43f": {
+          "id": "0c7a2cf4-ce83-4bb5-b752-ea345217a43f",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 310,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "3048977b-3b4b-4721-ba1f-fa840a6e9f97"
+          },
+          "parentId": "d07f008f-59b3-4c89-8c17-b8e12c12b672",
+          "children": [
+            "f897d010-7ce1-432c-8603-da29b02155c3"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "ac2a0be3-2f9b-4a35-9ed1-8161329baf8a": {
+          "id": "ac2a0be3-2f9b-4a35-9ed1-8161329baf8a",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "358",
+              "height": "340",
+              "overflow": "auto",
+              "borderColor": "rgb(213, 213, 213)",
+              "borderWidth": 1,
+              "borderStyle": "solid"
+            },
+            "key": "ac2a0be3-2f9b-4a35-9ed1-8161329baf8a"
+          },
+          "parentId": "7e7f878f-36d8-4094-b88b-7240a207c302",
+          "children": [
+            "0a82e6a7-fcc0-4aa1-a1f8-c9a31599bd65"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "dcebfef9-de12-41ee-8245-28dfecd2443f": {
+          "id": "dcebfef9-de12-41ee-8245-28dfecd2443f",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginBottom": 15,
+              "fontWeight": "bold",
+              "fontSize": 72,
+              "fontFamily": "Montserrat",
+              "color": "rgb(255, 255, 255)",
+              "marginTop": 0
+            },
+            "key": "dcebfef9-de12-41ee-8245-28dfecd2443f",
+            "value": "I am a h1 style"
+          },
+          "parentId": "c588a53e-5cbf-49ce-afbf-b383ca215e58",
+          "children": [
+            "df6d8dc9-496c-4250-9e40-8dc038ca7f3f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "6823e60a-85a5-4d59-97b7-6e92fa333df2": {
+          "id": "6823e60a-85a5-4d59-97b7-6e92fa333df2",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "358",
+              "height": "300",
+              "overflow": "auto",
+              "borderColor": "rgb(213, 213, 213)",
+              "borderWidth": 1,
+              "borderStyle": "solid"
+            },
+            "key": "6823e60a-85a5-4d59-97b7-6e92fa333df2"
+          },
+          "parentId": "3e1d67f1-24c7-4436-a04d-a844aff6e1f7",
+          "children": [
+            "c70829e0-7c77-45c2-91b3-897394f34e6f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "7fe844ba-e507-430c-aed9-4b76a53b8846": {
+          "id": "7fe844ba-e507-430c-aed9-4b76a53b8846",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {
+              "marginTop": 20
+            },
+            "key": "7fe844ba-e507-430c-aed9-4b76a53b8846",
+            "alt": "default image",
+            "src": "http://ui-utility-english.weebly.com/uploads/1/0/8/6/108618317/published/ppp_3.jpg?1499927508",
+            "width": 878,
+            "height": 600
+          },
+          "parentId": "477219e9-c176-4bf5-81f3-336db7a06f5f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "98d2eeba-18b7-44c5-82fb-a8acc96aee3b": {
+          "id": "98d2eeba-18b7-44c5-82fb-a8acc96aee3b",
+          "namespace": "primitiveString",
+          "name": "With us, you can ...",
+          "props": {
+            "key": "98d2eeba-18b7-44c5-82fb-a8acc96aee3b",
+            "value": "I am a h4 style"
+          },
+          "parentId": "5d32942f-d9fa-4ae1-a9b7-6e6723358f49",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "20f74675-0170-4a89-9c1a-5306d1ba6c6e": {
+          "id": "20f74675-0170-4a89-9c1a-5306d1ba6c6e",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "20f74675-0170-4a89-9c1a-5306d1ba6c6e",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "49ff21f3-7a69-4fc6-b861-b5612b5c138c",
+          "children": [
+            "cdbb8e94-1fa7-496e-ac22-3e5d90a1df22"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "16ac2858-a1dd-4d3a-a428-1c6a4610684d": {
+          "id": "16ac2858-a1dd-4d3a-a428-1c6a4610684d",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "16ac2858-a1dd-4d3a-a428-1c6a4610684d",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-06-at-3-43-06-pm.png?1499329212"
+          },
+          "parentId": "c50cf91b-afaf-48d3-ad4e-a2f461c4f5fa",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "d07f008f-59b3-4c89-8c17-b8e12c12b672": {
+          "id": "d07f008f-59b3-4c89-8c17-b8e12c12b672",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 3,
+            "contentHeight": [
+              310,
+              310,
+              310
+            ],
+            "contentPosition": [
+              "center",
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "36fd1229-bf16-4a63-8136-85126cf5eb9b"
+          },
+          "parentId": "92b7c02f-6288-4f9b-9e05-e1c368ee4d5f",
+          "children": [
+            "128d74f5-51ad-4aa1-924a-f8d72e9ed7b1",
+            "0c7a2cf4-ce83-4bb5-b752-ea345217a43f",
+            "7e7f878f-36d8-4094-b88b-7240a207c302"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc": {
+          "id": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "namespace": "material-ui",
+          "name": "List",
+          "props": {
+            "style": {
+              "width": "800"
+            },
+            "key": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc"
+          },
+          "parentId": "3cc5c29a-f757-4bb5-a297-fe4dfab9cbe8",
+          "children": [
+            "4946a0b7-4b07-40b7-87bd-8f3d7d626e54",
+            "6d4199cb-729b-433f-b07a-4acfce9a1f73",
+            "9d3519f4-ffa0-405d-99d6-5df48feac668",
+            "7ed8d42f-90a7-45f7-9760-20deb4315340",
+            "736a3f81-bd96-4105-8ee2-e9c6794729ed",
+            "d891e39b-0138-401a-96bb-b4f0c13c9877"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "List"
+        },
+        "d39967d5-3990-4e3a-9800-22e4ac5e421d": {
+          "id": "d39967d5-3990-4e3a-9800-22e4ac5e421d",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 80,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "d39967d5-3990-4e3a-9800-22e4ac5e421d"
+          },
+          "parentId": "f5f50a95-7690-4ac9-a11f-e561c4dcb176",
+          "children": [
+            "f8c4519a-7e84-4b79-9fa4-624558da0306"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "36947d9a-1cfb-404f-993a-412d59897ec3": {
+          "id": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "backgroundColor": "white",
+              "flex": 1,
+              "overflow": "auto",
+              "display": "block"
+            },
+            "key": "36947d9a-1cfb-404f-993a-412d59897ec3"
+          },
+          "parentId": null,
+          "children": [
+            "09b5e98c-26f9-4e00-be3d-7bc44e42dc69",
+            "be6bd16d-9a05-4053-ae95-0d0cdf9d613d",
+            "477219e9-c176-4bf5-81f3-336db7a06f5f",
+            "a4483c37-ac12-4e37-9ef8-f86f2db8fbae",
+            "9ae57102-2929-4297-8966-07de59c5cf20",
+            "01c66d27-03fa-411c-9bd4-5228b2a68be8",
+            "91d25259-7576-4222-98bf-645fb2c5322a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ROOT_DIV"
+        },
+        "51ff3831-23cd-4022-9fdd-1d5afb6e7ff8": {
+          "id": "51ff3831-23cd-4022-9fdd-1d5afb6e7ff8",
+          "namespace": "primitiveString",
+          "name": "Google Material Design",
+          "props": {
+            "key": "51ff3831-23cd-4022-9fdd-1d5afb6e7ff8",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "fcfe2ee1-4e95-4da2-90d2-bcfb3ac19049",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "128d74f5-51ad-4aa1-924a-f8d72e9ed7b1": {
+          "id": "128d74f5-51ad-4aa1-924a-f8d72e9ed7b1",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 310,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "9394acb7-54b8-48b1-9ff2-cfd89d16a955"
+          },
+          "parentId": "d07f008f-59b3-4c89-8c17-b8e12c12b672",
+          "children": [
+            "baf38bde-c516-4731-9c2f-c0451c6c9bbc"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "477219e9-c176-4bf5-81f3-336db7a06f5f": {
+          "id": "477219e9-c176-4bf5-81f3-336db7a06f5f",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "overflow": "auto",
+              "display": "flex",
+              "width": "100%",
+              "height": "700",
+              "backgroundRepeat": "noRepeat",
+              "justifyContent": "center",
+              "backgroundSize": "cover",
+              "alignSelf": "center",
+              "alignContent": "center",
+              "backgroundColor": "#ffffff",
+              "backgroundPosition": "50% 50%"
+            },
+            "key": "477219e9-c176-4bf5-81f3-336db7a06f5f"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "7fe844ba-e507-430c-aed9-4b76a53b8846"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "be6bd16d-9a05-4053-ae95-0d0cdf9d613d": {
+          "id": "be6bd16d-9a05-4053-ae95-0d0cdf9d613d",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "overflow": "auto",
+              "display": "flex",
+              "paddingTop": 100,
+              "width": "100%",
+              "marginTop": 53,
+              "height": "620px",
+              "backgroundRepeat": "noRepeat",
+              "justifyContent": "center",
+              "backgroundImage": "url(\"http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/background-images/625339574.jpg\")",
+              "backgroundSize": "cover",
+              "alignSelf": "center",
+              "alignContent": "center",
+              "backgroundColor": "lightgray",
+              "backgroundPosition": "50% 50%",
+              "marginBottom": 54
+            },
+            "key": "be6bd16d-9a05-4053-ae95-0d0cdf9d613d"
+          },
+          "parentId": "36947d9a-1cfb-404f-993a-412d59897ec3",
+          "children": [
+            "c588a53e-5cbf-49ce-afbf-b383ca215e58"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "0abe2976-908c-48fe-9798-d4f25a697a05": {
+          "id": "0abe2976-908c-48fe-9798-d4f25a697a05",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 100,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 4,
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "6224af75-272b-49c9-bbbb-a5c1c0c2236c"
+          },
+          "parentId": "4ce16e5f-e018-44d1-af2d-f4561c1b3cbe",
+          "children": [
+            "ca09b7b9-b729-476f-b2ff-e0fec8ef9524",
+            "187d549a-8f0e-42d9-b535-4393987fa298",
+            "39729788-2fe9-47cf-ada7-263ec45caa7e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "ca09b7b9-b729-476f-b2ff-e0fec8ef9524": {
+          "id": "ca09b7b9-b729-476f-b2ff-e0fec8ef9524",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "ca09b7b9-b729-476f-b2ff-e0fec8ef9524",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "0abe2976-908c-48fe-9798-d4f25a697a05",
+          "children": [
+            "b8524469-c6c3-4204-8118-ec27a6b202cd"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "e812ac2a-62ee-4442-be1d-7740f86914d7": {
+          "id": "e812ac2a-62ee-4442-be1d-7740f86914d7",
+          "namespace": "native",
+          "name": "h6",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginTop": 4,
+              "marginBottom": 5,
+              "fontWeight": "bold",
+              "fontSize": 20,
+              "fontFamily": "Montserrat",
+              "color": "rgb(63, 63, 63)"
+            },
+            "key": "e812ac2a-62ee-4442-be1d-7740f86914d7",
+            "value": "I am a h6 style"
+          },
+          "parentId": "c50cf91b-afaf-48d3-ad4e-a2f461c4f5fa",
+          "children": [
+            "498a7d21-2273-449e-905c-64f65987df6f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 6"
+        },
+        "942488d2-9cc1-4f38-82b0-12aa3a30e197": {
+          "id": "942488d2-9cc1-4f38-82b0-12aa3a30e197",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 3,
+            "contentHeight": [
+              320,
+              320,
+              320
+            ],
+            "contentPosition": [
+              "center",
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "3d7ee714-f4a0-4bea-9e60-81bfb4f3bdd1"
+          },
+          "parentId": "92b7c02f-6288-4f9b-9e05-e1c368ee4d5f",
+          "children": [
+            "c9eb02ce-d070-4393-a84f-fd18297f97e4",
+            "81b1444a-71ed-425f-9888-299e1d41c3fd",
+            "3e1d67f1-24c7-4436-a04d-a844aff6e1f7"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "c8f66745-9ccb-4c14-89ff-920ce2d7f1e7": {
+          "id": "c8f66745-9ccb-4c14-89ff-920ce2d7f1e7",
+          "namespace": "material-ui",
+          "name": "RaisedButton",
+          "props": {
+            "style": {
+              "fontSize": 14,
+              "width": "148",
+              "marginTop": 62
+            },
+            "key": "c8f66745-9ccb-4c14-89ff-920ce2d7f1e7",
+            "label": "GET STARTED",
+            "primary": false,
+            "fullWidth": false,
+            "backgroundColor": "rgb(245, 166, 35)",
+            "labelColor": "#fff",
+            "href": "http://10.120.136.90/ui-utility/"
+          },
+          "parentId": "c588a53e-5cbf-49ce-afbf-b383ca215e58",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Raised Button"
+        },
+        "937f9d0f-7b41-41dd-b276-bed54a5e9ce3": {
+          "id": "937f9d0f-7b41-41dd-b276-bed54a5e9ce3",
+          "namespace": "primitiveString",
+          "name": "PROTOTYPE BETTER. FASTER. EASIER.",
+          "props": {
+            "key": "937f9d0f-7b41-41dd-b276-bed54a5e9ce3",
+            "value": "I am a h2 style"
+          },
+          "parentId": "0a8189a4-3f99-4ac3-80a6-4dafb3f0eb21",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "616deb36-bd69-4637-b162-9894a5ca764c": {
+          "id": "616deb36-bd69-4637-b162-9894a5ca764c",
+          "namespace": "primitiveString",
+          "name": "GridLayout",
+          "props": {
+            "key": "616deb36-bd69-4637-b162-9894a5ca764c",
+            "value": "You can write long sentence with default style",
+            "isEditMode": true
+          },
+          "parentId": "65df0241-9832-4da5-aeb0-b30b690d6647",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "60bba6c1-13ad-486f-b1bc-a158e4aa7a2c": {
+          "id": "60bba6c1-13ad-486f-b1bc-a158e4aa7a2c",
+          "namespace": "primitiveString",
+          "name": "What we have ...",
+          "props": {
+            "key": "60bba6c1-13ad-486f-b1bc-a158e4aa7a2c",
+            "value": "I am a h1 style"
+          },
+          "parentId": "9ae57102-2929-4297-8966-07de59c5cf20",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "dfd9eb8b-24cd-41bf-9579-ff3591bfed76": {
+          "id": "dfd9eb8b-24cd-41bf-9579-ff3591bfed76",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              280,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "3d3f53ec-6893-4f94-bb53-059e291482f6"
+          },
+          "parentId": "c3d1f43a-cf6a-4611-b699-af3f67fc9546",
+          "children": [
+            "d80c586c-5077-463d-93ba-0332f012a858"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "cdbb8e94-1fa7-496e-ac22-3e5d90a1df22": {
+          "id": "cdbb8e94-1fa7-496e-ac22-3e5d90a1df22",
+          "namespace": "primitiveString",
+          "name": "8 pieces",
+          "props": {
+            "key": "cdbb8e94-1fa7-496e-ac22-3e5d90a1df22",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "20f74675-0170-4a89-9c1a-5306d1ba6c6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "baf38bde-c516-4731-9c2f-c0451c6c9bbc": {
+          "id": "baf38bde-c516-4731-9c2f-c0451c6c9bbc",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "key": "baf38bde-c516-4731-9c2f-c0451c6c9bbc",
+            "style": {
+              "width": "358",
+              "height": "340",
+              "overflow": "auto",
+              "borderColor": "rgb(213, 213, 213)",
+              "borderWidth": 1,
+              "borderStyle": "solid"
+            }
+          },
+          "parentId": "128d74f5-51ad-4aa1-924a-f8d72e9ed7b1",
+          "children": [
+            "bee53fb4-36d5-4449-8ff7-aac08051dd07"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "b4b502f5-1924-42b9-9a70-e977abbd1cd6": {
+          "id": "b4b502f5-1924-42b9-9a70-e977abbd1cd6",
+          "namespace": "native",
+          "name": "h6",
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "marginTop": 4,
+              "marginBottom": 5,
+              "fontWeight": "bold",
+              "fontSize": 20,
+              "fontFamily": "Montserrat",
+              "color": "rgb(63, 63, 63)"
+            },
+            "key": "b4b502f5-1924-42b9-9a70-e977abbd1cd6",
+            "value": "I am a h6 style"
+          },
+          "parentId": "d80c586c-5077-463d-93ba-0332f012a858",
+          "children": [
+            "f9826851-5555-4a75-b252-d472d1390a2e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 6"
+        },
+        "79b4939a-4f07-489a-b83c-d6a2441c6f0c": {
+          "id": "79b4939a-4f07-489a-b83c-d6a2441c6f0c",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "79b4939a-4f07-489a-b83c-d6a2441c6f0c",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "dd89b801-0a88-46e8-9a3c-d1b14d9e5c87",
+          "children": [
+            "1df55db1-70b3-460e-b578-b2a117d2f825"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "8f2120f2-c0d0-4758-8326-e99531e5a625": {
+          "id": "8f2120f2-c0d0-4758-8326-e99531e5a625",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 80,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "890bd27e-208c-4b68-bc18-e60d077f38e3"
+          },
+          "parentId": "cc9f6625-540f-43c6-a1a7-b2c64b860c8b",
+          "children": [
+            "0e6346ec-d9b7-44eb-bc9b-19670d43465f",
+            "7b168b9b-91a1-4526-bb0d-c879be77308f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "f5f50a95-7690-4ac9-a11f-e561c4dcb176": {
+          "id": "f5f50a95-7690-4ac9-a11f-e561c4dcb176",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              80,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-right"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "f5f50a95-7690-4ac9-a11f-e561c4dcb176"
+          },
+          "parentId": "c50cf91b-afaf-48d3-ad4e-a2f461c4f5fa",
+          "children": [
+            "d39967d5-3990-4e3a-9800-22e4ac5e421d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "92b7c02f-6288-4f9b-9e05-e1c368ee4d5f": {
+          "id": "92b7c02f-6288-4f9b-9e05-e1c368ee4d5f",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "90%",
+              "height": "750",
+              "overflow": "auto",
+              "marginBottom": 40,
+              "marginTop": 20,
+              "textAlign": "center"
+            },
+            "key": "92b7c02f-6288-4f9b-9e05-e1c368ee4d5f"
+          },
+          "parentId": "11e65611-18c7-465c-8679-bc6de81ab001",
+          "children": [
+            "942488d2-9cc1-4f38-82b0-12aa3a30e197",
+            "d07f008f-59b3-4c89-8c17-b8e12c12b672"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "aadb7ac6-25a0-45d7-af99-6e66cc7f6518": {
+          "id": "aadb7ac6-25a0-45d7-af99-6e66cc7f6518",
+          "namespace": "primitiveString",
+          "name": "For Real-Time Data",
+          "props": {
+            "key": "aadb7ac6-25a0-45d7-af99-6e66cc7f6518",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "7b168b9b-91a1-4526-bb0d-c879be77308f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "7ed8d42f-90a7-45f7-9760-20deb4315340": {
+          "id": "7ed8d42f-90a7-45f7-9760-20deb4315340",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {
+              "fontSize": 24
+            },
+            "key": "7ed8d42f-90a7-45f7-9760-20deb4315340",
+            "primaryText": "Automatically generate React code, engineer takes over without delay.",
+            "nestedItems": []
+          },
+          "parentId": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "bcfa17ed-7ecf-4bba-b0fe-2ea1c9010b55": {
+          "id": "bcfa17ed-7ecf-4bba-b0fe-2ea1c9010b55",
+          "namespace": "primitiveString",
+          "name": "Quickly verify if what you are trying to design would actually work.",
+          "props": {
+            "key": "bcfa17ed-7ecf-4bba-b0fe-2ea1c9010b55",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "25be2dbd-a68e-4c48-9219-e46cbcb5b30f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "4946a0b7-4b07-40b7-87bd-8f3d7d626e54": {
+          "id": "4946a0b7-4b07-40b7-87bd-8f3d7d626e54",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {
+              "fontSize": 24
+            },
+            "key": "4946a0b7-4b07-40b7-87bd-8f3d7d626e54",
+            "primaryText": "Simplify workflow, focus on making the best possible products​.",
+            "nestedItems": []
+          },
+          "parentId": "a7f2e7e9-91e4-4e95-a4f9-c5ddec1e7acc",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "d80c586c-5077-463d-93ba-0332f012a858": {
+          "id": "d80c586c-5077-463d-93ba-0332f012a858",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 280,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "03c44616-fad2-47c1-befb-287790f1dbfd"
+          },
+          "parentId": "dfd9eb8b-24cd-41bf-9579-ff3591bfed76",
+          "children": [
+            "0cadced3-7ecb-429f-adde-5e1ac55fc34d",
+            "b4b502f5-1924-42b9-9a70-e977abbd1cd6",
+            "4ce16e5f-e018-44d1-af2d-f4561c1b3cbe"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "a963e838-c4cb-42bb-be5f-0bb7f7e695b3": {
+          "id": "a963e838-c4cb-42bb-be5f-0bb7f7e695b3",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 440,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 4,
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "d660f594-7006-4976-8784-5e4aba215511"
+          },
+          "parentId": "a4483c37-ac12-4e37-9ef8-f86f2db8fbae",
+          "children": [
+            "ec31a418-3cef-4509-8023-6869153ec839"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "81b1444a-71ed-425f-9888-299e1d41c3fd": {
+          "id": "81b1444a-71ed-425f-9888-299e1d41c3fd",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 320,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "b4d5955f-306a-4359-b9a2-9b3974908102"
+          },
+          "parentId": "942488d2-9cc1-4f38-82b0-12aa3a30e197",
+          "children": [
+            "0900ce9b-08f9-452e-b519-826007b0d855"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "c0ff590e-ff8a-4de3-8aab-9b831a007c9e": {
+          "id": "c0ff590e-ff8a-4de3-8aab-9b831a007c9e",
+          "namespace": "native",
+          "name": "iframe",
+          "props": {
+            "key": "6a382e07-71c8-413d-a4ce-7c391dd05535",
+            "src": "https://www.youtube.com/embed/ESUL1i7KYIM?ecver=1",
+            "height": 600,
+            "width": 1200,
+            "style": {
+              "border": 0,
+              "background": "#eeeeee"
+            }
+          },
+          "parentId": "91d25259-7576-4222-98bf-645fb2c5322a",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Iframe"
+        },
+        "7bf3d07f-ba39-4aa7-9b65-2c1d60ac440d": {
+          "id": "7bf3d07f-ba39-4aa7-9b65-2c1d60ac440d",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              80,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-right"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "ae346833-2a84-450a-910e-77ed96230a19"
+          },
+          "parentId": "b27fa039-79fa-4c7a-b42b-d3814fb5430b",
+          "children": [
+            "6fd7b0cf-f09a-46b5-8dfe-a9ef9349f90f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "33e91f72-cdb4-47b3-93d8-0d03c11cbd3a": {
+          "id": "33e91f72-cdb4-47b3-93d8-0d03c11cbd3a",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "33e91f72-cdb4-47b3-93d8-0d03c11cbd3a",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-06-at-3-42-59-pm.png?1499328520"
+          },
+          "parentId": "b27fa039-79fa-4c7a-b42b-d3814fb5430b",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "b8c634f3-88aa-4742-9bd5-0c6ba1b36ab7": {
+          "id": "b8c634f3-88aa-4742-9bd5-0c6ba1b36ab7",
+          "namespace": "primitiveString",
+          "name": "Supports REST API and MQTT",
+          "props": {
+            "key": "b8c634f3-88aa-4742-9bd5-0c6ba1b36ab7",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "741ea0e8-9688-4936-ab73-a1fbfbe5447a",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "090386f7-ad63-45d4-b35f-591060508610": {
+          "id": "090386f7-ad63-45d4-b35f-591060508610",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "color": "#fff",
+              "fontFamily": "Montserrat",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "textAlign": "center",
+              "marginBottom": 0
+            },
+            "key": "090386f7-ad63-45d4-b35f-591060508610",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "c588a53e-5cbf-49ce-afbf-b383ca215e58",
+          "children": [
+            "e0539779-0049-483c-98dd-4b54439b1122"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "c12dcd09-7972-430c-bdda-d9f8424ad496": {
+          "id": "c12dcd09-7972-430c-bdda-d9f8424ad496",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "c12dcd09-7972-430c-bdda-d9f8424ad496",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "daa88aa6-6d6b-4c4e-9e01-2163cde7fa72",
+          "children": [
+            "b80d8bd2-3d1f-485c-9546-e98002694e88"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "fcfe2ee1-4e95-4da2-90d2-bcfb3ac19049": {
+          "id": "fcfe2ee1-4e95-4da2-90d2-bcfb3ac19049",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "marginBottom": 0,
+              "marginTop": 0,
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "color": "rgb(0, 0, 0)"
+            },
+            "key": "fcfe2ee1-4e95-4da2-90d2-bcfb3ac19049",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "daa88aa6-6d6b-4c4e-9e01-2163cde7fa72",
+          "children": [
+            "51ff3831-23cd-4022-9fdd-1d5afb6e7ff8"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        },
+        "5d32942f-d9fa-4ae1-a9b7-6e6723358f49": {
+          "id": "5d32942f-d9fa-4ae1-a9b7-6e6723358f49",
+          "namespace": "native",
+          "name": "h4",
+          "props": {
+            "style": {
+              "color": "#8b572a",
+              "fontSize": 32,
+              "fontFamily": "Montserrat",
+              "fontWeight": "bold",
+              "marginBottom": 26,
+              "marginTop": 0
+            },
+            "key": "5d32942f-d9fa-4ae1-a9b7-6e6723358f49",
+            "value": "I am a h4 style"
+          },
+          "parentId": "3cc5c29a-f757-4bb5-a297-fe4dfab9cbe8",
+          "children": [
+            "98d2eeba-18b7-44c5-82fb-a8acc96aee3b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 4"
+        }
+      }
+    },
+    {
+      "path": "use_cases",
+      "stencils": {
+        "4b5de9be-1824-456d-9a8c-f1c423e23d64": {
+          "id": "4b5de9be-1824-456d-9a8c-f1c423e23d64",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 470,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "59e5195a-9b17-42a6-a529-de5927b630a0"
+          },
+          "parentId": "159c3910-bf10-4e37-b62d-e3bc4ae47b41",
+          "children": [
+            "9070f080-410a-440b-84c6-f1b7aeb29994",
+            "fcf7d59d-7957-4f05-8f22-db323906e324",
+            "d30e0165-5910-445a-af87-b1bc8fdf40cd"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "b63e08eb-4ad5-4c5d-8694-a8757d540b40": {
+          "id": "b63e08eb-4ad5-4c5d-8694-a8757d540b40",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "b63e08eb-4ad5-4c5d-8694-a8757d540b40",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-07-at-10-29-49-am_1.png?1499396990",
+            "height": 250,
+            "width": 505
+          },
+          "parentId": "f2e2cdf5-4e94-4105-9414-9879b784e2b7",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "f8e4f0a5-81a6-4e99-bf1d-fdbfd298b5a5": {
+          "id": "f8e4f0a5-81a6-4e99-bf1d-fdbfd298b5a5",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "key": "f8e4f0a5-81a6-4e99-bf1d-fdbfd298b5a5",
+            "style": {
+              "fontSize": 28,
+              "fontFamily": "Montserrat",
+              "fontWeight": "bold"
+            },
+            "value": "I am a text"
+          },
+          "parentId": "a9409094-cd0e-4211-873d-0c83bf6f69dc",
+          "children": [
+            "412e1313-d1eb-4552-abe9-a95e2969a34c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "a82b12d2-0875-4c9d-a82c-5194e0ca6148": {
+          "id": "a82b12d2-0875-4c9d-a82c-5194e0ca6148",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "100%",
+              "height": "500",
+              "overflow": "auto",
+              "paddingTop": 10,
+              "marginTop": 20
+            },
+            "key": "a82b12d2-0875-4c9d-a82c-5194e0ca6148"
+          },
+          "parentId": "f77005f9-c8fe-47a5-814d-df629366d1ef",
+          "children": [
+            "159c3910-bf10-4e37-b62d-e3bc4ae47b41"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "f77005f9-c8fe-47a5-814d-df629366d1ef": {
+          "id": "f77005f9-c8fe-47a5-814d-df629366d1ef",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "100%",
+              "height": "1700",
+              "backgroundColor": "#ffffff",
+              "overflow": "auto",
+              "verticalAlign": "middle",
+              "marginTop": 20
+            },
+            "key": "f77005f9-c8fe-47a5-814d-df629366d1ef"
+          },
+          "parentId": "a338a8f8-059d-4f24-909f-acdf5449b3be",
+          "children": [
+            "fae2380f-7625-41bb-a88c-e906fcb10c10",
+            "2d4979b0-607e-44c0-8ee0-c577b78a1c83",
+            "a0fe9d8a-265c-4503-ac95-54f3ee62a03e",
+            "a82b12d2-0875-4c9d-a82c-5194e0ca6148",
+            "9fdbfdd2-98eb-43e4-86a7-402ea1052402"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "a9409094-cd0e-4211-873d-0c83bf6f69dc": {
+          "id": "a9409094-cd0e-4211-873d-0c83bf6f69dc",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 74,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "flex-end"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 3,
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "a9409094-cd0e-4211-873d-0c83bf6f69dc"
+          },
+          "parentId": "22761698-08f9-4f7f-bcf3-4a30c3436a3c",
+          "children": [
+            "f8e4f0a5-81a6-4e99-bf1d-fdbfd298b5a5"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "fc7a6a21-4668-4194-a0e6-59ba0cb652b8": {
+          "id": "fc7a6a21-4668-4194-a0e6-59ba0cb652b8",
+          "namespace": "material-ui",
+          "name": "FlatButton",
+          "props": {
+            "style": {
+              "color": "#f5a623",
+              "fontFamily": "Open Sans",
+              "fontSize": 16,
+              "textTransform": "capitalize"
+            },
+            "key": "fc7a6a21-4668-4194-a0e6-59ba0cb652b8",
+            "label": "Use Cases",
+            "primary": false
+          },
+          "parentId": "fafcff68-fee7-450c-97c9-00cc2b8738b4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Flat Button"
+        },
+        "cf8a0586-45ba-4569-9dec-43fee80d9096": {
+          "id": "cf8a0586-45ba-4569-9dec-43fee80d9096",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#3f3f3f",
+              "fontFamily": "Open Sans",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center"
+            },
+            "key": "cf8a0586-45ba-4569-9dec-43fee80d9096",
+            "value": "I am a h1 style"
+          },
+          "parentId": "76baf522-24a8-4aeb-8b59-0509d65f149c",
+          "children": [
+            "84c00418-f5cb-4fe8-8a78-2fe95558705b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "262c2a81-9d72-4c81-bc40-ff2df7c02c79": {
+          "id": "262c2a81-9d72-4c81-bc40-ff2df7c02c79",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "262c2a81-9d72-4c81-bc40-ff2df7c02c79",
+            "alt": "default image",
+            "src": "http://ui-utility-english.weebly.com/uploads/1/0/8/6/108618317/screen-shot-2017-07-13-at-1-00-25-pm_orig.png",
+            "height": 370,
+            "width": 600
+          },
+          "parentId": "5e801797-cf5c-4821-bcd5-76d425333af9",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "412e1313-d1eb-4552-abe9-a95e2969a34c": {
+          "id": "412e1313-d1eb-4552-abe9-a95e2969a34c",
+          "namespace": "primitiveString",
+          "name": "UI UTILITY",
+          "props": {
+            "key": "412e1313-d1eb-4552-abe9-a95e2969a34c",
+            "value": "I am a text"
+          },
+          "parentId": "f8e4f0a5-81a6-4e99-bf1d-fdbfd298b5a5",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "d30e0165-5910-445a-af87-b1bc8fdf40cd": {
+          "id": "d30e0165-5910-445a-af87-b1bc8fdf40cd",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#3f3f3f",
+              "fontFamily": "Open Sans",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+              "marginLeft": 20
+            },
+            "key": "d30e0165-5910-445a-af87-b1bc8fdf40cd",
+            "value": "I am a h1 style"
+          },
+          "parentId": "4b5de9be-1824-456d-9a8c-f1c423e23d64",
+          "children": [
+            "70cbe940-e0d2-4243-b64f-ab9968283f2d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "d86137e9-eeb1-48d6-b62f-f16ee20bd9b5": {
+          "id": "d86137e9-eeb1-48d6-b62f-f16ee20bd9b5",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#3f3f3f",
+              "fontFamily": "Open Sans",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center"
+            },
+            "key": "d86137e9-eeb1-48d6-b62f-f16ee20bd9b5",
+            "value": "I am a h1 style"
+          },
+          "parentId": "01e19af8-7d7b-4739-8830-51d636d9fde3",
+          "children": [
+            "024cd587-eb4b-402e-8d7c-5af51281ca10"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "fcf7d59d-7957-4f05-8f22-db323906e324": {
+          "id": "fcf7d59d-7957-4f05-8f22-db323906e324",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#704831",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "key": "fcf7d59d-7957-4f05-8f22-db323906e324",
+            "value": "I am a h1 style"
+          },
+          "parentId": "4b5de9be-1824-456d-9a8c-f1c423e23d64",
+          "children": [
+            "b614acc1-2ddf-452f-8182-f41108d220da"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "3bfa8159-ad97-4fd5-9291-bb2251d61ec2": {
+          "id": "3bfa8159-ad97-4fd5-9291-bb2251d61ec2",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#704831",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "key": "3bfa8159-ad97-4fd5-9291-bb2251d61ec2",
+            "value": "I am a h1 style"
+          },
+          "parentId": "76baf522-24a8-4aeb-8b59-0509d65f149c",
+          "children": [
+            "9ee99d1c-d0cf-49ec-87ae-e10e9ea94853"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "a9a7a856-1b61-441c-8148-2b2cf65ee2c0": {
+          "id": "a9a7a856-1b61-441c-8148-2b2cf65ee2c0",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#3f3f3f",
+              "fontFamily": "Open Sans",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+              "marginLeft": 20
+            },
+            "key": "a9a7a856-1b61-441c-8148-2b2cf65ee2c0",
+            "value": "I am a h1 style"
+          },
+          "parentId": "f2e2cdf5-4e94-4105-9414-9879b784e2b7",
+          "children": [
+            "3df32279-3a8d-4156-99b8-2373ece6ac91"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "0bbd2859-3a72-4ed3-86ba-6acd9cd2865f": {
+          "id": "0bbd2859-3a72-4ed3-86ba-6acd9cd2865f",
+          "namespace": "primitiveString",
+          "name": "Smart Aquaculture",
+          "props": {
+            "key": "0bbd2859-3a72-4ed3-86ba-6acd9cd2865f",
+            "value": "I am a h1 style"
+          },
+          "parentId": "2d4979b0-607e-44c0-8ee0-c577b78a1c83",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "0e90bac6-5eee-4a71-83f9-24952edfe359": {
+          "id": "0e90bac6-5eee-4a71-83f9-24952edfe359",
+          "namespace": "material-ui",
+          "name": "FlatButton",
+          "props": {
+            "style": {
+              "color": "#4f4f4e",
+              "fontFamily": "Open Sans",
+              "fontSize": 16,
+              "textTransform": "capitalize",
+              "marginLeft": 44
+            },
+            "key": "0e90bac6-5eee-4a71-83f9-24952edfe359",
+            "label": "Home",
+            "primary": false,
+            "onTouchTap": [
+              {
+                "name": "push",
+                "args": [
+                  "index"
+                ]
+              }
+            ]
+          },
+          "parentId": "fafcff68-fee7-450c-97c9-00cc2b8738b4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Flat Button"
+        },
+        "890e7e46-19ae-45f8-ae63-130979f78517": {
+          "id": "890e7e46-19ae-45f8-ae63-130979f78517",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 400,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 10,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "5da93f22-321e-4930-9406-e613e25a6133"
+          },
+          "parentId": "b4570bb1-8718-4cfb-b72e-012b7e88f850",
+          "children": [
+            "797e0ade-3658-4968-8678-595cf70f7e5f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "01e19af8-7d7b-4739-8830-51d636d9fde3": {
+          "id": "01e19af8-7d7b-4739-8830-51d636d9fde3",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 470,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "9ec62752-930e-402b-afd9-41d698ee2502"
+          },
+          "parentId": "159c3910-bf10-4e37-b62d-e3bc4ae47b41",
+          "children": [
+            "10d02268-b75e-4708-baa5-5d3ca4aa51d4",
+            "b0576ada-5836-40fe-9fb8-8cc2b2e25c15",
+            "d86137e9-eeb1-48d6-b62f-f16ee20bd9b5"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "011b31c6-0fdf-4cdb-95b0-b20b9ede92a9": {
+          "id": "011b31c6-0fdf-4cdb-95b0-b20b9ede92a9",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              470,
+              470,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "05e07d87-2ce3-4397-bfb3-8004245270c2"
+          },
+          "parentId": "9fdbfdd2-98eb-43e4-86a7-402ea1052402",
+          "children": [
+            "f2e2cdf5-4e94-4105-9414-9879b784e2b7",
+            "76baf522-24a8-4aeb-8b59-0509d65f149c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "76baf522-24a8-4aeb-8b59-0509d65f149c": {
+          "id": "76baf522-24a8-4aeb-8b59-0509d65f149c",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 470,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "ac1f11b5-f193-4d36-9e75-454664454bb6"
+          },
+          "parentId": "011b31c6-0fdf-4cdb-95b0-b20b9ede92a9",
+          "children": [
+            "53b32316-4e22-4388-b4aa-95e7379d1a3d",
+            "3bfa8159-ad97-4fd5-9291-bb2251d61ec2",
+            "cf8a0586-45ba-4569-9dec-43fee80d9096"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "fafcff68-fee7-450c-97c9-00cc2b8738b4": {
+          "id": "fafcff68-fee7-450c-97c9-00cc2b8738b4",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 74,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 9,
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "row",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      0deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "fafcff68-fee7-450c-97c9-00cc2b8738b4"
+          },
+          "parentId": "22761698-08f9-4f7f-bcf3-4a30c3436a3c",
+          "children": [
+            "0e90bac6-5eee-4a71-83f9-24952edfe359",
+            "fc7a6a21-4668-4194-a0e6-59ba0cb652b8"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "53b32316-4e22-4388-b4aa-95e7379d1a3d": {
+          "id": "53b32316-4e22-4388-b4aa-95e7379d1a3d",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "53b32316-4e22-4388-b4aa-95e7379d1a3d",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/feedback_orig.png",
+            "height": 250,
+            "width": 505
+          },
+          "parentId": "76baf522-24a8-4aeb-8b59-0509d65f149c",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "22761698-08f9-4f7f-bcf3-4a30c3436a3c": {
+          "id": "22761698-08f9-4f7f-bcf3-4a30c3436a3c",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              74,
+              74
+            ],
+            "contentPosition": [
+              "bottom-right",
+              "bottom-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              3
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "horizontal"
+            ],
+            "key": "22761698-08f9-4f7f-bcf3-4a30c3436a3c"
+          },
+          "parentId": "a338a8f8-059d-4f24-909f-acdf5449b3be",
+          "children": [
+            "a9409094-cd0e-4211-873d-0c83bf6f69dc",
+            "fafcff68-fee7-450c-97c9-00cc2b8738b4"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "2d4979b0-607e-44c0-8ee0-c577b78a1c83": {
+          "id": "2d4979b0-607e-44c0-8ee0-c577b78a1c83",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#704831",
+              "fontFamily": "PT Sans",
+              "fontSize": 32,
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "key": "2d4979b0-607e-44c0-8ee0-c577b78a1c83",
+            "value": "I am a h1 style"
+          },
+          "parentId": "f77005f9-c8fe-47a5-814d-df629366d1ef",
+          "children": [
+            "0bbd2859-3a72-4ed3-86ba-6acd9cd2865f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "84c00418-f5cb-4fe8-8a78-2fe95558705b": {
+          "id": "84c00418-f5cb-4fe8-8a78-2fe95558705b",
+          "namespace": "primitiveString",
+          "name": "Use iframe to embedded project link and generate questionnaire without difficulty.",
+          "props": {
+            "key": "84c00418-f5cb-4fe8-8a78-2fe95558705b",
+            "value": "I am a h1 style"
+          },
+          "parentId": "cf8a0586-45ba-4569-9dec-43fee80d9096",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "159c3910-bf10-4e37-b62d-e3bc4ae47b41": {
+          "id": "159c3910-bf10-4e37-b62d-e3bc4ae47b41",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              470,
+              470,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              0,
+              0
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "b629add9-c929-4073-8339-4b8329622b1e"
+          },
+          "parentId": "a82b12d2-0875-4c9d-a82c-5194e0ca6148",
+          "children": [
+            "4b5de9be-1824-456d-9a8c-f1c423e23d64",
+            "01e19af8-7d7b-4739-8830-51d636d9fde3"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "ab3c7941-d7fd-4f42-a622-d0b7b9cd2398": {
+          "id": "ab3c7941-d7fd-4f42-a622-d0b7b9cd2398",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#704831",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "key": "ab3c7941-d7fd-4f42-a622-d0b7b9cd2398",
+            "value": "I am a h1 style"
+          },
+          "parentId": "f2e2cdf5-4e94-4105-9414-9879b784e2b7",
+          "children": [
+            "e121e2d2-0b90-40a6-9e29-b261bd996e01"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "b0576ada-5836-40fe-9fb8-8cc2b2e25c15": {
+          "id": "b0576ada-5836-40fe-9fb8-8cc2b2e25c15",
+          "namespace": "native",
+          "name": "h1",
+          "props": {
+            "style": {
+              "color": "#704831",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "key": "b0576ada-5836-40fe-9fb8-8cc2b2e25c15",
+            "value": "I am a h1 style"
+          },
+          "parentId": "01e19af8-7d7b-4739-8830-51d636d9fde3",
+          "children": [
+            "c19d266d-63f4-4102-86f2-b63eba653ce8"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Heading 1"
+        },
+        "70cbe940-e0d2-4243-b64f-ab9968283f2d": {
+          "id": "70cbe940-e0d2-4243-b64f-ab9968283f2d",
+          "namespace": "primitiveString",
+          "name": "Make login template in minutes. Engineers continue to develop authentication with auto-generated code.",
+          "props": {
+            "key": "70cbe940-e0d2-4243-b64f-ab9968283f2d",
+            "value": "I am a h1 style"
+          },
+          "parentId": "d30e0165-5910-445a-af87-b1bc8fdf40cd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "3df32279-3a8d-4156-99b8-2373ece6ac91": {
+          "id": "3df32279-3a8d-4156-99b8-2373ece6ac91",
+          "namespace": "primitiveString",
+          "name": "Nested List to switch different content of AMS pages for quickly confirm factory operational process.",
+          "props": {
+            "key": "3df32279-3a8d-4156-99b8-2373ece6ac91",
+            "value": "I am a h1 style"
+          },
+          "parentId": "a9a7a856-1b61-441c-8148-2b2cf65ee2c0",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "fae2380f-7625-41bb-a88c-e906fcb10c10": {
+          "id": "fae2380f-7625-41bb-a88c-e906fcb10c10",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "100%",
+              "height": "440",
+              "overflow": "auto",
+              "paddingTop": 20
+            },
+            "key": "fae2380f-7625-41bb-a88c-e906fcb10c10"
+          },
+          "parentId": "f77005f9-c8fe-47a5-814d-df629366d1ef",
+          "children": [
+            "b4570bb1-8718-4cfb-b72e-012b7e88f850"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "b614acc1-2ddf-452f-8182-f41108d220da": {
+          "id": "b614acc1-2ddf-452f-8182-f41108d220da",
+          "namespace": "primitiveString",
+          "name": "Login Page",
+          "props": {
+            "key": "b614acc1-2ddf-452f-8182-f41108d220da",
+            "value": "I am a h1 style"
+          },
+          "parentId": "fcf7d59d-7957-4f05-8f22-db323906e324",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "9ee99d1c-d0cf-49ec-87ae-e10e9ea94853": {
+          "id": "9ee99d1c-d0cf-49ec-87ae-e10e9ea94853",
+          "namespace": "primitiveString",
+          "name": "Feedback Collection for D-Sims",
+          "props": {
+            "key": "9ee99d1c-d0cf-49ec-87ae-e10e9ea94853",
+            "value": "I am a h1 style"
+          },
+          "parentId": "3bfa8159-ad97-4fd5-9291-bb2251d61ec2",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "f2e2cdf5-4e94-4105-9414-9879b784e2b7": {
+          "id": "f2e2cdf5-4e94-4105-9414-9879b784e2b7",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 470,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "d1a7edc5-1daa-4a94-b8c2-9b611ca3b254"
+          },
+          "parentId": "011b31c6-0fdf-4cdb-95b0-b20b9ede92a9",
+          "children": [
+            "b63e08eb-4ad5-4c5d-8694-a8757d540b40",
+            "ab3c7941-d7fd-4f42-a622-d0b7b9cd2398",
+            "a9a7a856-1b61-441c-8148-2b2cf65ee2c0"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "9070f080-410a-440b-84c6-f1b7aeb29994": {
+          "id": "9070f080-410a-440b-84c6-f1b7aeb29994",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "9070f080-410a-440b-84c6-f1b7aeb29994",
+            "alt": "default image",
+            "src": "http://ui-utility-english.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-13-at-1-08-15-pm.png?1499923760"
+          },
+          "parentId": "4b5de9be-1824-456d-9a8c-f1c423e23d64",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "cd03c9f2-bacf-4a37-be3e-92a2fc477f64": {
+          "id": "cd03c9f2-bacf-4a37-be3e-92a2fc477f64",
+          "namespace": "primitiveString",
+          "name": "NCKU and Delta join forces on Smart Aquaculture. This project is regarding to cultivating shrimp with water quality monitoring system. UI Utility features in building dynamic dashboard quickly and connecting data immediately. It really benefits them to identify the better working flow, and which charts are more appropriate. Not only shorten design process effectively, but also decrease the cost for business trip to Tainan.",
+          "props": {
+            "key": "cd03c9f2-bacf-4a37-be3e-92a2fc477f64",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "a0fe9d8a-265c-4503-ac95-54f3ee62a03e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "e121e2d2-0b90-40a6-9e29-b261bd996e01": {
+          "id": "e121e2d2-0b90-40a6-9e29-b261bd996e01",
+          "namespace": "primitiveString",
+          "name": "Advance Manufacturing System",
+          "props": {
+            "key": "e121e2d2-0b90-40a6-9e29-b261bd996e01",
+            "value": "I am a h1 style"
+          },
+          "parentId": "ab3c7941-d7fd-4f42-a622-d0b7b9cd2398",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "a338a8f8-059d-4f24-909f-acdf5449b3be": {
+          "id": "a338a8f8-059d-4f24-909f-acdf5449b3be",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "key": "a338a8f8-059d-4f24-909f-acdf5449b3be",
+            "style": {
+              "backgroundColor": "white",
+              "flex": 1,
+              "overflow": "auto",
+              "display": "block"
+            }
+          },
+          "parentId": null,
+          "children": [
+            "22761698-08f9-4f7f-bcf3-4a30c3436a3c",
+            "f77005f9-c8fe-47a5-814d-df629366d1ef"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ROOT_DIV"
+        },
+        "797e0ade-3658-4968-8678-595cf70f7e5f": {
+          "id": "797e0ade-3658-4968-8678-595cf70f7e5f",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "797e0ade-3658-4968-8678-595cf70f7e5f",
+            "alt": "default image",
+            "src": "http://ui-utility-english.weebly.com/uploads/1/0/8/6/108618317/published/screen-shot-2017-07-07-at-3-05-29-pm_2.png?1499922432",
+            "height": 250,
+            "width": 600
+          },
+          "parentId": "890e7e46-19ae-45f8-ae63-130979f78517",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "c19d266d-63f4-4102-86f2-b63eba653ce8": {
+          "id": "c19d266d-63f4-4102-86f2-b63eba653ce8",
+          "namespace": "primitiveString",
+          "name": "eTube Dashboard",
+          "props": {
+            "key": "c19d266d-63f4-4102-86f2-b63eba653ce8",
+            "value": "I am a h1 style"
+          },
+          "parentId": "b0576ada-5836-40fe-9fb8-8cc2b2e25c15",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "9fdbfdd2-98eb-43e4-86a7-402ea1052402": {
+          "id": "9fdbfdd2-98eb-43e4-86a7-402ea1052402",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": "100%",
+              "height": "500",
+              "overflow": "auto",
+              "paddingTop": 10
+            },
+            "key": "9fdbfdd2-98eb-43e4-86a7-402ea1052402"
+          },
+          "parentId": "f77005f9-c8fe-47a5-814d-df629366d1ef",
+          "children": [
+            "011b31c6-0fdf-4cdb-95b0-b20b9ede92a9"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Block"
+        },
+        "b4570bb1-8718-4cfb-b72e-012b7e88f850": {
+          "id": "b4570bb1-8718-4cfb-b72e-012b7e88f850",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              400,
+              400,
+              220
+            ],
+            "contentPosition": [
+              "middle-right",
+              "middle-left",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "contentPadding": [
+              10,
+              10
+            ],
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "c4915c95-6a9d-4c22-bfda-5dc0de445554"
+          },
+          "parentId": "fae2380f-7625-41bb-a88c-e906fcb10c10",
+          "children": [
+            "5e801797-cf5c-4821-bcd5-76d425333af9",
+            "890e7e46-19ae-45f8-ae63-130979f78517"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "10d02268-b75e-4708-baa5-5d3ca4aa51d4": {
+          "id": "10d02268-b75e-4708-baa5-5d3ca4aa51d4",
+          "namespace": "native",
+          "name": "img",
+          "props": {
+            "style": {},
+            "key": "10d02268-b75e-4708-baa5-5d3ca4aa51d4",
+            "alt": "default image",
+            "src": "http://ui-utility.weebly.com/uploads/1/0/8/6/108618317/e4e_orig.png",
+            "height": 307,
+            "width": 505
+          },
+          "parentId": "01e19af8-7d7b-4739-8830-51d636d9fde3",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Image"
+        },
+        "5e801797-cf5c-4821-bcd5-76d425333af9": {
+          "id": "5e801797-cf5c-4821-bcd5-76d425333af9",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 400,
+            "contentPosition": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 10,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "f0508b05-8a80-42df-a22a-ce297cd89afb"
+          },
+          "parentId": "b4570bb1-8718-4cfb-b72e-012b7e88f850",
+          "children": [
+            "262c2a81-9d72-4c81-bc40-ff2df7c02c79"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "024cd587-eb4b-402e-8d7c-5af51281ca10": {
+          "id": "024cd587-eb4b-402e-8d7c-5af51281ca10",
+          "namespace": "primitiveString",
+          "name": "Easily drag & drop to create a dashboard to show statistics of user behavior with numbers and charts.",
+          "props": {
+            "key": "024cd587-eb4b-402e-8d7c-5af51281ca10",
+            "value": "I am a h1 style"
+          },
+          "parentId": "d86137e9-eeb1-48d6-b62f-f16ee20bd9b5",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "a0fe9d8a-265c-4503-ac95-54f3ee62a03e": {
+          "id": "a0fe9d8a-265c-4503-ac95-54f3ee62a03e",
+          "namespace": "native",
+          "name": "p",
+          "props": {
+            "style": {
+              "color": "#3f3f3f",
+              "fontFamily": "Open Sans",
+              "fontSize": 18,
+              "textAlign": "center",
+              "paddingLeft": 200,
+              "paddingRight": 200
+            },
+            "key": "a0fe9d8a-265c-4503-ac95-54f3ee62a03e",
+            "value": "You can write long sentence with default style"
+          },
+          "parentId": "f77005f9-c8fe-47a5-814d-df629366d1ef",
+          "children": [
+            "cd03c9f2-bacf-4a37-be3e-92a2fc477f64"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paragraph"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "index": 0,
+  "currentPage": "index",
+  "routes": [
+    {
+      "path": "index",
+      "stencils": {
+        "5979ebb3-8903-4668-87d3-ed86bf305386": {
+          "id": "5979ebb3-8903-4668-87d3-ed86bf305386",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "5979ebb3-8903-4668-87d3-ed86bf305386",
+            "primaryText": "主线首件报表",
+            "nestedItems": [
+              "fcb98adb-56d0-408c-b974-c98dfaeaf5aa"
+            ]
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "d73e61c7-e2a8-4fa4-adb6-2f353ad1bd3c": {
+          "id": "d73e61c7-e2a8-4fa4-adb6-2f353ad1bd3c",
+          "namespace": "primitiveString",
+          "name": "Belen Szymkowski",
+          "props": {
+            "key": "d73e61c7-e2a8-4fa4-adb6-2f353ad1bd3c",
+            "value": "Belen Szymkowski"
+          },
+          "parentId": "22430ba4-1447-45d8-a771-94845b972f21",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "167f1b09-4580-473e-bd88-c88122afce26": {
+          "id": "167f1b09-4580-473e-bd88-c88122afce26",
+          "namespace": "primitiveString",
+          "name": "Status",
+          "props": {
+            "key": "167f1b09-4580-473e-bd88-c88122afce26",
+            "value": "Status"
+          },
+          "parentId": "0270ef0d-9a53-4c12-9429-a615b53b5d79",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "e885c89e-3e96-461e-a4e6-4e5c75da4dbf": {
+          "id": "e885c89e-3e96-461e-a4e6-4e5c75da4dbf",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "e885c89e-3e96-461e-a4e6-4e5c75da4dbf",
+            "primaryText": "治工具管理",
+            "nestedItems": [
+              "e7f7c521-2795-44b2-a931-04fd18701018",
+              "c012a2c2-007a-4eea-bb03-b75c5107ebb6",
+              "119bcabd-d6cd-44b9-8ec3-38175b16e4c3"
+            ]
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "22771b3a-288a-4eb5-b63b-2e73d4ebae2c": {
+          "id": "22771b3a-288a-4eb5-b63b-2e73d4ebae2c",
+          "namespace": "primitiveString",
+          "name": "Yevette Guerra",
+          "props": {
+            "key": "22771b3a-288a-4eb5-b63b-2e73d4ebae2c",
+            "value": "Yevette Guerra"
+          },
+          "parentId": "8d22c4e3-7b33-41d9-85cf-a95a38e2725d",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "4f233f77-68a1-4fbd-91bd-5d729aaabdef": {
+          "id": "4f233f77-68a1-4fbd-91bd-5d729aaabdef",
+          "namespace": "material-ui",
+          "name": "TableRow",
+          "props": {
+            "key": "4f233f77-68a1-4fbd-91bd-5d729aaabdef"
+          },
+          "parentId": "71ef38d1-2baf-4c5a-af28-cd9a6e66f38b",
+          "children": [
+            "5f4b8c9f-9cb6-434d-9613-23083c0072aa",
+            "beba6169-7ec9-4e5d-91d9-2477d590c7df",
+            "0270ef0d-9a53-4c12-9429-a615b53b5d79"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "c54e92d7-b5cd-4a77-864d-82af96b1fc34": {
+          "id": "c54e92d7-b5cd-4a77-864d-82af96b1fc34",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": 800,
+              "height": 50,
+              "backgroundColor": "#f0f0f0",
+              "alignItems": "center",
+              "justifyContent": "flexStart",
+              "display": "flex",
+              "paddingLeft": 8
+            },
+            "key": "c54e92d7-b5cd-4a77-864d-82af96b1fc34"
+          },
+          "parentId": "a82668c7-7052-4249-8376-c040269bdb93",
+          "children": [
+            "86dc2f85-9c56-47b8-a666-6c5f109ed85c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "bcd149a8-b302-4a57-9418-4e53d4ad8cb4": {
+          "id": "bcd149a8-b302-4a57-9418-4e53d4ad8cb4",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "bcd149a8-b302-4a57-9418-4e53d4ad8cb4"
+          },
+          "parentId": "7db50d52-2b70-449f-ad2c-5c4ea6ccd814",
+          "children": [
+            "311bfc04-1178-46f8-850f-a13a09f37823"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "b021cd08-636c-4037-9219-a8ac5c732b38": {
+          "id": "b021cd08-636c-4037-9219-a8ac5c732b38",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "b021cd08-636c-4037-9219-a8ac5c732b38"
+          },
+          "parentId": "91c13946-83d5-48a8-95a8-720d31097594",
+          "children": [
+            "964c23bb-deaa-4a96-a5a1-e5c7be3763ad"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "b9d529ea-8cca-461d-99b3-c4d8b557c9c1": {
+          "id": "b9d529ea-8cca-461d-99b3-c4d8b557c9c1",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 400,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 3,
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "a3be2980-ee0f-423f-b286-7f3ea6f196e4"
+          },
+          "parentId": "bee82b2b-4120-4a12-b9f2-9a946bff9285",
+          "children": [
+            "6953f3a2-3e02-4d48-8775-0f30f2455ecd"
+          ],
+          "extension": {
+            "style": false,
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "0270ef0d-9a53-4c12-9429-a615b53b5d79": {
+          "id": "0270ef0d-9a53-4c12-9429-a615b53b5d79",
+          "namespace": "material-ui",
+          "name": "TableHeaderColumn",
+          "props": {
+            "key": "0270ef0d-9a53-4c12-9429-a615b53b5d79"
+          },
+          "parentId": "4f233f77-68a1-4fbd-91bd-5d729aaabdef",
+          "children": [
+            "167f1b09-4580-473e-bd88-c88122afce26"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "f4bd2a4d-1ab2-43ff-923a-ae736bf5b74b": {
+          "id": "f4bd2a4d-1ab2-43ff-923a-ae736bf5b74b",
+          "namespace": "primitiveString",
+          "name": "电子料表查询",
+          "props": {
+            "key": "f4bd2a4d-1ab2-43ff-923a-ae736bf5b74b",
+            "value": "I am a pure text"
+          },
+          "parentId": "720f8974-e303-47c9-b997-4d211024fc59",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "4266b3b7-f8e6-452a-af63-9a24ce58529c": {
+          "id": "4266b3b7-f8e6-452a-af63-9a24ce58529c",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "4266b3b7-f8e6-452a-af63-9a24ce58529c",
+            "primaryText": "统计流程控制",
+            "nestedItems": []
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "c012a2c2-007a-4eea-bb03-b75c5107ebb6": {
+          "id": "c012a2c2-007a-4eea-bb03-b75c5107ebb6",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "c012a2c2-007a-4eea-bb03-b75c5107ebb6",
+            "primaryText": "架位管理",
+            "nestedItems": []
+          },
+          "parentId": "e885c89e-3e96-461e-a4e6-4e5c75da4dbf",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "311bfc04-1178-46f8-850f-a13a09f37823": {
+          "id": "311bfc04-1178-46f8-850f-a13a09f37823",
+          "namespace": "primitiveString",
+          "name": "Al Ezernack",
+          "props": {
+            "key": "311bfc04-1178-46f8-850f-a13a09f37823",
+            "value": "Al Ezernack"
+          },
+          "parentId": "bcd149a8-b302-4a57-9418-4e53d4ad8cb4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "3228a86f-77c6-4fd4-bebc-58d6ab38c5ac": {
+          "id": "3228a86f-77c6-4fd4-bebc-58d6ab38c5ac",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "style": {
+              "width": 800,
+              "height": 50,
+              "backgroundColor": "#0087dc",
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "flexStart",
+              "paddingLeft": 8,
+              "borderRadius": 8
+            },
+            "key": "3228a86f-77c6-4fd4-bebc-58d6ab38c5ac"
+          },
+          "parentId": "a82668c7-7052-4249-8376-c040269bdb93",
+          "children": [
+            "720f8974-e303-47c9-b997-4d211024fc59"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "bf7a07f9-a24f-4a2d-8ea4-ef6d0780eec9": {
+          "id": "bf7a07f9-a24f-4a2d-8ea4-ef6d0780eec9",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "bf7a07f9-a24f-4a2d-8ea4-ef6d0780eec9"
+          },
+          "parentId": "7db50d52-2b70-449f-ad2c-5c4ea6ccd814",
+          "children": [
+            "955ab702-2d98-40af-bc0a-d7e936e9a55a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "c966f3b3-5b95-4740-bac5-606ec99c518c": {
+          "id": "c966f3b3-5b95-4740-bac5-606ec99c518c",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "c966f3b3-5b95-4740-bac5-606ec99c518c",
+            "primaryText": "电子BOM管理",
+            "nestedItems": []
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "fcb98adb-56d0-408c-b974-c98dfaeaf5aa": {
+          "id": "fcb98adb-56d0-408c-b974-c98dfaeaf5aa",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "fcb98adb-56d0-408c-b974-c98dfaeaf5aa",
+            "primaryText": "电子料表查询",
+            "nestedItems": []
+          },
+          "parentId": "5979ebb3-8903-4668-87d3-ed86bf305386",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "b6ccda56-d157-44e5-acfc-ee00acb4b88d": {
+          "id": "b6ccda56-d157-44e5-acfc-ee00acb4b88d",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "b6ccda56-d157-44e5-acfc-ee00acb4b88d",
+            "primaryText": "原材料管理",
+            "nestedItems": []
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "cf3a98ee-d311-44a4-abc1-d8c1bd2edf7c": {
+          "id": "cf3a98ee-d311-44a4-abc1-d8c1bd2edf7c",
+          "namespace": "primitiveString",
+          "name": "65e6b27e-f4a2",
+          "props": {
+            "key": "cf3a98ee-d311-44a4-abc1-d8c1bd2edf7c",
+            "value": "65e6b27e-f4a2"
+          },
+          "parentId": "3d49b4de-bc21-4c90-96ee-47ff44c58075",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "39b3195b-72cc-4d5e-83de-8ac134464693": {
+          "id": "39b3195b-72cc-4d5e-83de-8ac134464693",
+          "namespace": "primitiveString",
+          "name": "2012-03-19",
+          "props": {
+            "key": "39b3195b-72cc-4d5e-83de-8ac134464693",
+            "value": "2012-03-19"
+          },
+          "parentId": "694c5fc1-509e-4e96-bbc3-160f68c92163",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "bee82b2b-4120-4a12-b9f2-9a946bff9285": {
+          "id": "bee82b2b-4120-4a12-b9f2-9a946bff9285",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              400,
+              400
+            ],
+            "contentPosition": [
+              "top-left",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              3
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "f95ab6f0-45fd-4385-9f56-d6e93e082622"
+          },
+          "parentId": "c5d90939-5202-4814-a25a-e469a398af27",
+          "children": [
+            "b9d529ea-8cca-461d-99b3-c4d8b557c9c1",
+            "a82668c7-7052-4249-8376-c040269bdb93"
+          ],
+          "extension": {
+            "style": false,
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "119bcabd-d6cd-44b9-8ec3-38175b16e4c3": {
+          "id": "119bcabd-d6cd-44b9-8ec3-38175b16e4c3",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "119bcabd-d6cd-44b9-8ec3-38175b16e4c3",
+            "primaryText": "治具管理设定",
+            "nestedItems": []
+          },
+          "parentId": "e885c89e-3e96-461e-a4e6-4e5c75da4dbf",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "7db50d52-2b70-449f-ad2c-5c4ea6ccd814": {
+          "id": "7db50d52-2b70-449f-ad2c-5c4ea6ccd814",
+          "namespace": "material-ui",
+          "name": "TableRow",
+          "props": {
+            "key": "7db50d52-2b70-449f-ad2c-5c4ea6ccd814"
+          },
+          "parentId": "9f12625b-7aa3-4859-94fb-63aadf50ce5b",
+          "children": [
+            "bf7a07f9-a24f-4a2d-8ea4-ef6d0780eec9",
+            "bcd149a8-b302-4a57-9418-4e53d4ad8cb4",
+            "153071e9-4e45-4421-8cc7-ec7e61ca3071"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "7341bb18-879c-40f3-85bf-388cbd67ef71": {
+          "id": "7341bb18-879c-40f3-85bf-388cbd67ef71",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "7341bb18-879c-40f3-85bf-388cbd67ef71",
+            "primaryText": "系统设置",
+            "nestedItems": []
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "ac1c252c-83c6-4960-ba26-dceeca3a2a53": {
+          "id": "ac1c252c-83c6-4960-ba26-dceeca3a2a53",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "ac1c252c-83c6-4960-ba26-dceeca3a2a53"
+          },
+          "parentId": "91c13946-83d5-48a8-95a8-720d31097594",
+          "children": [
+            "6a6d8fbb-fc6d-4e4a-8290-954033defac9"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "9ed7fa2d-9142-4691-88b4-c37d219e42f0": {
+          "id": "9ed7fa2d-9142-4691-88b4-c37d219e42f0",
+          "namespace": "material-ui",
+          "name": "TableRow",
+          "props": {
+            "key": "9ed7fa2d-9142-4691-88b4-c37d219e42f0"
+          },
+          "parentId": "9f12625b-7aa3-4859-94fb-63aadf50ce5b",
+          "children": [
+            "3d49b4de-bc21-4c90-96ee-47ff44c58075",
+            "22430ba4-1447-45d8-a771-94845b972f21",
+            "694c5fc1-509e-4e96-bbc3-160f68c92163"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "c5d90939-5202-4814-a25a-e469a398af27": {
+          "id": "c5d90939-5202-4814-a25a-e469a398af27",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "key": "c5d90939-5202-4814-a25a-e469a398af27",
+            "style": {
+              "backgroundColor": "white",
+              "flex": 1,
+              "overflow": "auto",
+              "display": "block"
+            }
+          },
+          "parentId": null,
+          "children": [
+            "9c98582a-09cc-449f-9303-61fccc19112c",
+            "bee82b2b-4120-4a12-b9f2-9a946bff9285"
+          ]
+        },
+        "beba6169-7ec9-4e5d-91d9-2477d590c7df": {
+          "id": "beba6169-7ec9-4e5d-91d9-2477d590c7df",
+          "namespace": "material-ui",
+          "name": "TableHeaderColumn",
+          "props": {
+            "key": "beba6169-7ec9-4e5d-91d9-2477d590c7df"
+          },
+          "parentId": "4f233f77-68a1-4fbd-91bd-5d729aaabdef",
+          "children": [
+            "6c11c30a-54c8-4c71-a203-894fee297f97"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "a82668c7-7052-4249-8376-c040269bdb93": {
+          "id": "a82668c7-7052-4249-8376-c040269bdb93",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 400,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 9,
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "f32c3723-f505-4fff-b792-8db90647af95"
+          },
+          "parentId": "bee82b2b-4120-4a12-b9f2-9a946bff9285",
+          "children": [
+            "c54e92d7-b5cd-4a77-864d-82af96b1fc34",
+            "3228a86f-77c6-4fd4-bebc-58d6ab38c5ac",
+            "aad5ce74-0a18-407b-98e4-7ee5e0bfc937"
+          ],
+          "extension": {
+            "style": false,
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "86dc2f85-9c56-47b8-a666-6c5f109ed85c": {
+          "id": "86dc2f85-9c56-47b8-a666-6c5f109ed85c",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {},
+            "key": "86dc2f85-9c56-47b8-a666-6c5f109ed85c",
+            "value": "I am a pure text"
+          },
+          "parentId": "c54e92d7-b5cd-4a77-864d-82af96b1fc34",
+          "children": [
+            "b6583465-b230-4d4e-9f81-66804f67797a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "8d22c4e3-7b33-41d9-85cf-a95a38e2725d": {
+          "id": "8d22c4e3-7b33-41d9-85cf-a95a38e2725d",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "8d22c4e3-7b33-41d9-85cf-a95a38e2725d"
+          },
+          "parentId": "91c13946-83d5-48a8-95a8-720d31097594",
+          "children": [
+            "22771b3a-288a-4eb5-b63b-2e73d4ebae2c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "9c98582a-09cc-449f-9303-61fccc19112c": {
+          "id": "9c98582a-09cc-449f-9303-61fccc19112c",
+          "namespace": "material-ui",
+          "name": "AppBar",
+          "props": {
+            "style": {
+              "backgroundColor": "#0087dc"
+            },
+            "key": "9c98582a-09cc-449f-9303-61fccc19112c",
+            "title": "Delta AMS"
+          },
+          "parentId": "c5d90939-5202-4814-a25a-e469a398af27",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "6953f3a2-3e02-4d48-8775-0f30f2455ecd": {
+          "id": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "namespace": "material-ui",
+          "name": "List",
+          "props": {
+            "style": {
+              "width": 250
+            },
+            "key": "6953f3a2-3e02-4d48-8775-0f30f2455ecd"
+          },
+          "parentId": "b9d529ea-8cca-461d-99b3-c4d8b557c9c1",
+          "children": [
+            "5979ebb3-8903-4668-87d3-ed86bf305386",
+            "b6ccda56-d157-44e5-acfc-ee00acb4b88d",
+            "e885c89e-3e96-461e-a4e6-4e5c75da4dbf",
+            "c966f3b3-5b95-4740-bac5-606ec99c518c",
+            "4266b3b7-f8e6-452a-af63-9a24ce58529c",
+            "22c9c792-6641-4506-b585-1c249f15b544",
+            "7341bb18-879c-40f3-85bf-388cbd67ef71"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "f052247e-6fd3-43a3-a2a5-02656d667436": {
+          "id": "f052247e-6fd3-43a3-a2a5-02656d667436",
+          "namespace": "primitiveString",
+          "name": "ID",
+          "props": {
+            "key": "f052247e-6fd3-43a3-a2a5-02656d667436",
+            "value": "ID"
+          },
+          "parentId": "5f4b8c9f-9cb6-434d-9613-23083c0072aa",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "720f8974-e303-47c9-b997-4d211024fc59": {
+          "id": "720f8974-e303-47c9-b997-4d211024fc59",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#ffffff"
+            },
+            "key": "720f8974-e303-47c9-b997-4d211024fc59",
+            "value": "I am a pure text"
+          },
+          "parentId": "3228a86f-77c6-4fd4-bebc-58d6ab38c5ac",
+          "children": [
+            "f4bd2a4d-1ab2-43ff-923a-ae736bf5b74b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "6a6d8fbb-fc6d-4e4a-8290-954033defac9": {
+          "id": "6a6d8fbb-fc6d-4e4a-8290-954033defac9",
+          "namespace": "primitiveString",
+          "name": "61a137e6-7e15",
+          "props": {
+            "key": "6a6d8fbb-fc6d-4e4a-8290-954033defac9",
+            "value": "61a137e6-7e15"
+          },
+          "parentId": "ac1c252c-83c6-4960-ba26-dceeca3a2a53",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "9f12625b-7aa3-4859-94fb-63aadf50ce5b": {
+          "id": "9f12625b-7aa3-4859-94fb-63aadf50ce5b",
+          "namespace": "material-ui",
+          "name": "TableBody",
+          "props": {
+            "key": "9f12625b-7aa3-4859-94fb-63aadf50ce5b"
+          },
+          "parentId": "aad5ce74-0a18-407b-98e4-7ee5e0bfc937",
+          "children": [
+            "91c13946-83d5-48a8-95a8-720d31097594",
+            "9ed7fa2d-9142-4691-88b4-c37d219e42f0",
+            "7db50d52-2b70-449f-ad2c-5c4ea6ccd814"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "22c9c792-6641-4506-b585-1c249f15b544": {
+          "id": "22c9c792-6641-4506-b585-1c249f15b544",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "22c9c792-6641-4506-b585-1c249f15b544",
+            "primaryText": "生产监控",
+            "nestedItems": []
+          },
+          "parentId": "6953f3a2-3e02-4d48-8775-0f30f2455ecd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "e7f7c521-2795-44b2-a931-04fd18701018": {
+          "id": "e7f7c521-2795-44b2-a931-04fd18701018",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "e7f7c521-2795-44b2-a931-04fd18701018",
+            "primaryText": "实时监控",
+            "nestedItems": [],
+            "onTouchTap": [
+              {
+                "name": "push",
+                "args": [
+                  "jigAlertPage"
+                ]
+              }
+            ]
+          },
+          "parentId": "e885c89e-3e96-461e-a4e6-4e5c75da4dbf",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "6c11c30a-54c8-4c71-a203-894fee297f97": {
+          "id": "6c11c30a-54c8-4c71-a203-894fee297f97",
+          "namespace": "primitiveString",
+          "name": "Name",
+          "props": {
+            "key": "6c11c30a-54c8-4c71-a203-894fee297f97",
+            "value": "Name"
+          },
+          "parentId": "beba6169-7ec9-4e5d-91d9-2477d590c7df",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "71ef38d1-2baf-4c5a-af28-cd9a6e66f38b": {
+          "id": "71ef38d1-2baf-4c5a-af28-cd9a6e66f38b",
+          "namespace": "material-ui",
+          "name": "TableHeader",
+          "props": {
+            "key": "71ef38d1-2baf-4c5a-af28-cd9a6e66f38b"
+          },
+          "parentId": "aad5ce74-0a18-407b-98e4-7ee5e0bfc937",
+          "children": [
+            "4f233f77-68a1-4fbd-91bd-5d729aaabdef"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "694c5fc1-509e-4e96-bbc3-160f68c92163": {
+          "id": "694c5fc1-509e-4e96-bbc3-160f68c92163",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "694c5fc1-509e-4e96-bbc3-160f68c92163"
+          },
+          "parentId": "9ed7fa2d-9142-4691-88b4-c37d219e42f0",
+          "children": [
+            "39b3195b-72cc-4d5e-83de-8ac134464693"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "aad5ce74-0a18-407b-98e4-7ee5e0bfc937": {
+          "id": "aad5ce74-0a18-407b-98e4-7ee5e0bfc937",
+          "namespace": "material-ui",
+          "name": "Table",
+          "props": {
+            "style": {
+              "width": 800
+            },
+            "key": "aad5ce74-0a18-407b-98e4-7ee5e0bfc937"
+          },
+          "parentId": "a82668c7-7052-4249-8376-c040269bdb93",
+          "children": [
+            "71ef38d1-2baf-4c5a-af28-cd9a6e66f38b",
+            "9f12625b-7aa3-4859-94fb-63aadf50ce5b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "22430ba4-1447-45d8-a771-94845b972f21": {
+          "id": "22430ba4-1447-45d8-a771-94845b972f21",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "22430ba4-1447-45d8-a771-94845b972f21"
+          },
+          "parentId": "9ed7fa2d-9142-4691-88b4-c37d219e42f0",
+          "children": [
+            "d73e61c7-e2a8-4fa4-adb6-2f353ad1bd3c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "153071e9-4e45-4421-8cc7-ec7e61ca3071": {
+          "id": "153071e9-4e45-4421-8cc7-ec7e61ca3071",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "153071e9-4e45-4421-8cc7-ec7e61ca3071"
+          },
+          "parentId": "7db50d52-2b70-449f-ad2c-5c4ea6ccd814",
+          "children": [
+            "2bd591a9-fcac-4724-84ed-fa16cd146c3b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "91c13946-83d5-48a8-95a8-720d31097594": {
+          "id": "91c13946-83d5-48a8-95a8-720d31097594",
+          "namespace": "material-ui",
+          "name": "TableRow",
+          "props": {
+            "key": "91c13946-83d5-48a8-95a8-720d31097594"
+          },
+          "parentId": "9f12625b-7aa3-4859-94fb-63aadf50ce5b",
+          "children": [
+            "ac1c252c-83c6-4960-ba26-dceeca3a2a53",
+            "8d22c4e3-7b33-41d9-85cf-a95a38e2725d",
+            "b021cd08-636c-4037-9219-a8ac5c732b38"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "955ab702-2d98-40af-bc0a-d7e936e9a55a": {
+          "id": "955ab702-2d98-40af-bc0a-d7e936e9a55a",
+          "namespace": "primitiveString",
+          "name": "6ba1b8b8-f45b",
+          "props": {
+            "key": "955ab702-2d98-40af-bc0a-d7e936e9a55a",
+            "value": "6ba1b8b8-f45b"
+          },
+          "parentId": "bf7a07f9-a24f-4a2d-8ea4-ef6d0780eec9",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "b6583465-b230-4d4e-9f81-66804f67797a": {
+          "id": "b6583465-b230-4d4e-9f81-66804f67797a",
+          "namespace": "primitiveString",
+          "name": "首页 / 主线首件报表 / 电子料表查询",
+          "props": {
+            "key": "b6583465-b230-4d4e-9f81-66804f67797a",
+            "value": "I am a pure text"
+          },
+          "parentId": "86dc2f85-9c56-47b8-a666-6c5f109ed85c",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "2bd591a9-fcac-4724-84ed-fa16cd146c3b": {
+          "id": "2bd591a9-fcac-4724-84ed-fa16cd146c3b",
+          "namespace": "primitiveString",
+          "name": "2012-03-15",
+          "props": {
+            "key": "2bd591a9-fcac-4724-84ed-fa16cd146c3b",
+            "value": "2012-03-15"
+          },
+          "parentId": "153071e9-4e45-4421-8cc7-ec7e61ca3071",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "3d49b4de-bc21-4c90-96ee-47ff44c58075": {
+          "id": "3d49b4de-bc21-4c90-96ee-47ff44c58075",
+          "namespace": "material-ui",
+          "name": "TableRowColumn",
+          "props": {
+            "key": "3d49b4de-bc21-4c90-96ee-47ff44c58075"
+          },
+          "parentId": "9ed7fa2d-9142-4691-88b4-c37d219e42f0",
+          "children": [
+            "cf3a98ee-d311-44a4-abc1-d8c1bd2edf7c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "964c23bb-deaa-4a96-a5a1-e5c7be3763ad": {
+          "id": "964c23bb-deaa-4a96-a5a1-e5c7be3763ad",
+          "namespace": "primitiveString",
+          "name": "2016-01-24",
+          "props": {
+            "key": "964c23bb-deaa-4a96-a5a1-e5c7be3763ad",
+            "value": "2016-01-24"
+          },
+          "parentId": "b021cd08-636c-4037-9219-a8ac5c732b38",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        },
+        "5f4b8c9f-9cb6-434d-9613-23083c0072aa": {
+          "id": "5f4b8c9f-9cb6-434d-9613-23083c0072aa",
+          "namespace": "material-ui",
+          "name": "TableHeaderColumn",
+          "props": {
+            "key": "5f4b8c9f-9cb6-434d-9613-23083c0072aa"
+          },
+          "parentId": "4f233f77-68a1-4fbd-91bd-5d729aaabdef",
+          "children": [
+            "f052247e-6fd3-43a3-a2a5-02656d667436"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          }
+        }
+      }
+    },
+    {
+      "path": "jigAlertPage",
+      "stencils": {
+        "8a88be16-3932-42d6-956d-a1292224f679": {
+          "id": "8a88be16-3932-42d6-956d-a1292224f679",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "key": "8a88be16-3932-42d6-956d-a1292224f679",
+            "style": {
+              "backgroundColor": "white",
+              "flex": 1,
+              "overflow": "auto",
+              "display": "block"
+            }
+          },
+          "parentId": null,
+          "children": []
+        }
+      }
+    }
+  ]
+}

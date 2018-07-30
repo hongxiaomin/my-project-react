@@ -1,0 +1,17 @@
+# developing something
+node_modules
+npm-debug.log
+
+# Mac OS file, like desktop.ini file in Window OS
+.DS_Store
+
+# webpack production
+web/js/
+
+# document tool
+assets/*.xml
+assets/*.mup
+assets/*.gliffy
+
+# meetings
+meetings

@@ -1,0 +1,386 @@
+MultipleErrors: /Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:2:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:2:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:2:29: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:2:34: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:3:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:3:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:3:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:3:23: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:4:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:4:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:4:29: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:5:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:5:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:6:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:6:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:7:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:7:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:8:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:8:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:52:7: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:52:49: Unexpected token [
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:52:55: Unexpected token ]
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:52:56: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:53:9: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:57:28: Unexpected token this
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:57:29: Unexpected token onGridReady
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:57:40: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:59:33: Unexpected token 'single'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:60:11: Unexpected token rowHeight
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:59:33: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:61:11: Unexpected token headerHeight
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:64:10: Unexpected token >
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:65:8: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:90:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:90:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:90:8: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/PlainTable.js:90:16: Semi-colon expected
+
+MultipleErrors: /Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:2:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:2:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:2:29: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:2:34: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:3:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:3:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:3:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:3:23: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:4:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:4:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:4:29: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:5:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:5:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:5:40: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:6:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:6:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:6:28: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:7:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:7:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:7:71: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:8:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:8:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:9:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:9:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:10:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:10:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:11:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:11:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:12:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:12:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:13:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:13:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:13:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:13:20: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:104:7: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:104:19: Unexpected token {
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:104:26: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:104:48: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:104:64: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:104:65: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:105:9: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:105:51: Unexpected token [
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:105:57: Unexpected token ]
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:105:58: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:106:11: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:110:30: Unexpected token this
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:110:31: Unexpected token onGridReady
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:110:42: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:120:48: Unexpected token ===
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:120:80: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:125:12: Unexpected token >
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:126:10: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:127:27: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:127:45: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:128:11: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:128:29: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:128:40: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:129:26: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:130:31: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:130:41: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:131:15: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:133:30: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:133:47: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:134:34: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:134:45: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:135:39: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:135:55: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:136:31: Unexpected token this
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:136:32: Unexpected token onHandleRowPerPage
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:136:50: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:138:17: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:138:35: Unexpected token 5
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:138:37: Unexpected token primaryText
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:138:35: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:138:53: Unexpected token '5'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:138:55: Unexpected token /
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:17: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:18: Unexpected token MenuItem
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:32: Unexpected token =
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:36: Unexpected token 10
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:38: Unexpected token primaryText
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:36: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:55: Unexpected token '10'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:139:57: Unexpected token /
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:17: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:18: Unexpected token MenuItem
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:32: Unexpected token =
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:36: Unexpected token 20
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:38: Unexpected token primaryText
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:36: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:55: Unexpected token '20'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:140:57: Unexpected token /
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:17: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:18: Unexpected token MenuItem
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:32: Unexpected token =
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:36: Unexpected token 50
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:38: Unexpected token primaryText
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:36: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:55: Unexpected token '50'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:141:57: Unexpected token /
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:17: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:18: Unexpected token MenuItem
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:32: Unexpected token =
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:37: Unexpected token 100
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:39: Unexpected token primaryText
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:37: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:57: Unexpected token '100'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:142:59: Unexpected token /
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:143:15: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:144:13: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:145:11: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:146:11: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:146:12: Unexpected token div
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:146:21: Unexpected token =
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:146:29: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:146:40: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:147:17: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:149:29: Unexpected token 'number'
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:150:15: Unexpected token value
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:149:29: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:151:15: Unexpected token style
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:151:28: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:151:44: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:152:29: Unexpected token this
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:152:30: Unexpected token onHandlePageNumber
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:152:48: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:153:21: Unexpected token 1
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:154:15: Unexpected token max
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:153:21: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:155:14: Unexpected token >
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:156:13: Unexpected token of
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:156:27: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:157:12: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:158:29: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:158:40: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:159:13: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:160:31: Unexpected token this
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:160:32: Unexpected token onPageGoPrevious
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:160:48: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:161:28: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:161:43: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:162:32: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:162:37: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:164:15: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:164:43: Unexpected token >
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:165:14: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:167:31: Unexpected token this
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:167:32: Unexpected token onPageGoNext
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:167:44: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:168:28: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:168:43: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:169:32: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:169:37: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:171:15: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:171:44: Unexpected token >
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:172:14: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:173:12: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:174:10: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:175:8: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:226:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:226:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:226:8: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/SMTable.js:226:16: Semi-colon expected
+
+MultipleErrors: /Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:1:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:1:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:1:8: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:1:16: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:4:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:4:18: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:4:20: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:5:11: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:5:11: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:5:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:6:19: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:6:19: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:6:21: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:7:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:7:15: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:7:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:8:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:8:13: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:8:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:9:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:10:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:10:13: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:10:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:12:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:12:18: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:12:20: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:13:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:13:15: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:13:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:14:19: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:14:19: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:14:21: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:15:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:15:15: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:15:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:16:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:17:12: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:17:12: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:17:14: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:19:10: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:19:10: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:19:12: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:20:11: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:20:11: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:20:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:21:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:22:19: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:22:19: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:22:21: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:24:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:25:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:25:18: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:25:20: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:27:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:28:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:28:18: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:28:20: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:30:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:30:15: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:30:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:31:10: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:31:10: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:31:12: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:32:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:32:17: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:32:19: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:33:16: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:33:16: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:33:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:34:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:34:13: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:34:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:35:12: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:35:12: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:35:14: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:36:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:37:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:37:17: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:37:19: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:39:16: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:39:16: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:39:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:40:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:40:15: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:40:17: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:41:10: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:41:10: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:41:12: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:42:11: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:42:11: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:42:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:43:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:44:13: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:44:13: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:44:15: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:46:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:47:7: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:47:7: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:47:9: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:49:3: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:50:1: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/smTableStyles.js:51:1: Unexpected token End of File
+
+MultipleErrors: /Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:1:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:1:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:1:14: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:1:19: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:2:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:2:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:2:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:2:23: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:3:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:3:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:3:29: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:4:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:4:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:5:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:5:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:6:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:6:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:7:1: Unexpected reserved word import
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:7:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:16:3: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:16:20: Unexpected token .
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:16:26: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:16:51: Unexpected token [
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:16:63: Unexpected token ]
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:16:64: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:17:5: Unexpected token <
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:17:19: Unexpected token ...
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:17:27: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:17:30: Unexpected token >
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:18:4: Expected '/' in regular expression literal
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:22:3: Unexpected token ...
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:22:6: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:23:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:23:8: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:23:10: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:24:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:24:8: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:24:10: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:25:1: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:28:3: Unexpected token ...
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:28:6: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:8: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:10: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:30: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:30: Unexpected token :
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:32: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:29:37: Unexpected token ,
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:31:1: Unexpected token }
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:33:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:33:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:33:8: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/Table.js:33:16: Semi-colon expected
+
+MultipleErrors: /Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:1:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:1:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:1:10: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:1:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:1:21: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:1:34: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:2:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:2:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:2:10: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:2:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:2:21: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:2:39: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:3:1: Unexpected reserved word export
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:3:8: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:3:10: Unexpected reserved word default
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:3:18: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:3:21: Semi-colon expected
+/Users/duckscofield/.jspm/packages/npm/drc.atoms.table@0.0.31/src/index.js:3:36: Semi-colon expected

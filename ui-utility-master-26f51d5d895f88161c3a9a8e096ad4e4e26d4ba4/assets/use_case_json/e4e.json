@@ -1,0 +1,3452 @@
+{
+  "index": 0,
+  "currentPage": "index",
+  "routes": [
+    {
+      "path": "index",
+      "stencils": {
+        "061b91c1-a717-4f45-93cc-3ab181caaee3": {
+          "id": "061b91c1-a717-4f45-93cc-3ab181caaee3",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 44
+            },
+            "key": "061b91c1-a717-4f45-93cc-3ab181caaee3",
+            "value": "I am a pure text"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "42903f66-eaf9-477f-8651-28b699d7db2b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "b182ad45-5e6f-47c5-a1d5-4efb83d2d1fb": {
+          "id": "b182ad45-5e6f-47c5-a1d5-4efb83d2d1fb",
+          "namespace": "material-ui",
+          "name": "Paper",
+          "props": {
+            "style": {
+              "width": 1000,
+              "overflow": "auto",
+              "paddingLeft": 15,
+              "backgroundColor": "#ebebeb",
+              "lineHeight": 2
+            },
+            "key": "b182ad45-5e6f-47c5-a1d5-4efb83d2d1fb",
+            "zDepth": 3
+          },
+          "parentId": "dbcda15e-9402-4d23-be2b-d0268d6da567",
+          "children": [
+            "cbf13e2c-bf3d-48af-86e0-126b10b50bb7"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paper"
+        },
+        "f6a5cf45-bda3-4278-b337-86a69f005db5": {
+          "id": "f6a5cf45-bda3-4278-b337-86a69f005db5",
+          "namespace": "material-ui",
+          "name": "Paper",
+          "props": {
+            "style": {
+              "width": 1000,
+              "overflow": "auto",
+              "paddingLeft": 15,
+              "backgroundColor": "#ebebeb",
+              "lineHeight": 2
+            },
+            "key": "f6a5cf45-bda3-4278-b337-86a69f005db5",
+            "zDepth": 3
+          },
+          "parentId": "dbcda15e-9402-4d23-be2b-d0268d6da567",
+          "children": [
+            "6ccffd7a-15eb-4b22-ac03-74d2c9237ce8"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paper"
+        },
+        "09c4a84d-7b5d-4223-98c7-1e6cb1b29d24": {
+          "id": "09c4a84d-7b5d-4223-98c7-1e6cb1b29d24",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "key": "09c4a84d-7b5d-4223-98c7-1e6cb1b29d24",
+            "value": "I am a pure text"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "f87946c4-17cc-4517-bf5b-a1080314c34c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "478b9bfe-3c83-4d62-b91a-e3473acc3a48": {
+          "id": "478b9bfe-3c83-4d62-b91a-e3473acc3a48",
+          "namespace": "primitiveString",
+          "name": "Average view time",
+          "props": {
+            "key": "478b9bfe-3c83-4d62-b91a-e3473acc3a48",
+            "value": "I am a pure text"
+          },
+          "parentId": "0b0e6670-8d3f-407c-9fc8-c28ceaa7d77d",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "3f777539-3963-48a6-842c-4264d165a438": {
+          "id": "3f777539-3963-48a6-842c-4264d165a438",
+          "namespace": "icons",
+          "name": "NavigationArrowDropDown",
+          "props": {
+            "style": {},
+            "key": "3f777539-3963-48a6-842c-4264d165a438",
+            "icon": "NavigationArrowDropDown",
+            "color": "green"
+          },
+          "parentId": "ff188779-5972-4888-b0f4-146391b918d2",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "c74b0400-8bb9-4427-9c5f-63cb15466cce": {
+          "id": "c74b0400-8bb9-4427-9c5f-63cb15466cce",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              300,
+              100
+            ],
+            "contentPosition": [
+              "top-left",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "horizontal",
+              "vertical"
+            ],
+            "key": "d2581718-acae-4195-a640-b924327dabce"
+          },
+          "parentId": "b1a6881c-7793-4495-8660-bfd18f9b7c40",
+          "children": [
+            "23825d7d-3cd6-4a4e-9643-f047ee237656"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "0361565b-55ab-4fee-ae2f-489c1b305ab6": {
+          "id": "0361565b-55ab-4fee-ae2f-489c1b305ab6",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 380,
+            "contentPosition": {},
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 5,
+            "index": 2,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "90c268e4-4e14-4969-a7b8-4291b9f9de86"
+          },
+          "parentId": "1d0c5fe1-1787-41d1-98a9-c65c25a35d0a",
+          "children": [
+            "940a7e0a-4c14-4d77-b662-b12909f24e09"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "e3bb3e67-6946-4996-b46b-912e8c20886c": {
+          "id": "e3bb3e67-6946-4996-b46b-912e8c20886c",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#636060"
+            },
+            "key": "e3bb3e67-6946-4996-b46b-912e8c20886c",
+            "value": "I am a pure text"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "baef21ee-fcf3-4485-89d4-0d8d4d9307e0"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "6ccffd7a-15eb-4b22-ac03-74d2c9237ce8": {
+          "id": "6ccffd7a-15eb-4b22-ac03-74d2c9237ce8",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "fontSize": 20,
+              "color": "#636060"
+            },
+            "key": "6ccffd7a-15eb-4b22-ac03-74d2c9237ce8",
+            "value": "I am a pure text"
+          },
+          "parentId": "f6a5cf45-bda3-4278-b337-86a69f005db5",
+          "children": [
+            "ca34b60e-c76c-48e4-9327-d6f410de8840"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "2deb7b93-b71c-4452-8f98-c61836b6be4d": {
+          "id": "2deb7b93-b71c-4452-8f98-c61836b6be4d",
+          "namespace": "primitiveString",
+          "name": "1200",
+          "props": {
+            "key": "2deb7b93-b71c-4452-8f98-c61836b6be4d",
+            "value": "I am a pure text"
+          },
+          "parentId": "c0eccfd2-f859-4cec-858a-e0e8a9b19686",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "38fdb723-a24c-454d-8d66-96e8586db32c": {
+          "id": "38fdb723-a24c-454d-8d66-96e8586db32c",
+          "namespace": "primitiveString",
+          "name": "percentage (%)",
+          "props": {
+            "key": "38fdb723-a24c-454d-8d66-96e8586db32c",
+            "value": "I am a pure text"
+          },
+          "parentId": "297a9412-2d17-467e-b90a-98901debc725",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "799f3770-a050-4563-b872-4e4aa3297dc1": {
+          "id": "799f3770-a050-4563-b872-4e4aa3297dc1",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 450,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 3,
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "81040b16-1482-4b32-ac54-f3e065e5ff7d"
+          },
+          "parentId": "cdadca3c-fc8b-4627-8104-8273014b6dba",
+          "children": [
+            "335237de-e037-46e6-9a0e-6ac248ea9d6e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "8847f183-d22b-4fd5-bd8f-d0102e20d93f": {
+          "id": "8847f183-d22b-4fd5-bd8f-d0102e20d93f",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "8847f183-d22b-4fd5-bd8f-d0102e20d93f"
+          },
+          "parentId": "bac8ec2f-3fe9-411a-96a4-ca0c2f516b55",
+          "children": [
+            "0856448c-2319-479a-8839-65d7cf99b23a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "ff95ae9e-9ab0-4468-bd65-4823d49cde9d": {
+          "id": "ff95ae9e-9ab0-4468-bd65-4823d49cde9d",
+          "namespace": "material-ui",
+          "name": "Paper",
+          "props": {
+            "style": {
+              "height": 400,
+              "width": 1000,
+              "overflow": "auto"
+            },
+            "key": "ff95ae9e-9ab0-4468-bd65-4823d49cde9d",
+            "zDepth": 3
+          },
+          "parentId": "dbcda15e-9402-4d23-be2b-d0268d6da567",
+          "children": [
+            "1d0c5fe1-1787-41d1-98a9-c65c25a35d0a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paper"
+        },
+        "e1630ce2-dea2-4221-aebe-5d3211559a21": {
+          "id": "e1630ce2-dea2-4221-aebe-5d3211559a21",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "e1630ce2-dea2-4221-aebe-5d3211559a21",
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "385b8381-4837-44c1-900a-d71d55e52230",
+          "children": [
+            "9cf6893f-a0a0-49a8-aa03-051259ccb95d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "83e361e2-804e-4f7e-a8fd-db09e4eeb902": {
+          "id": "83e361e2-804e-4f7e-a8fd-db09e4eeb902",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              10,
+              10
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "83e361e2-804e-4f7e-a8fd-db09e4eeb902"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "80e6a79d-efea-4a6b-8edb-ab2e35e7286b",
+            "b36877f4-532a-4555-955b-25fa436c279a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "899742fd-117f-410f-a910-970bbcafb98e": {
+          "id": "899742fd-117f-410f-a910-970bbcafb98e",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "899742fd-117f-410f-a910-970bbcafb98e",
+            "primaryText": "Dashboard",
+            "nestedItems": [],
+            "leftIcon": "EditorInsertChart"
+          },
+          "parentId": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "088a5613-e035-4d60-9103-3bc32ac5424b": {
+          "id": "088a5613-e035-4d60-9103-3bc32ac5424b",
+          "namespace": "primitiveString",
+          "name": "100",
+          "props": {
+            "key": "088a5613-e035-4d60-9103-3bc32ac5424b",
+            "value": "I am a pure text"
+          },
+          "parentId": "3897716c-3d23-4de7-a289-a535e5132e73",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc": {
+          "id": "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 180,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "7a27a455-187f-4971-a650-8194b47a5cb9"
+          },
+          "parentId": "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87",
+          "children": [
+            "84555924-6f13-416b-98a9-3e1813606e8b",
+            "1472b766-19f9-4798-a99f-089f2c4e3967",
+            "297a9412-2d17-467e-b90a-98901debc725",
+            "2d8a156c-b65a-482c-a9bf-ee056b9257c9"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "35b575c0-4a08-4937-8bf7-94ec888922a0": {
+          "id": "35b575c0-4a08-4937-8bf7-94ec888922a0",
+          "namespace": "recharts",
+          "name": "YAxis",
+          "props": {
+            "key": "35b575c0-4a08-4937-8bf7-94ec888922a0",
+            "label": "Age"
+          },
+          "parentId": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-YAxis"
+        },
+        "b98025db-618d-424b-94f7-8740d15bb2c8": {
+          "id": "b98025db-618d-424b-94f7-8740d15bb2c8",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 20,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "eda1ad82-7612-4b77-80fe-02ed135e87b4"
+          },
+          "parentId": "f8f4276a-b073-4845-8e3d-4de9cbcf23eb",
+          "children": [
+            "42c6f971-1c89-4090-9e3d-2a9faacc6f91"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "6a1275d0-5970-4359-8cde-ba33c44cbd4f": {
+          "id": "6a1275d0-5970-4359-8cde-ba33c44cbd4f",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "fontSize": 20,
+              "color": "#636060",
+              "lineHeight": 2
+            },
+            "key": "6a1275d0-5970-4359-8cde-ba33c44cbd4f",
+            "value": "I am a pure text"
+          },
+          "parentId": "96f5e03d-d058-4df7-b0b6-4b5b27f33a82",
+          "children": [
+            "a59ec55a-3c6a-4fef-9bf8-f45d5f30f32f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "fb4985b9-676f-4db8-95c3-7cb736809b77": {
+          "id": "fb4985b9-676f-4db8-95c3-7cb736809b77",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "fb4985b9-676f-4db8-95c3-7cb736809b77",
+            "primaryText": "Explore",
+            "nestedItems": [],
+            "leftIcon": "ActionSearch"
+          },
+          "parentId": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "ad85a94b-fc1b-450d-af50-93f21941a7d9": {
+          "id": "ad85a94b-fc1b-450d-af50-93f21941a7d9",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "ad85a94b-fc1b-450d-af50-93f21941a7d9",
+            "style": {
+              "color": "#636060"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "330649b9-6ea2-40f5-bc23-3739fef49a1c",
+          "children": [
+            "7d4000f3-2d76-4fc3-84be-46f25c57b671"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "0856448c-2319-479a-8839-65d7cf99b23a": {
+          "id": "0856448c-2319-479a-8839-65d7cf99b23a",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "green"
+            },
+            "key": "0856448c-2319-479a-8839-65d7cf99b23a",
+            "value": "I am a pure text"
+          },
+          "parentId": "8847f183-d22b-4fd5-bd8f-d0102e20d93f",
+          "children": [
+            "f0d0ce7e-c3a1-4422-9c72-a21b68b6d76f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "59a864f9-4746-4968-b9ef-8e63374ce445": {
+          "id": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 380,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 2,
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "4fbc30ef-19eb-48a3-a4fc-55e54ad4861c"
+          },
+          "parentId": "1d0c5fe1-1787-41d1-98a9-c65c25a35d0a",
+          "children": [
+            "49c6d26f-7bb9-4cd6-ae10-d7939fda97ba",
+            "00d37762-e77a-4e42-be5f-9300307b9fea",
+            "09c4a84d-7b5d-4223-98c7-1e6cb1b29d24",
+            "f8f4276a-b073-4845-8e3d-4de9cbcf23eb",
+            "e3bb3e67-6946-4996-b46b-912e8c20886c",
+            "061b91c1-a717-4f45-93cc-3ab181caaee3",
+            "cd708091-41b6-471e-9f98-44d5dd20f03d",
+            "83e361e2-804e-4f7e-a8fd-db09e4eeb902"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "b36877f4-532a-4555-955b-25fa436c279a": {
+          "id": "b36877f4-532a-4555-955b-25fa436c279a",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "key": "b36877f4-532a-4555-955b-25fa436c279a",
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            }
+          },
+          "parentId": "83e361e2-804e-4f7e-a8fd-db09e4eeb902",
+          "children": [
+            "72d82403-8d95-4bb0-9aa6-c64cb50eaa1e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "aa6bd4f4-f8c5-4ede-877f-ab9afa5b1306": {
+          "id": "aa6bd4f4-f8c5-4ede-877f-ab9afa5b1306",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "aa6bd4f4-f8c5-4ede-877f-ab9afa5b1306",
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 44
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "330649b9-6ea2-40f5-bc23-3739fef49a1c",
+          "children": [
+            "abea1494-f259-429f-96c9-7b1cf093cc57"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "a8835f05-91fa-4d4f-ba33-d039fe0928e2": {
+          "id": "a8835f05-91fa-4d4f-ba33-d039fe0928e2",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "a8835f05-91fa-4d4f-ba33-d039fe0928e2"
+          },
+          "parentId": "125059f6-f834-4537-b070-a125963c0b7d",
+          "children": [
+            "2ab5aecb-f1b8-4665-9f87-e2e977857273"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "7ce99927-132e-41ce-809c-1ca5575a3106": {
+          "id": "7ce99927-132e-41ce-809c-1ca5575a3106",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "7ce99927-132e-41ce-809c-1ca5575a3106"
+          },
+          "parentId": "2e6992da-9249-4a24-8155-1b6b4fce72a0",
+          "children": [
+            "3897716c-3d23-4de7-a289-a535e5132e73"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "5fd7f86b-25a7-452c-99d6-4b94c553a1e8": {
+          "id": "5fd7f86b-25a7-452c-99d6-4b94c553a1e8",
+          "namespace": "recharts",
+          "name": "XAxis",
+          "props": {
+            "key": "5fd7f86b-25a7-452c-99d6-4b94c553a1e8",
+            "dataKey": "page",
+            "label": ""
+          },
+          "parentId": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-XAxis"
+        },
+        "23825d7d-3cd6-4a4e-9643-f047ee237656": {
+          "id": "23825d7d-3cd6-4a4e-9643-f047ee237656",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 300,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: row;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      0deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "df638a84-b4fb-4ed9-88b0-28e1f99d0116"
+          },
+          "parentId": "c74b0400-8bb9-4427-9c5f-63cb15466cce",
+          "children": [
+            "40362af1-7fd8-4dff-adb3-635b1818f2fd",
+            "f6248f38-c6c1-4b98-88dd-ed8e72346879"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "42c6f971-1c89-4090-9e3d-2a9faacc6f91": {
+          "id": "42c6f971-1c89-4090-9e3d-2a9faacc6f91",
+          "namespace": "icons",
+          "name": "NavigationArrowDropUp",
+          "props": {
+            "key": "42c6f971-1c89-4090-9e3d-2a9faacc6f91",
+            "style": {},
+            "icon": "NavigationArrowDropUp",
+            "color": "red"
+          },
+          "parentId": "b98025db-618d-424b-94f7-8740d15bb2c8",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "dd1cbee2-0e19-451c-a9d8-7165322124bc": {
+          "id": "dd1cbee2-0e19-451c-a9d8-7165322124bc",
+          "namespace": "primitiveString",
+          "name": "0.33",
+          "props": {
+            "key": "dd1cbee2-0e19-451c-a9d8-7165322124bc",
+            "value": "I am a pure text"
+          },
+          "parentId": "cc863113-b788-4bce-9956-a107dd6d17a4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "dcb9bab0-8ccc-4e91-adda-95be2db6d5b1": {
+          "id": "dcb9bab0-8ccc-4e91-adda-95be2db6d5b1",
+          "namespace": "primitiveString",
+          "name": "03:33",
+          "props": {
+            "key": "dcb9bab0-8ccc-4e91-adda-95be2db6d5b1",
+            "value": "I am a pure text"
+          },
+          "parentId": "9f604c15-ff08-449e-abd1-95ad9585ab03",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "980ca8b4-3ed3-4206-ba60-ac4a7ef29bb1": {
+          "id": "980ca8b4-3ed3-4206-ba60-ac4a7ef29bb1",
+          "namespace": "primitiveString",
+          "name": "Average view rate",
+          "props": {
+            "key": "980ca8b4-3ed3-4206-ba60-ac4a7ef29bb1",
+            "value": "I am a pure text"
+          },
+          "parentId": "84555924-6f13-416b-98a9-3e1813606e8b",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "abea1494-f259-429f-96c9-7b1cf093cc57": {
+          "id": "abea1494-f259-429f-96c9-7b1cf093cc57",
+          "namespace": "primitiveString",
+          "name": "85",
+          "props": {
+            "key": "abea1494-f259-429f-96c9-7b1cf093cc57",
+            "value": "I am a pure text"
+          },
+          "parentId": "aa6bd4f4-f8c5-4ede-877f-ab9afa5b1306",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "bece2278-47af-49c8-8c49-9e4bed380781": {
+          "id": "bece2278-47af-49c8-8c49-9e4bed380781",
+          "namespace": "recharts",
+          "name": "Tooltip",
+          "props": {
+            "key": "bece2278-47af-49c8-8c49-9e4bed380781"
+          },
+          "parentId": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-Tooltip"
+        },
+        "49c6d26f-7bb9-4cd6-ae10-d7939fda97ba": {
+          "id": "49c6d26f-7bb9-4cd6-ae10-d7939fda97ba",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#636060"
+            },
+            "key": "49c6d26f-7bb9-4cd6-ae10-d7939fda97ba",
+            "value": "I am a pure text"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "39c8c249-0b56-4f69-9138-7b4518164d2a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "2d8a156c-b65a-482c-a9bf-ee056b9257c9": {
+          "id": "2d8a156c-b65a-482c-a9bf-ee056b9257c9",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              10,
+              10
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "2d8a156c-b65a-482c-a9bf-ee056b9257c9"
+          },
+          "parentId": "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc",
+          "children": [
+            "e9605bb4-e1c4-4dc4-b6f5-9ebe7563430e",
+            "3a7382b1-a03d-48b0-a49b-1746dd1d87e0"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "1d0c5fe1-1787-41d1-98a9-c65c25a35d0a": {
+          "id": "1d0c5fe1-1787-41d1-98a9-c65c25a35d0a",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 3,
+            "contentHeight": [
+              380,
+              380,
+              380,
+              100,
+              100
+            ],
+            "contentPosition": [
+              "center",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              2,
+              2
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "21c618c0-0eee-47c6-a3af-35338ac87d84"
+          },
+          "parentId": "ff95ae9e-9ab0-4468-bd65-4823d49cde9d",
+          "children": [
+            "59a864f9-4746-4968-b9ef-8e63374ce445",
+            "b1a6881c-7793-4495-8660-bfd18f9b7c40",
+            "0361565b-55ab-4fee-ae2f-489c1b305ab6"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "cdadca3c-fc8b-4627-8104-8273014b6dba": {
+          "id": "cdadca3c-fc8b-4627-8104-8273014b6dba",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              450,
+              800
+            ],
+            "contentPosition": [
+              "top-left",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "distribution": "around",
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              3
+            ],
+            "padding": 8,
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "38e6b174-3743-49d5-a963-bcff13e8d2fc"
+          },
+          "parentId": "9034f2d6-4e05-4be8-9925-99e329e69eb9",
+          "children": [
+            "799f3770-a050-4563-b872-4e4aa3297dc1",
+            "dbcda15e-9402-4d23-be2b-d0268d6da567"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "a59ec55a-3c6a-4fef-9bf8-f45d5f30f32f": {
+          "id": "a59ec55a-3c6a-4fef-9bf8-f45d5f30f32f",
+          "namespace": "primitiveString",
+          "name": "Dashboard",
+          "props": {
+            "key": "a59ec55a-3c6a-4fef-9bf8-f45d5f30f32f",
+            "value": "I am a pure text"
+          },
+          "parentId": "6a1275d0-5970-4359-8cde-ba33c44cbd4f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "9034f2d6-4e05-4be8-9925-99e329e69eb9": {
+          "id": "9034f2d6-4e05-4be8-9925-99e329e69eb9",
+          "namespace": "native",
+          "name": "div",
+          "props": {
+            "key": "9034f2d6-4e05-4be8-9925-99e329e69eb9",
+            "style": {
+              "backgroundColor": "white",
+              "flex": 1,
+              "overflow": "auto",
+              "display": "block"
+            }
+          },
+          "parentId": null,
+          "children": [
+            "f17c408f-8bd9-4fa4-a863-ea57e1fe1076",
+            "cdadca3c-fc8b-4627-8104-8273014b6dba"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ROOT_DIV"
+        },
+        "4749b4e0-023a-4861-b0c0-423df553fee8": {
+          "id": "4749b4e0-023a-4861-b0c0-423df553fee8",
+          "namespace": "primitiveString",
+          "name": "0.25",
+          "props": {
+            "key": "4749b4e0-023a-4861-b0c0-423df553fee8",
+            "value": "I am a pure text"
+          },
+          "parentId": "72d82403-8d95-4bb0-9aa6-c64cb50eaa1e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "3bec7b0e-c376-43ad-898c-0aad9483a8b5": {
+          "id": "3bec7b0e-c376-43ad-898c-0aad9483a8b5",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 1,
+            "contentHeight": [
+              65,
+              100
+            ],
+            "contentPosition": [
+              "top-left",
+              "top-left"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "distribution": "around",
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1
+            ],
+            "padding": 6,
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "b50fc1bb-6375-4c77-959b-f987228c27b6"
+          },
+          "parentId": "8638a968-21d3-4bb9-b801-5f38e615338c",
+          "children": [
+            "96f5e03d-d058-4df7-b0b6-4b5b27f33a82"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "f84022b3-48fe-48e4-b760-76dfc856542e": {
+          "id": "f84022b3-48fe-48e4-b760-76dfc856542e",
+          "namespace": "primitiveString",
+          "name": "mins",
+          "props": {
+            "key": "f84022b3-48fe-48e4-b760-76dfc856542e",
+            "value": "I am a pure text"
+          },
+          "parentId": "cd708091-41b6-471e-9f98-44d5dd20f03d",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "72d82403-8d95-4bb0-9aa6-c64cb50eaa1e": {
+          "id": "72d82403-8d95-4bb0-9aa6-c64cb50eaa1e",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "red"
+            },
+            "key": "72d82403-8d95-4bb0-9aa6-c64cb50eaa1e",
+            "value": "I am a pure text"
+          },
+          "parentId": "b36877f4-532a-4555-955b-25fa436c279a",
+          "children": [
+            "4749b4e0-023a-4861-b0c0-423df553fee8"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "5895e63a-f21a-4495-be77-46c4eeca5057": {
+          "id": "5895e63a-f21a-4495-be77-46c4eeca5057",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "5895e63a-f21a-4495-be77-46c4eeca5057",
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "330649b9-6ea2-40f5-bc23-3739fef49a1c",
+          "children": [
+            "060a534d-b39b-4cee-bcc5-4adacd6ccf1f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "bac8ec2f-3fe9-411a-96a4-ca0c2f516b55": {
+          "id": "bac8ec2f-3fe9-411a-96a4-ca0c2f516b55",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              10,
+              10
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "bac8ec2f-3fe9-411a-96a4-ca0c2f516b55"
+          },
+          "parentId": "74c7c816-3da6-496d-9a18-d1742d1e5f00",
+          "children": [
+            "ce07dcda-f3ba-42fd-b4fc-460f0cc7357b",
+            "8847f183-d22b-4fd5-bd8f-d0102e20d93f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "05ad9f89-643b-460e-8a30-72b760b844d4": {
+          "id": "05ad9f89-643b-460e-8a30-72b760b844d4",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "05ad9f89-643b-460e-8a30-72b760b844d4",
+            "style": {
+              "color": "#636060"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "385b8381-4837-44c1-900a-d71d55e52230",
+          "children": [
+            "23426420-6ac7-4920-a8bf-4a9d730a41b3"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "74c7c816-3da6-496d-9a18-d1742d1e5f00": {
+          "id": "74c7c816-3da6-496d-9a18-d1742d1e5f00",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 180,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 2,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "ea037d3b-5c3f-4ee6-b928-143c098fbbdb"
+          },
+          "parentId": "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87",
+          "children": [
+            "da4e34ef-b944-42d9-85d9-3cd20bad2019",
+            "1b3acd7f-cc31-47cd-8333-8a987aeead49",
+            "bae3ebb2-7300-4043-8643-8231a8c74e8b",
+            "bac8ec2f-3fe9-411a-96a4-ca0c2f516b55"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "39c8c249-0b56-4f69-9138-7b4518164d2a": {
+          "id": "39c8c249-0b56-4f69-9138-7b4518164d2a",
+          "namespace": "primitiveString",
+          "name": "Counts of Visits",
+          "props": {
+            "key": "39c8c249-0b56-4f69-9138-7b4518164d2a",
+            "value": "I am a pure text"
+          },
+          "parentId": "49c6d26f-7bb9-4cd6-ae10-d7939fda97ba",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7": {
+          "id": "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 180,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "9587da81-c235-41d7-bdf9-54f1f1b8acf1"
+          },
+          "parentId": "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87",
+          "children": [
+            "0b0e6670-8d3f-407c-9fc8-c28ceaa7d77d",
+            "9f604c15-ff08-449e-abd1-95ad9585ab03",
+            "08eb36d2-f51f-42ef-bd74-e02ba353170a",
+            "125059f6-f834-4537-b070-a125963c0b7d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "e9605bb4-e1c4-4dc4-b6f5-9ebe7563430e": {
+          "id": "e9605bb4-e1c4-4dc4-b6f5-9ebe7563430e",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "e9605bb4-e1c4-4dc4-b6f5-9ebe7563430e"
+          },
+          "parentId": "2d8a156c-b65a-482c-a9bf-ee056b9257c9",
+          "children": [
+            "d90f6619-258e-49f1-8287-2760bc3438b6"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "4319b054-3545-4448-9e82-d976ea192843": {
+          "id": "4319b054-3545-4448-9e82-d976ea192843",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "key": "4319b054-3545-4448-9e82-d976ea192843",
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            }
+          },
+          "parentId": "998977f4-6fe3-426c-a51c-8d48ba0950c6",
+          "children": [
+            "a89386ec-04f9-40f9-bb95-764d3ae3d90c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "9f604c15-ff08-449e-abd1-95ad9585ab03": {
+          "id": "9f604c15-ff08-449e-abd1-95ad9585ab03",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "9f604c15-ff08-449e-abd1-95ad9585ab03",
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 44
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7",
+          "children": [
+            "dcb9bab0-8ccc-4e91-adda-95be2db6d5b1"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "f63d2f63-08d8-432b-ac56-43d0b277abd2": {
+          "id": "f63d2f63-08d8-432b-ac56-43d0b277abd2",
+          "namespace": "recharts",
+          "name": "Pie",
+          "props": {
+            "key": "f63d2f63-08d8-432b-ac56-43d0b277abd2",
+            "isAnimationActive": true,
+            "outerRadius": "40",
+            "innerRadius": "10",
+            "fill": "#4a90e2",
+            "label": true,
+            "data": [
+              {
+                "name": "Group A",
+                "value": 400
+              },
+              {
+                "name": "Group B",
+                "value": 300
+              },
+              {
+                "name": "Group C",
+                "value": 300
+              },
+              {
+                "name": "Group D",
+                "value": 200
+              }
+            ],
+            "transformer": "function transformer(data) {\n      if (data !== undefined) {\n        return data;\n      }\n    }"
+          },
+          "parentId": "f6248f38-c6c1-4b98-88dd-ed8e72346879",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-Pie"
+        },
+        "42903f66-eaf9-477f-8651-28b699d7db2b": {
+          "id": "42903f66-eaf9-477f-8651-28b699d7db2b",
+          "namespace": "primitiveString",
+          "name": "03:33",
+          "props": {
+            "key": "42903f66-eaf9-477f-8651-28b699d7db2b",
+            "value": "I am a pure text"
+          },
+          "parentId": "061b91c1-a717-4f45-93cc-3ab181caaee3",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "f7ee52a5-d4a7-4b83-b27c-2015d9f1aa12": {
+          "id": "f7ee52a5-d4a7-4b83-b27c-2015d9f1aa12",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "f7ee52a5-d4a7-4b83-b27c-2015d9f1aa12"
+          },
+          "parentId": "125059f6-f834-4537-b070-a125963c0b7d",
+          "children": [
+            "cc863113-b788-4bce-9956-a107dd6d17a4"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "dbb62f99-de3d-401e-b4f2-0039e64d1364": {
+          "id": "dbb62f99-de3d-401e-b4f2-0039e64d1364",
+          "namespace": "primitiveString",
+          "name": "percentage (%)",
+          "props": {
+            "key": "dbb62f99-de3d-401e-b4f2-0039e64d1364",
+            "value": "I am a pure text"
+          },
+          "parentId": "bae3ebb2-7300-4043-8643-8231a8c74e8b",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "c0eccfd2-f859-4cec-858a-e0e8a9b19686": {
+          "id": "c0eccfd2-f859-4cec-858a-e0e8a9b19686",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "c0eccfd2-f859-4cec-858a-e0e8a9b19686",
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 44
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "385b8381-4837-44c1-900a-d71d55e52230",
+          "children": [
+            "2deb7b93-b71c-4452-8f98-c61836b6be4d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87": {
+          "id": "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 5,
+            "contentHeight": [
+              180,
+              180,
+              180,
+              180,
+              168
+            ],
+            "contentPosition": [
+              "center",
+              "center",
+              "center",
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "08caf078-9211-4426-8359-06e78fad3450"
+          },
+          "parentId": "7bfbfc30-df82-40f6-837e-d381d490c49b",
+          "children": [
+            "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7",
+            "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc",
+            "74c7c816-3da6-496d-9a18-d1742d1e5f00",
+            "385b8381-4837-44c1-900a-d71d55e52230",
+            "330649b9-6ea2-40f5-bc23-3739fef49a1c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "96f5e03d-d058-4df7-b0b6-4b5b27f33a82": {
+          "id": "96f5e03d-d058-4df7-b0b6-4b5b27f33a82",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 65,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "0fbb5935-b921-449f-bdc4-d18f7ec2b452"
+          },
+          "parentId": "3bec7b0e-c376-43ad-898c-0aad9483a8b5",
+          "children": [
+            "6a1275d0-5970-4359-8cde-ba33c44cbd4f",
+            "2bd776d8-6078-4ccc-9f30-4bd595abb68a"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "3a7382b1-a03d-48b0-a49b-1746dd1d87e0": {
+          "id": "3a7382b1-a03d-48b0-a49b-1746dd1d87e0",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "3a7382b1-a03d-48b0-a49b-1746dd1d87e0"
+          },
+          "parentId": "2d8a156c-b65a-482c-a9bf-ee056b9257c9",
+          "children": [
+            "abbe5b2e-efac-4297-a5d3-9a0dfb8fb748"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "6f8597d4-fc1b-4083-b5c2-c6dd9414af0f": {
+          "id": "6f8597d4-fc1b-4083-b5c2-c6dd9414af0f",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "red"
+            },
+            "key": "6f8597d4-fc1b-4083-b5c2-c6dd9414af0f",
+            "value": "I am a pure text"
+          },
+          "parentId": "13a61035-2629-49b8-8952-02e337efdaa5",
+          "children": [
+            "746c0c6f-241b-4ddd-9bdd-88c2174e44d5"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "2ab5aecb-f1b8-4665-9f87-e2e977857273": {
+          "id": "2ab5aecb-f1b8-4665-9f87-e2e977857273",
+          "namespace": "icons",
+          "name": "NavigationArrowDropUp",
+          "props": {
+            "key": "2ab5aecb-f1b8-4665-9f87-e2e977857273",
+            "style": {},
+            "icon": "NavigationArrowDropUp",
+            "color": "red"
+          },
+          "parentId": "a8835f05-91fa-4d4f-ba33-d039fe0928e2",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "cd708091-41b6-471e-9f98-44d5dd20f03d": {
+          "id": "cd708091-41b6-471e-9f98-44d5dd20f03d",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "key": "cd708091-41b6-471e-9f98-44d5dd20f03d",
+            "value": "I am a pure text"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "f84022b3-48fe-48e4-b760-76dfc856542e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "84555924-6f13-416b-98a9-3e1813606e8b": {
+          "id": "84555924-6f13-416b-98a9-3e1813606e8b",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#636060",
+              "textAlign": "center"
+            },
+            "key": "84555924-6f13-416b-98a9-3e1813606e8b",
+            "value": "I am a pure text"
+          },
+          "parentId": "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc",
+          "children": [
+            "980ca8b4-3ed3-4206-ba60-ac4a7ef29bb1"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "13a61035-2629-49b8-8952-02e337efdaa5": {
+          "id": "13a61035-2629-49b8-8952-02e337efdaa5",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 20,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "57882dda-08c4-4efb-9a7c-65800261197b"
+          },
+          "parentId": "f8f4276a-b073-4845-8e3d-4de9cbcf23eb",
+          "children": [
+            "6f8597d4-fc1b-4083-b5c2-c6dd9414af0f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "fb0f7ff7-909a-4dca-a9e0-7312b137bc23": {
+          "id": "fb0f7ff7-909a-4dca-a9e0-7312b137bc23",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "key": "fb0f7ff7-909a-4dca-a9e0-7312b137bc23",
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            }
+          },
+          "parentId": "998977f4-6fe3-426c-a51c-8d48ba0950c6",
+          "children": [
+            "57ff31f6-1693-4c13-8c16-cdb7d1a4d810"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "b1a6881c-7793-4495-8660-bfd18f9b7c40": {
+          "id": "b1a6881c-7793-4495-8660-bfd18f9b7c40",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 380,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 5,
+            "index": 1,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "e8af72aa-c92e-41a1-be64-a5141e3ad3e9"
+          },
+          "parentId": "1d0c5fe1-1787-41d1-98a9-c65c25a35d0a",
+          "children": [
+            "db4e3b5d-7aa0-4199-8d1d-db586158c1a8",
+            "c74b0400-8bb9-4427-9c5f-63cb15466cce"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "7bfbfc30-df82-40f6-837e-d381d490c49b": {
+          "id": "7bfbfc30-df82-40f6-837e-d381d490c49b",
+          "namespace": "material-ui",
+          "name": "Paper",
+          "props": {
+            "style": {
+              "height": 200,
+              "width": 1000,
+              "overflow": "auto"
+            },
+            "key": "7bfbfc30-df82-40f6-837e-d381d490c49b",
+            "zDepth": 3
+          },
+          "parentId": "dbcda15e-9402-4d23-be2b-d0268d6da567",
+          "children": [
+            "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paper"
+        },
+        "f8f4276a-b073-4845-8e3d-4de9cbcf23eb": {
+          "id": "f8f4276a-b073-4845-8e3d-4de9cbcf23eb",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              20,
+              20
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "765b4998-9152-4876-bf55-9a78ade9bd1b"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "b98025db-618d-424b-94f7-8740d15bb2c8",
+            "13a61035-2629-49b8-8952-02e337efdaa5"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "ce07dcda-f3ba-42fd-b4fc-460f0cc7357b": {
+          "id": "ce07dcda-f3ba-42fd-b4fc-460f0cc7357b",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "ce07dcda-f3ba-42fd-b4fc-460f0cc7357b"
+          },
+          "parentId": "bac8ec2f-3fe9-411a-96a4-ca0c2f516b55",
+          "children": [
+            "bdc2138f-e2ce-46f9-9f18-3b2a76cba320"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "da4e34ef-b944-42d9-85d9-3cd20bad2019": {
+          "id": "da4e34ef-b944-42d9-85d9-3cd20bad2019",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "da4e34ef-b944-42d9-85d9-3cd20bad2019",
+            "style": {
+              "color": "#636060"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "74c7c816-3da6-496d-9a18-d1742d1e5f00",
+          "children": [
+            "887ae62c-f13b-4dd0-961a-83c9b95f26ba"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "7e485eef-4b0c-4552-b953-62fb6bafb67b": {
+          "id": "7e485eef-4b0c-4552-b953-62fb6bafb67b",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "7e485eef-4b0c-4552-b953-62fb6bafb67b",
+            "primaryText": "My Channel",
+            "nestedItems": [],
+            "leftIcon": "ActionFace"
+          },
+          "parentId": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "0b0e6670-8d3f-407c-9fc8-c28ceaa7d77d": {
+          "id": "0b0e6670-8d3f-407c-9fc8-c28ceaa7d77d",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "0b0e6670-8d3f-407c-9fc8-c28ceaa7d77d",
+            "style": {
+              "color": "#636060"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7",
+          "children": [
+            "478b9bfe-3c83-4d62-b91a-e3473acc3a48"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "99021837-e1d3-4a49-89ac-3e29a81f801f": {
+          "id": "99021837-e1d3-4a49-89ac-3e29a81f801f",
+          "namespace": "recharts",
+          "name": "Pie",
+          "props": {
+            "key": "99021837-e1d3-4a49-89ac-3e29a81f801f",
+            "isAnimationActive": true,
+            "outerRadius": "40",
+            "innerRadius": "10",
+            "fill": "#4a90e2",
+            "label": true,
+            "data": [
+              {
+                "name": "Group A",
+                "value": 400
+              },
+              {
+                "name": "Group B",
+                "value": 300
+              },
+              {
+                "name": "Group C",
+                "value": 300
+              },
+              {
+                "name": "Group D",
+                "value": 200
+              }
+            ],
+            "transformer": "function transformer(data) {\n      if (data !== undefined) {\n        return data;\n      }\n    }"
+          },
+          "parentId": "40362af1-7fd8-4dff-adb3-635b1818f2fd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-Pie"
+        },
+        "8638a968-21d3-4bb9-b801-5f38e615338c": {
+          "id": "8638a968-21d3-4bb9-b801-5f38e615338c",
+          "namespace": "material-ui",
+          "name": "Paper",
+          "props": {
+            "style": {
+              "height": 80,
+              "width": 1000,
+              "overflow": "auto"
+            },
+            "key": "8638a968-21d3-4bb9-b801-5f38e615338c",
+            "zDepth": 3
+          },
+          "parentId": "dbcda15e-9402-4d23-be2b-d0268d6da567",
+          "children": [
+            "3bec7b0e-c376-43ad-898c-0aad9483a8b5"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Paper"
+        },
+        "1472b766-19f9-4798-a99f-089f2c4e3967": {
+          "id": "1472b766-19f9-4798-a99f-089f2c4e3967",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 50
+            },
+            "key": "1472b766-19f9-4798-a99f-089f2c4e3967",
+            "value": "I am a pure text"
+          },
+          "parentId": "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc",
+          "children": [
+            "086b68b8-0160-4617-aeaf-709e6c35c528"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "6ca2aedb-2124-4ba7-a560-638095f2df76": {
+          "id": "6ca2aedb-2124-4ba7-a560-638095f2df76",
+          "namespace": "icons",
+          "name": "NavigationArrowDropUp",
+          "props": {
+            "key": "6ca2aedb-2124-4ba7-a560-638095f2df76",
+            "style": {},
+            "icon": "NavigationArrowDropUp",
+            "color": "red"
+          },
+          "parentId": "80e6a79d-efea-4a6b-8edb-ab2e35e7286b",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "7d4000f3-2d76-4fc3-84be-46f25c57b671": {
+          "id": "7d4000f3-2d76-4fc3-84be-46f25c57b671",
+          "namespace": "primitiveString",
+          "name": "Upload video numbers",
+          "props": {
+            "key": "7d4000f3-2d76-4fc3-84be-46f25c57b671",
+            "value": "I am a pure text"
+          },
+          "parentId": "ad85a94b-fc1b-450d-af50-93f21941a7d9",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "1b3acd7f-cc31-47cd-8333-8a987aeead49": {
+          "id": "1b3acd7f-cc31-47cd-8333-8a987aeead49",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "1b3acd7f-cc31-47cd-8333-8a987aeead49",
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 44
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "74c7c816-3da6-496d-9a18-d1742d1e5f00",
+          "children": [
+            "76e812bd-732f-421a-975f-579cbdc295fe"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "40362af1-7fd8-4dff-adb3-635b1818f2fd": {
+          "id": "40362af1-7fd8-4dff-adb3-635b1818f2fd",
+          "namespace": "recharts",
+          "name": "PieChart",
+          "props": {
+            "style": {
+              "top": 100
+            },
+            "key": "40362af1-7fd8-4dff-adb3-635b1818f2fd",
+            "width": 180,
+            "height": 180,
+            "dataTransformer": {
+              "url": "http://10.120.136.90:3010/groups",
+              "outerRadius": "40",
+              "innerRadius": "10",
+              "color": "#4a90e2",
+              "transformer": "function transformer(data) {\n      if (data !== undefined) {\n        return data;\n      }\n    }"
+            }
+          },
+          "parentId": "23825d7d-3cd6-4a4e-9643-f047ee237656",
+          "children": [
+            "99021837-e1d3-4a49-89ac-3e29a81f801f",
+            "a2816e0a-c467-4b10-bf36-3f4ba6b78c28"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-PieChart"
+        },
+        "d90f6619-258e-49f1-8287-2760bc3438b6": {
+          "id": "d90f6619-258e-49f1-8287-2760bc3438b6",
+          "namespace": "icons",
+          "name": "NavigationArrowDropDown",
+          "props": {
+            "style": {},
+            "key": "d90f6619-258e-49f1-8287-2760bc3438b6",
+            "icon": "NavigationArrowDropDown",
+            "color": "green"
+          },
+          "parentId": "e9605bb4-e1c4-4dc4-b6f5-9ebe7563430e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "f87946c4-17cc-4517-bf5b-a1080314c34c": {
+          "id": "f87946c4-17cc-4517-bf5b-a1080314c34c",
+          "namespace": "primitiveString",
+          "name": "views",
+          "props": {
+            "key": "f87946c4-17cc-4517-bf5b-a1080314c34c",
+            "value": "I am a pure text"
+          },
+          "parentId": "09c4a84d-7b5d-4223-98c7-1e6cb1b29d24",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "08eb36d2-f51f-42ef-bd74-e02ba353170a": {
+          "id": "08eb36d2-f51f-42ef-bd74-e02ba353170a",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "08eb36d2-f51f-42ef-bd74-e02ba353170a",
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7",
+          "children": [
+            "42d171ac-3c80-4b44-8c2a-a7468b293c8d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "80e6a79d-efea-4a6b-8edb-ab2e35e7286b": {
+          "id": "80e6a79d-efea-4a6b-8edb-ab2e35e7286b",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "key": "80e6a79d-efea-4a6b-8edb-ab2e35e7286b",
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            }
+          },
+          "parentId": "83e361e2-804e-4f7e-a8fd-db09e4eeb902",
+          "children": [
+            "6ca2aedb-2124-4ba7-a560-638095f2df76"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "00d37762-e77a-4e42-be5f-9300307b9fea": {
+          "id": "00d37762-e77a-4e42-be5f-9300307b9fea",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#9fa2a5",
+              "fontSize": 44
+            },
+            "key": "00d37762-e77a-4e42-be5f-9300307b9fea",
+            "value": "I am a pure text"
+          },
+          "parentId": "59a864f9-4746-4968-b9ef-8e63374ce445",
+          "children": [
+            "61616bad-0953-4d77-a1e9-c8fae79b7623"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "ff188779-5972-4888-b0f4-146391b918d2": {
+          "id": "ff188779-5972-4888-b0f4-146391b918d2",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 10,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 0,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "ff188779-5972-4888-b0f4-146391b918d2"
+          },
+          "parentId": "2e6992da-9249-4a24-8155-1b6b4fce72a0",
+          "children": [
+            "3f777539-3963-48a6-842c-4264d165a438"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "61616bad-0953-4d77-a1e9-c8fae79b7623": {
+          "id": "61616bad-0953-4d77-a1e9-c8fae79b7623",
+          "namespace": "primitiveString",
+          "name": "1200",
+          "props": {
+            "key": "61616bad-0953-4d77-a1e9-c8fae79b7623",
+            "value": "I am a pure text"
+          },
+          "parentId": "00d37762-e77a-4e42-be5f-9300307b9fea",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "c0a7924d-b057-4866-a0c3-afc732555b7f": {
+          "id": "c0a7924d-b057-4866-a0c3-afc732555b7f",
+          "namespace": "recharts",
+          "name": "Tooltip",
+          "props": {
+            "key": "c0a7924d-b057-4866-a0c3-afc732555b7f"
+          },
+          "parentId": "f6248f38-c6c1-4b98-88dd-ed8e72346879",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-Tooltip"
+        },
+        "a816684f-08a1-42d0-bc2b-b23ff5b36c1f": {
+          "id": "a816684f-08a1-42d0-bc2b-b23ff5b36c1f",
+          "namespace": "primitiveString",
+          "name": "100",
+          "props": {
+            "key": "a816684f-08a1-42d0-bc2b-b23ff5b36c1f",
+            "value": "I am a pure text"
+          },
+          "parentId": "a89386ec-04f9-40f9-bb95-764d3ae3d90c",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "cc863113-b788-4bce-9956-a107dd6d17a4": {
+          "id": "cc863113-b788-4bce-9956-a107dd6d17a4",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "cc863113-b788-4bce-9956-a107dd6d17a4",
+            "style": {
+              "color": "red"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "f7ee52a5-d4a7-4b83-b27c-2015d9f1aa12",
+          "children": [
+            "dd1cbee2-0e19-451c-a9d8-7165322124bc"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "0d5320ac-73e7-4fcd-bfbc-c5b4ff9fcf4d": {
+          "id": "0d5320ac-73e7-4fcd-bfbc-c5b4ff9fcf4d",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "0d5320ac-73e7-4fcd-bfbc-c5b4ff9fcf4d",
+            "primaryText": "Group",
+            "nestedItems": [],
+            "leftIcon": "SocialGroup"
+          },
+          "parentId": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "db4e3b5d-7aa0-4199-8d1d-db586158c1a8": {
+          "id": "db4e3b5d-7aa0-4199-8d1d-db586158c1a8",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#636060"
+            },
+            "key": "db4e3b5d-7aa0-4199-8d1d-db586158c1a8",
+            "value": "I am a pure text"
+          },
+          "parentId": "b1a6881c-7793-4495-8660-bfd18f9b7c40",
+          "children": [
+            "63a41f7c-132b-4c55-87dc-793948eded22"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "23426420-6ac7-4920-a8bf-4a9d730a41b3": {
+          "id": "23426420-6ac7-4920-a8bf-4a9d730a41b3",
+          "namespace": "primitiveString",
+          "name": "View counts",
+          "props": {
+            "key": "23426420-6ac7-4920-a8bf-4a9d730a41b3",
+            "value": "I am a pure text"
+          },
+          "parentId": "05ad9f89-643b-460e-8a30-72b760b844d4",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "385b8381-4837-44c1-900a-d71d55e52230": {
+          "id": "385b8381-4837-44c1-900a-d71d55e52230",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 180,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 3,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "c9429c9d-2552-4b6d-887b-8b8b8d13dd1f"
+          },
+          "parentId": "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87",
+          "children": [
+            "05ad9f89-643b-460e-8a30-72b760b844d4",
+            "c0eccfd2-f859-4cec-858a-e0e8a9b19686",
+            "e1630ce2-dea2-4221-aebe-5d3211559a21",
+            "998977f4-6fe3-426c-a51c-8d48ba0950c6"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "ca34b60e-c76c-48e4-9327-d6f410de8840": {
+          "id": "ca34b60e-c76c-48e4-9327-d6f410de8840",
+          "namespace": "primitiveString",
+          "name": "User Data",
+          "props": {
+            "key": "ca34b60e-c76c-48e4-9327-d6f410de8840",
+            "value": "I am a pure text"
+          },
+          "parentId": "6ccffd7a-15eb-4b22-ac03-74d2c9237ce8",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "28b101a3-6705-4350-a531-2c3261880b6f": {
+          "id": "28b101a3-6705-4350-a531-2c3261880b6f",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "28b101a3-6705-4350-a531-2c3261880b6f",
+            "primaryText": "My Playlists",
+            "nestedItems": [],
+            "leftIcon": "ActionList"
+          },
+          "parentId": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "060a534d-b39b-4cee-bcc5-4adacd6ccf1f": {
+          "id": "060a534d-b39b-4cee-bcc5-4adacd6ccf1f",
+          "namespace": "primitiveString",
+          "name": "videos",
+          "props": {
+            "key": "060a534d-b39b-4cee-bcc5-4adacd6ccf1f",
+            "value": "I am a pure text"
+          },
+          "parentId": "5895e63a-f21a-4495-be77-46c4eeca5057",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "42d171ac-3c80-4b44-8c2a-a7468b293c8d": {
+          "id": "42d171ac-3c80-4b44-8c2a-a7468b293c8d",
+          "namespace": "primitiveString",
+          "name": "mins",
+          "props": {
+            "key": "42d171ac-3c80-4b44-8c2a-a7468b293c8d",
+            "value": "I am a pure text"
+          },
+          "parentId": "08eb36d2-f51f-42ef-bd74-e02ba353170a",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "746c0c6f-241b-4ddd-9bdd-88c2174e44d5": {
+          "id": "746c0c6f-241b-4ddd-9bdd-88c2174e44d5",
+          "namespace": "primitiveString",
+          "name": "200",
+          "props": {
+            "key": "746c0c6f-241b-4ddd-9bdd-88c2174e44d5",
+            "value": "I am a pure text"
+          },
+          "parentId": "6f8597d4-fc1b-4083-b5c2-c6dd9414af0f",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "d815419d-5d49-43ff-9074-0604d446c6d7": {
+          "id": "d815419d-5d49-43ff-9074-0604d446c6d7",
+          "namespace": "recharts",
+          "name": "Bar",
+          "props": {
+            "key": "d815419d-5d49-43ff-9074-0604d446c6d7",
+            "dataKey": "amt",
+            "fill": "#0087dc",
+            "stroke": "#0087dc"
+          },
+          "parentId": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-Bar"
+        },
+        "9cf6893f-a0a0-49a8-aa03-051259ccb95d": {
+          "id": "9cf6893f-a0a0-49a8-aa03-051259ccb95d",
+          "namespace": "primitiveString",
+          "name": "views",
+          "props": {
+            "key": "9cf6893f-a0a0-49a8-aa03-051259ccb95d",
+            "value": "I am a pure text"
+          },
+          "parentId": "e1630ce2-dea2-4221-aebe-5d3211559a21",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "2bd776d8-6078-4ccc-9f30-4bd595abb68a": {
+          "id": "2bd776d8-6078-4ccc-9f30-4bd595abb68a",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "#b8bcc0",
+              "fontSize": 14,
+              "marginLeft": 10
+            },
+            "key": "2bd776d8-6078-4ccc-9f30-4bd595abb68a",
+            "value": "I am a pure text"
+          },
+          "parentId": "96f5e03d-d058-4df7-b0b6-4b5b27f33a82",
+          "children": [
+            "53834a28-6863-4be1-8821-c6366e85662e"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "abbe5b2e-efac-4297-a5d3-9a0dfb8fb748": {
+          "id": "abbe5b2e-efac-4297-a5d3-9a0dfb8fb748",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "green"
+            },
+            "key": "abbe5b2e-efac-4297-a5d3-9a0dfb8fb748",
+            "value": "I am a pure text"
+          },
+          "parentId": "3a7382b1-a03d-48b0-a49b-1746dd1d87e0",
+          "children": [
+            "54aaa454-55d1-485d-b972-b39d0ccb40e3"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "63a41f7c-132b-4c55-87dc-793948eded22": {
+          "id": "63a41f7c-132b-4c55-87dc-793948eded22",
+          "namespace": "primitiveString",
+          "name": "Demographics",
+          "props": {
+            "key": "63a41f7c-132b-4c55-87dc-793948eded22",
+            "value": "I am a pure text"
+          },
+          "parentId": "db4e3b5d-7aa0-4199-8d1d-db586158c1a8",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "125059f6-f834-4537-b070-a125963c0b7d": {
+          "id": "125059f6-f834-4537-b070-a125963c0b7d",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              10,
+              10
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "125059f6-f834-4537-b070-a125963c0b7d"
+          },
+          "parentId": "4cfc29a9-5bf5-4ab6-908d-a9199b1145c7",
+          "children": [
+            "a8835f05-91fa-4d4f-ba33-d039fe0928e2",
+            "f7ee52a5-d4a7-4b83-b27c-2015d9f1aa12"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "297a9412-2d17-467e-b90a-98901debc725": {
+          "id": "297a9412-2d17-467e-b90a-98901debc725",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "297a9412-2d17-467e-b90a-98901debc725",
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "abf2dab6-9d04-4ae4-925a-ba8bb54fc1cc",
+          "children": [
+            "38fdb723-a24c-454d-8d66-96e8586db32c"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "6d3ebc6b-80bf-4b12-ba92-10b6986d37e3": {
+          "id": "6d3ebc6b-80bf-4b12-ba92-10b6986d37e3",
+          "namespace": "recharts",
+          "name": "CartesianGrid",
+          "props": {
+            "key": "6d3ebc6b-80bf-4b12-ba92-10b6986d37e3",
+            "strokeDasharray": "3 3"
+          },
+          "parentId": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-CartesianGrid"
+        },
+        "a2816e0a-c467-4b10-bf36-3f4ba6b78c28": {
+          "id": "a2816e0a-c467-4b10-bf36-3f4ba6b78c28",
+          "namespace": "recharts",
+          "name": "Tooltip",
+          "props": {
+            "key": "a2816e0a-c467-4b10-bf36-3f4ba6b78c28"
+          },
+          "parentId": "40362af1-7fd8-4dff-adb3-635b1818f2fd",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-Tooltip"
+        },
+        "f17c408f-8bd9-4fa4-a863-ea57e1fe1076": {
+          "id": "f17c408f-8bd9-4fa4-a863-ea57e1fe1076",
+          "namespace": "material-ui",
+          "name": "AppBar",
+          "props": {
+            "style": {
+              "backgroundColor": "#0087dc"
+            },
+            "key": "f17c408f-8bd9-4fa4-a863-ea57e1fe1076",
+            "title": "eTube",
+            "showMenuIconButton": false
+          },
+          "parentId": "9034f2d6-4e05-4be8-9925-99e329e69eb9",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "App Bar"
+        },
+        "bae3ebb2-7300-4043-8643-8231a8c74e8b": {
+          "id": "bae3ebb2-7300-4043-8643-8231a8c74e8b",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "key": "bae3ebb2-7300-4043-8643-8231a8c74e8b",
+            "style": {
+              "color": "#b8bcc0"
+            },
+            "value": "I am a pure text"
+          },
+          "parentId": "74c7c816-3da6-496d-9a18-d1742d1e5f00",
+          "children": [
+            "dbb62f99-de3d-401e-b4f2-0039e64d1364"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "57ff31f6-1693-4c13-8c16-cdb7d1a4d810": {
+          "id": "57ff31f6-1693-4c13-8c16-cdb7d1a4d810",
+          "namespace": "icons",
+          "name": "NavigationArrowDropUp",
+          "props": {
+            "key": "57ff31f6-1693-4c13-8c16-cdb7d1a4d810",
+            "style": {},
+            "icon": "NavigationArrowDropUp",
+            "color": "red"
+          },
+          "parentId": "fb0f7ff7-909a-4dca-a9e0-7312b137bc23",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "f0d0ce7e-c3a1-4422-9c72-a21b68b6d76f": {
+          "id": "f0d0ce7e-c3a1-4422-9c72-a21b68b6d76f",
+          "namespace": "primitiveString",
+          "name": "3%",
+          "props": {
+            "key": "f0d0ce7e-c3a1-4422-9c72-a21b68b6d76f",
+            "value": "I am a pure text"
+          },
+          "parentId": "0856448c-2319-479a-8839-65d7cf99b23a",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "76e812bd-732f-421a-975f-579cbdc295fe": {
+          "id": "76e812bd-732f-421a-975f-579cbdc295fe",
+          "namespace": "primitiveString",
+          "name": "35",
+          "props": {
+            "key": "76e812bd-732f-421a-975f-579cbdc295fe",
+            "value": "I am a pure text"
+          },
+          "parentId": "1b3acd7f-cc31-47cd-8333-8a987aeead49",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "330649b9-6ea2-40f5-bc23-3739fef49a1c": {
+          "id": "330649b9-6ea2-40f5-bc23-3739fef49a1c",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 168,
+            "contentPosition": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "index": 4,
+            "isEditMode": true,
+            "contentPadding": 0,
+            "colDirection": {
+              "normal": {
+                "flexDirection": "column",
+                "display": "flex"
+              },
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "78478596-cacd-444d-824f-9314355c5b3e"
+          },
+          "parentId": "d92e5a06-d0bc-4f9c-b8da-24c5d3b9db87",
+          "children": [
+            "ad85a94b-fc1b-450d-af50-93f21941a7d9",
+            "aa6bd4f4-f8c5-4ede-877f-ab9afa5b1306",
+            "5895e63a-f21a-4495-be77-46c4eeca5057",
+            "2e6992da-9249-4a24-8155-1b6b4fce72a0"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "a89386ec-04f9-40f9-bb95-764d3ae3d90c": {
+          "id": "a89386ec-04f9-40f9-bb95-764d3ae3d90c",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "red"
+            },
+            "key": "a89386ec-04f9-40f9-bb95-764d3ae3d90c",
+            "value": "I am a pure text"
+          },
+          "parentId": "4319b054-3545-4448-9e82-d976ea192843",
+          "children": [
+            "a816684f-08a1-42d0-bc2b-b23ff5b36c1f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "998977f4-6fe3-426c-a51c-8d48ba0950c6": {
+          "id": "998977f4-6fe3-426c-a51c-8d48ba0950c6",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              10,
+              10
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "998977f4-6fe3-426c-a51c-8d48ba0950c6"
+          },
+          "parentId": "385b8381-4837-44c1-900a-d71d55e52230",
+          "children": [
+            "fb0f7ff7-909a-4dca-a9e0-7312b137bc23",
+            "4319b054-3545-4448-9e82-d976ea192843"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "086b68b8-0160-4617-aeaf-709e6c35c528": {
+          "id": "086b68b8-0160-4617-aeaf-709e6c35c528",
+          "namespace": "primitiveString",
+          "name": "55",
+          "props": {
+            "key": "086b68b8-0160-4617-aeaf-709e6c35c528",
+            "value": "I am a pure text"
+          },
+          "parentId": "1472b766-19f9-4798-a99f-089f2c4e3967",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "f6248f38-c6c1-4b98-88dd-ed8e72346879": {
+          "id": "f6248f38-c6c1-4b98-88dd-ed8e72346879",
+          "namespace": "recharts",
+          "name": "PieChart",
+          "props": {
+            "style": {
+              "top": 100
+            },
+            "key": "f6248f38-c6c1-4b98-88dd-ed8e72346879",
+            "width": 180,
+            "height": 180,
+            "dataTransformer": {
+              "url": "http://10.120.136.90:3010/groups",
+              "outerRadius": "40",
+              "innerRadius": "10",
+              "color": "#4a90e2",
+              "transformer": "function transformer(data) {\n      if (data !== undefined) {\n        return data;\n      }\n    }"
+            }
+          },
+          "parentId": "23825d7d-3cd6-4a4e-9643-f047ee237656",
+          "children": [
+            "f63d2f63-08d8-432b-ac56-43d0b277abd2",
+            "c0a7924d-b057-4866-a0c3-afc732555b7f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-PieChart"
+        },
+        "53834a28-6863-4be1-8821-c6366e85662e": {
+          "id": "53834a28-6863-4be1-8821-c6366e85662e",
+          "namespace": "primitiveString",
+          "name": "Result from May 31, 2017 - Jun 06, 2017 (Last 7 days)",
+          "props": {
+            "key": "53834a28-6863-4be1-8821-c6366e85662e",
+            "value": "I am a pure text"
+          },
+          "parentId": "2bd776d8-6078-4ccc-9f30-4bd595abb68a",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "baef21ee-fcf3-4485-89d4-0d8d4d9307e0": {
+          "id": "baef21ee-fcf3-4485-89d4-0d8d4d9307e0",
+          "namespace": "primitiveString",
+          "name": "Visit Duration",
+          "props": {
+            "key": "baef21ee-fcf3-4485-89d4-0d8d4d9307e0",
+            "value": "I am a pure text"
+          },
+          "parentId": "e3bb3e67-6946-4996-b46b-912e8c20886c",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "887ae62c-f13b-4dd0-961a-83c9b95f26ba": {
+          "id": "887ae62c-f13b-4dd0-961a-83c9b95f26ba",
+          "namespace": "primitiveString",
+          "name": "Complete rate",
+          "props": {
+            "key": "887ae62c-f13b-4dd0-961a-83c9b95f26ba",
+            "value": "I am a pure text"
+          },
+          "parentId": "da4e34ef-b944-42d9-85d9-3cd20bad2019",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "54aaa454-55d1-485d-b972-b39d0ccb40e3": {
+          "id": "54aaa454-55d1-485d-b972-b39d0ccb40e3",
+          "namespace": "primitiveString",
+          "name": "12%",
+          "props": {
+            "key": "54aaa454-55d1-485d-b972-b39d0ccb40e3",
+            "value": "I am a pure text"
+          },
+          "parentId": "abbe5b2e-efac-4297-a5d3-9a0dfb8fb748",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        },
+        "335237de-e037-46e6-9a0e-6ac248ea9d6e": {
+          "id": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "namespace": "material-ui",
+          "name": "List",
+          "props": {
+            "style": {
+              "width": 180,
+              "padding": 2
+            },
+            "key": "335237de-e037-46e6-9a0e-6ac248ea9d6e"
+          },
+          "parentId": "799f3770-a050-4563-b872-4e4aa3297dc1",
+          "children": [
+            "fb4985b9-676f-4db8-95c3-7cb736809b77",
+            "899742fd-117f-410f-a910-970bbcafb98e",
+            "0d5320ac-73e7-4fcd-bfbc-c5b4ff9fcf4d",
+            "7e485eef-4b0c-4552-b953-62fb6bafb67b",
+            "37a6bf4a-82a3-4b03-9d1e-d1b61da2305a",
+            "28b101a3-6705-4350-a531-2c3261880b6f"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "List"
+        },
+        "cbf13e2c-bf3d-48af-86e0-126b10b50bb7": {
+          "id": "cbf13e2c-bf3d-48af-86e0-126b10b50bb7",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "fontSize": 20,
+              "color": "#636060"
+            },
+            "key": "cbf13e2c-bf3d-48af-86e0-126b10b50bb7",
+            "value": "I am a pure text"
+          },
+          "parentId": "b182ad45-5e6f-47c5-a1d5-4efb83d2d1fb",
+          "children": [
+            "0cc363ae-1834-4e90-85bf-07cb9ad7a716"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "37a6bf4a-82a3-4b03-9d1e-d1b61da2305a": {
+          "id": "37a6bf4a-82a3-4b03-9d1e-d1b61da2305a",
+          "namespace": "material-ui",
+          "name": "ListItem",
+          "props": {
+            "style": {},
+            "key": "37a6bf4a-82a3-4b03-9d1e-d1b61da2305a",
+            "primaryText": "My Video",
+            "nestedItems": [],
+            "leftIcon": "AvPlayCircleOutline"
+          },
+          "parentId": "335237de-e037-46e6-9a0e-6ac248ea9d6e",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "ListItem"
+        },
+        "940a7e0a-4c14-4d77-b662-b12909f24e09": {
+          "id": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+          "namespace": "recharts",
+          "name": "BarChart",
+          "props": {
+            "style": {
+              "top": 120
+            },
+            "key": "940a7e0a-4c14-4d77-b662-b12909f24e09",
+            "width": 400,
+            "height": 200,
+            "margin": {
+              "top": 30,
+              "right": 80,
+              "bottom": 20,
+              "left": 20
+            },
+            "data": [
+              {
+                "page": "Page A",
+                "uv": 7500,
+                "pv": 4400,
+                "amt": 5600
+              },
+              {
+                "page": "Page B",
+                "uv": 5000,
+                "pv": 3398,
+                "amt": 8110
+              },
+              {
+                "page": "Page C",
+                "uv": 2000,
+                "pv": 7800,
+                "amt": 3590
+              },
+              {
+                "page": "Page D",
+                "uv": 8780,
+                "pv": 7908,
+                "amt": 2000
+              }
+            ],
+            "dataTransformer": {
+              "url": "http://10.120.136.90:3010/pages",
+              "xAxisKey": "page",
+              "series": [
+                {
+                  "key": "amt",
+                  "color": "#0087dc"
+                }
+              ],
+              "axes": [
+                {
+                  "type": "xAxis",
+                  "text": ""
+                },
+                {
+                  "type": "yAxis",
+                  "text": "Age"
+                }
+              ],
+              "transformer": "function transformer(data) {\n      if (data !== undefined) {\n        return data;\n      }\n    }"
+            }
+          },
+          "parentId": "0361565b-55ab-4fee-ae2f-489c1b305ab6",
+          "children": [
+            "5fd7f86b-25a7-452c-99d6-4b94c553a1e8",
+            "35b575c0-4a08-4937-8bf7-94ec888922a0",
+            "6d3ebc6b-80bf-4b12-ba92-10b6986d37e3",
+            "bece2278-47af-49c8-8c49-9e4bed380781",
+            "d815419d-5d49-43ff-9074-0604d446c6d7"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "re-BarChart"
+        },
+        "dbcda15e-9402-4d23-be2b-d0268d6da567": {
+          "id": "dbcda15e-9402-4d23-be2b-d0268d6da567",
+          "namespace": "GridLayout",
+          "name": "Col",
+          "props": {
+            "contentHeight": 800,
+            "contentPosition": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "justifyContent": "flex-start"
+            },
+            "contentHeightUnit": "px",
+            "colAlign": {},
+            "scale": 9,
+            "index": 1,
+            "isEditMode": true,
+            "colDirection": {
+              "normal": "\n    flex-direction: column;\n    display: flex;",
+              "hover": "background:\n    repeating-linear-gradient(\n      90deg, rgba(224, 224, 224, .5),\n      rgba(224, 224, 224, .5) 8px,\n      rgba(245, 245, 245, .5) 8px,\n      rgba(245, 245, 245, .5) 16px);"
+            },
+            "key": "3823f074-f682-441e-999b-ecea76662a73"
+          },
+          "parentId": "cdadca3c-fc8b-4627-8104-8273014b6dba",
+          "children": [
+            "8638a968-21d3-4bb9-b801-5f38e615338c",
+            "b182ad45-5e6f-47c5-a1d5-4efb83d2d1fb",
+            "7bfbfc30-df82-40f6-837e-d381d490c49b",
+            "f6a5cf45-bda3-4278-b337-86a69f005db5",
+            "ff95ae9e-9ab0-4468-bd65-4823d49cde9d"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "GridLayoutCol"
+        },
+        "3897716c-3d23-4de7-a289-a535e5132e73": {
+          "id": "3897716c-3d23-4de7-a289-a535e5132e73",
+          "namespace": "native",
+          "name": "span",
+          "props": {
+            "style": {
+              "color": "green"
+            },
+            "key": "3897716c-3d23-4de7-a289-a535e5132e73",
+            "value": "I am a pure text"
+          },
+          "parentId": "7ce99927-132e-41ce-809c-1ca5575a3106",
+          "children": [
+            "088a5613-e035-4d60-9103-3bc32ac5424b"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Text"
+        },
+        "bdc2138f-e2ce-46f9-9f18-3b2a76cba320": {
+          "id": "bdc2138f-e2ce-46f9-9f18-3b2a76cba320",
+          "namespace": "icons",
+          "name": "NavigationArrowDropDown",
+          "props": {
+            "style": {},
+            "key": "bdc2138f-e2ce-46f9-9f18-3b2a76cba320",
+            "icon": "NavigationArrowDropDown",
+            "color": "green"
+          },
+          "parentId": "ce07dcda-f3ba-42fd-b4fc-460f0cc7357b",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Icons"
+        },
+        "2e6992da-9249-4a24-8155-1b6b4fce72a0": {
+          "id": "2e6992da-9249-4a24-8155-1b6b4fce72a0",
+          "namespace": "GridLayout",
+          "name": "GridLayout",
+          "props": {
+            "col": 2,
+            "contentHeight": [
+              10,
+              10
+            ],
+            "contentPosition": [
+              "center",
+              "center"
+            ],
+            "contentHeightUnit": [
+              "px",
+              "px"
+            ],
+            "colAlign": [
+              null,
+              null
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "isEditMode": true,
+            "colDirection": [
+              "vertical",
+              "vertical"
+            ],
+            "key": "2e6992da-9249-4a24-8155-1b6b4fce72a0"
+          },
+          "parentId": "330649b9-6ea2-40f5-bc23-3739fef49a1c",
+          "children": [
+            "ff188779-5972-4888-b0f4-146391b918d2",
+            "7ce99927-132e-41ce-809c-1ca5575a3106"
+          ],
+          "extension": {
+            "action": false,
+            "dataBinding": false,
+            "style": false
+          },
+          "alias": "Grid Layout"
+        },
+        "0cc363ae-1834-4e90-85bf-07cb9ad7a716": {
+          "id": "0cc363ae-1834-4e90-85bf-07cb9ad7a716",
+          "namespace": "primitiveString",
+          "name": "User Behavior",
+          "props": {
+            "key": "0cc363ae-1834-4e90-85bf-07cb9ad7a716",
+            "value": "I am a pure text"
+          },
+          "parentId": "cbf13e2c-bf3d-48af-86e0-126b10b50bb7",
+          "children": [],
+          "extension": {
+            "action": false,
+            "dataBinding": false
+          },
+          "alias": "Primitive String"
+        }
+      }
+    }
+  ]
+}

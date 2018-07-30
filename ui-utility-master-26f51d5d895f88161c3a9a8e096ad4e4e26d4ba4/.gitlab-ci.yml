@@ -1,0 +1,65 @@
+#cache:
+#  untracked: true
+#  paths:
+#    - node_modules/
+
+variables:
+  REMOTE_PATH: "gitlab.runner@10.136.225.86:/servers/file-server/ui-utility"
+  DEPLOY_PATH: "/media/data/ssir/web-project"
+
+stages:
+  - build
+  - deploy_dev
+  - deploy_prod
+  - upload
+
+runProduction:
+  stage: build
+  only:
+    - master
+  before_script:
+    - export PACKAGE_HASH=$(md5 -r package.json | cut -d ' ' -f1)
+    - export DEPS_CACHE=/Users/gitlab.runner/gitlab-ci-cache/node_modules_${CI_PROJECT_NAME}_${PACKAGE_HASH}
+    - if [ -f ${DEPS_CACHE} ];
+      then
+        tar zxf ${DEPS_CACHE};
+      else
+        npm install --quiet;
+        tar zcf - ./node_modules > ${DEPS_CACHE};
+      fi
+  script:
+    - npm run lint
+    - npm run production
+  artifacts:
+    paths:
+    - web/js/bundle.js
+    
+deployWWW:
+  stage: deploy_prod
+  only:
+    - master
+  script:
+    - ssh webadmin@10.120.136.90 rm -rf ${DEPLOY_PATH}/ui-utility
+    - scp -r web webadmin@10.120.136.90:${DEPLOY_PATH}/ui-utility
+  environment: prod
+  when: manual
+    
+uploadZip:
+  stage: upload
+  only:
+    - master
+  script:
+    - export BUILD_VERSION=$(node -e "console.log(require('./package.json').version)")
+    - export ZIP_NAME=$(date +"%Y-%m-%d--%H-%M")_v${BUILD_VERSION}_UIUtility.zip
+    - cd web
+    - zip -r ${ZIP_NAME} *
+    - scp ${ZIP_NAME} ${REMOTE_PATH}/${ZIP_NAME}
+    
+deployStaging:
+  stage: deploy_dev
+  only:
+    - master
+  script:
+    - ssh webadmin@10.120.136.90 rm -rf ${DEPLOY_PATH}/staging/ui-utility
+    - scp -r web webadmin@10.120.136.90:${DEPLOY_PATH}/staging/ui-utility
+  environment: staging

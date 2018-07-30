@@ -1,0 +1,22 @@
+
+.ag-floating-filter-full-body input {
+  width: 95%;
+  border-radius: 5px;
+  border-style: groove;
+  height: 24px;
+  font-size: 12pt;
+}
+
+.ag-bootstrap .ag-row-selected,
+.ag-fresh .ag-row-selected,
+.ag-material .ag-row-selected {
+  background-color: #BDBDBD;
+}
+
+.ag-bootstrap .ag-header-group-cell-label,
+.ag-fresh .ag-header-group-cell-label,
+.ag-material .ag-header-group-cell-label
+{
+  text-align: center;
+
+}

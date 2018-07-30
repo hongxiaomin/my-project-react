@@ -1,0 +1,14 @@
+deploy:
+  before_script:
+    - export PACKAGE_HASH=$(md5 -r package.json | cut -d ' ' -f1)
+    - export DEPS_CACHE=/Users/gitlab.runner/gitlab-ci-cache/node_modules_${CI_PROJECT_NAME}_${PACKAGE_HASH}
+    - if [ -f ${DEPS_CACHE} ];
+      then
+        tar zxf ${DEPS_CACHE};
+      else
+        npm install --quiet;
+        tar zcf - ./node_modules > ${DEPS_CACHE};
+      fi
+  script:
+    - rsync -avz . webadmin@10.120.136.90:~/ui-utility-rest-server
+    - ssh webadmin@10.120.136.90 'bash -l -c "~/pm2 restart ui-utility-rest-server-3010"'

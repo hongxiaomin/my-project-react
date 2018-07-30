@@ -1,0 +1,21 @@
+/**
+fileName    : style.less
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+.lineConfPatternConf .autoContent {
+  width: 193px;
+}
+.lineConfPatternConf .autoContent1 {
+  margin-left: 69px;
+}
+.lineConfPatternConf .autoContent2 {
+  margin-left: 94px;
+}
+.lineConfPatternConf .autoInput {
+  width: 135px !important;
+  padding-left: 5px;
+}
+.lineConf .checkBoxGroup {
+  margin-top: 10px;
+}

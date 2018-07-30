@@ -1,0 +1,29 @@
+/**
+fileName    : style.less
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+.btnStyle {
+  display: inline-block;
+  padding: 0 2px;
+  height: 40px;
+}
+.btnStyle button {
+  height: 20px;
+  width: 60px;
+  padding: 0 !important;
+  position: relative;
+  background: transparent;
+  z-index: 1000;
+}
+.btnStyle span {
+  display: block;
+  line-height: 20px;
+}
+.btnStyle .highBg {
+  background: #70e177;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}

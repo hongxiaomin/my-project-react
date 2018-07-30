@@ -1,0 +1,15 @@
+/**
+fileName    : index.js
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+
+import { handleActions } from 'redux-actions';
+import {{name}}Model from '../../models/{{name}}Model';
+import { /* Add your action type here */ } from '../../constants/ActionTypes';
+
+export default handleActions({
+  [/* Add your action type here */]: (state, { payload }) => (
+    /*Add your next state here*/
+  ),
+}, {{name}}Model);

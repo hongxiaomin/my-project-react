@@ -1,0 +1,24 @@
+/**
+fileName    : style.less
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+.table {
+  margin: 0 0 15px;
+}
+.table th {
+  text-align: center!important;
+}
+.table td {
+  text-align: center!important;
+}
+.table td a {
+  padding-right: 5px;
+}
+.topdiv {
+  margin-bottom: 10px;
+  text-align: right;
+}
+.topdiv button {
+  margin-right: 10px;
+}

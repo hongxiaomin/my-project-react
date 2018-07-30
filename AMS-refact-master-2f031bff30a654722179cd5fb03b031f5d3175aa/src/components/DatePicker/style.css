@@ -1,0 +1,13 @@
+/**
+fileName    : style.less
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+.dataTimer div input {
+  width: 155px;
+}
+.dataTimer div span,
+.dataTimer div i {
+  right: -20px;
+  top: 55%;
+}

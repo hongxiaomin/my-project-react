@@ -1,0 +1,25 @@
+/**
+fileName    : index.js
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+
+import { connect } from 'react-redux';
+import { /* Add your action here */ } from '../../actions/{{name}}Action';
+import {{name}} from '../../components/{{name}}';
+
+const mapStateToProps = (state, props) => (
+  {
+    // ... receiver
+  }
+);
+const mapDispatchToProps = (dispatch, props) => (
+  {
+    // ... dispatcher
+  }
+);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)({{name}});

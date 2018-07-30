@@ -1,0 +1,91 @@
+/**
+fileName    : style.less
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+.ShowImgListDiv {
+  width: 190px;
+  height: 190px;
+  border: 1px solid #ddd;
+  margin-right: -1px;
+  display: inline-block;
+}
+.ShowImgListDiv .showHeader {
+  height: 20px;
+  background: #efefef;
+  margin-bottom: 10px;
+}
+.ShowImgListDiv .showImgWrap {
+  position: relative;
+}
+.ShowImgListDiv .showImgWrap .showIndex {
+  position: absolute;
+  top: -10px;
+  left: -1px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+.ShowImgListDiv .showImgWrap .showArrows {
+  font-size: 20px;
+  color: #999;
+  display: inline-block;
+}
+.ShowImgListDiv .showImgWrap .showImg {
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  margin: 0 0 5px 10px;
+}
+.ShowImgListDiv .showImgWrap .showImg img {
+  width: 120px;
+  height: 120px;
+}
+.ShowImgListDiv .ShowImgListTitle {
+  width: 190px;
+  height: 24px;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+}
+.ShowImgListDiv .ShowImgListTitle .title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot {
+  padding-right: 10px;
+  display: inline-block;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .offline {
+  background: #eee;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .disconnect {
+  background: #222;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .warning {
+  background: #ff0;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .normal {
+  background: green;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .abnormal {
+  background: #f00;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .lining {
+  background: #00b7ff;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .manual {
+  background: #f0cdf0;
+}
+.ShowImgListDiv .ShowImgListTitle .titleDot .default {
+  background: green;
+}

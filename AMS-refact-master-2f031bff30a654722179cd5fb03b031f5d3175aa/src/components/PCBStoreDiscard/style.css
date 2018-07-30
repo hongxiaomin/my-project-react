@@ -1,0 +1,11 @@
+.pTable {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+}
+.PCBMonitor table .ant-table-tbody {
+  padding: 0 0;
+}
+.PCBMonitor table .ant-table-tbody td {
+  padding: 0!important;
+}

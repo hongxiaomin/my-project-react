@@ -1,0 +1,10 @@
+/**
+fileName    : style.less
+writer      : **Input your name here**
+reviewers   : **Input reviewers here**
+*/
+.editInputWidth {
+  width: 80%;
+  height: 28px!important;
+  box-shadow: 0 0 0 transparent!important;
+}

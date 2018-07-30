@@ -1,0 +1,41 @@
+.SMMMaterialCarMergeOthers .ant-row {
+  margin: 2px 0;
+}
+.SMMMaterialCarMergeOthers .Rowinput {
+  outline: none;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-left: 5px;
+  padding-left: 5px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+.SMMMaterialCarMergeOthers .firstliao {
+  width: 260px!important;
+}
+.SMMMaterialCarMergeOthers .mainliao {
+  width: 656px!important;
+}
+.SMMMaterialCarMergeOthers .outbtn {
+  width: 120px!important;
+}
+.SMMMaterialCarMergeOthers .magnifySpan {
+  color: green;
+  font-size: 30px;
+}
+.SMMMaterialCarMergeOthers .ant-modal-content {
+  width: 620px;
+}
+.SMMMaterialCarMergeOthers table thead tr th {
+  height: 30px;
+  padding: 0;
+}
+.SMMMaterialCarMergeOthers table tbody tr td {
+  height: 30px;
+  padding: 0;
+}
+.SMMMaterialCarMergeOthers .pageTitle {
+  margin: 0 0 5px;
+}

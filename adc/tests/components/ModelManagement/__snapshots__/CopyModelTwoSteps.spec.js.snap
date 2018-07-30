@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) TwoStep render sourceType = filter 1`] = `
+<div
+  className="twoStep"
+>
+  <div
+    className="dialogBody"
+  >
+    <Tabs
+      activeKey="3"
+      hideAdd={false}
+      onChange={[Function]}
+      prefixCls="ant-tabs"
+    >
+      <TabPane
+        placeholder={null}
+        tab="Image Path"
+      >
+        <div>
+          <span
+            style={
+              Object {
+                "paddingLeft": "15px",
+              }
+            }
+          >
+            Input Image Path：
+          </span>
+          <Input
+            defaultValue="path"
+            disabled={false}
+            onChange={[Function]}
+            prefixCls="ant-input"
+            style={
+              Object {
+                "margin": "30px 0px",
+                "width": "200px",
+              }
+            }
+            type="text"
+          />
+        </div>
+      </TabPane>
+      <TabPane
+        placeholder={null}
+        tab="Filter"
+      >
+        <Filter
+          activeKey="3"
+          data={Object {}}
+          defect={
+            Array [
+              Object {
+                "id": 1,
+                "name": "1",
+              },
+            ]
+          }
+          dispatch={[Function]}
+          process={
+            Array [
+              Object {
+                "id": 1,
+                "name": "1",
+              },
+            ]
+          }
+          product={
+            Array [
+              Object {
+                "id": 1,
+                "name": "1",
+              },
+            ]
+          }
+          that={
+            Object {
+              "state": Object {
+                "description": "1",
+                "interation": 11111,
+                "modelName": "1",
+              },
+            }
+          }
+        />
+      </TabPane>
+    </Tabs>
+  </div>
+</div>
+`;
+
+exports[`(Component) TwoStep render sourceType = path 1`] = `
+<div
+  className="twoStep"
+>
+  <div
+    className="dialogBody"
+  >
+    <Tabs
+      activeKey="2"
+      hideAdd={false}
+      onChange={[Function]}
+      prefixCls="ant-tabs"
+    >
+      <TabPane
+        placeholder={null}
+        tab="Image Path"
+      >
+        <div>
+          <span
+            style={
+              Object {
+                "paddingLeft": "15px",
+              }
+            }
+          >
+            Input Image Path：
+          </span>
+          <Input
+            defaultValue="path"
+            disabled={false}
+            onChange={[Function]}
+            prefixCls="ant-input"
+            style={
+              Object {
+                "margin": "30px 0px",
+                "width": "200px",
+              }
+            }
+            type="text"
+          />
+        </div>
+      </TabPane>
+      <TabPane
+        placeholder={null}
+        tab="Filter"
+      />
+    </Tabs>
+  </div>
+</div>
+`;

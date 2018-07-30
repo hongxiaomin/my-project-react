@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CreateUser render button click 1`] = `
+<div>
+  <button
+    className="pt-button pt-intent-primary"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "80px",
+      }
+    }
+    type="button"
+  />
+  <Form(WrappedComponent)
+    handleSubmit={[Function]}
+    isOpen={true}
+    toggleDialog={[Function]}
+  />
+</div>
+`;
+
+exports[`(Component) CreateUser render normally 1`] = `
+<div>
+  <button
+    className="pt-button pt-intent-primary"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "80px",
+      }
+    }
+    type="button"
+  />
+  <Form(WrappedComponent)
+    handleSubmit={[Function]}
+    isOpen={false}
+    toggleDialog={[Function]}
+  />
+</div>
+`;

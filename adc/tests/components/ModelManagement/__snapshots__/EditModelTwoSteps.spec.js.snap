@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) TwoStep render normally 1`] = `
+<div
+  className="twoStep"
+>
+  <div
+    className="dialogBody"
+  >
+    <Tabs
+      activeKey="3"
+      hideAdd={false}
+      onChange={[Function]}
+      prefixCls="ant-tabs"
+    >
+      <TabPane
+        placeholder={null}
+        tab="Image Path"
+      >
+        <div>
+          <span
+            style={
+              Object {
+                "paddingLeft": "15px",
+              }
+            }
+          >
+            Input Image Path：
+          </span>
+          <Input
+            defaultValue=""
+            disabled={false}
+            onChange={[Function]}
+            prefixCls="ant-input"
+            style={
+              Object {
+                "margin": "30px 0px",
+                "width": "200px",
+              }
+            }
+            type="text"
+          />
+        </div>
+      </TabPane>
+      <TabPane
+        placeholder={null}
+        tab="Filter"
+      >
+        <Filter
+          activeKey="3"
+          data={Object {}}
+          defect={
+            Object {
+              "id": 1,
+              "name": "1",
+            }
+          }
+          dispatch={[Function]}
+          process={
+            Object {
+              "id": 1,
+              "name": "1",
+            }
+          }
+          product={
+            Object {
+              "id": 1,
+              "name": "1",
+            }
+          }
+          that={
+            Object {
+              "state": Object {
+                "description": "1",
+                "interation": 11111,
+                "modelName": "1",
+              },
+            }
+          }
+        />
+      </TabPane>
+    </Tabs>
+  </div>
+</div>
+`;

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) SearchImages render normally 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline",
+      "paddingTop": "3px",
+    }
+  }
+>
+  <a
+    onClick={[Function]}
+    style={
+      Object {
+        "marginLeft": "40px",
+      }
+    }
+  >
+    Filter
+  </a>
+  <Modal
+    confirmLoading={false}
+    maskTransitionName="fade"
+    onCancel={[Function]}
+    onOk={[Function]}
+    prefixCls="ant-modal"
+    title="Filter"
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <Form(WrappedComponent)
+      defect={
+        Object {
+          "defectCode": "1",
+          "defectId": 1,
+        }
+      }
+      onChange={[Function]}
+      process={
+        Object {
+          "processId": 1,
+          "processName": "1",
+        }
+      }
+      product={
+        Object {
+          "productId": 1,
+          "productName": "1",
+        }
+      }
+    />
+    <Button
+      clicked={false}
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      style={
+        Object {
+          "marginLeft": "44%",
+        }
+      }
+    >
+      Check
+    </Button>
+    <span>
+       
+    </span>
+  </Modal>
+</div>
+`;

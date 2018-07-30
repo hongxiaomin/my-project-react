@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) EditUser render normally 1`] = `
+<EditUser
+  defaultValue={Object {}}
+  dispatch={[Function]}
+  isOpen={false}
+  toggleDialog={[Function]}
+>
+  <Form(WrappedComponent)
+    defaultValue={Object {}}
+    dialogBtnContent="Update"
+    dialogTitle="Edit User"
+    handleSubmit={[Function]}
+    isOpen={false}
+    toggleDialog={[Function]}
+  >
+    <Component
+      defaultValue={Object {}}
+      dialogBtnContent="Update"
+      dialogTitle="Edit User"
+      form={
+        Object {
+          "getFieldDecorator": [Function],
+          "getFieldError": [Function],
+          "getFieldInstance": [Function],
+          "getFieldProps": [Function],
+          "getFieldValue": [Function],
+          "getFieldsError": [Function],
+          "getFieldsValue": [Function],
+          "isFieldTouched": [Function],
+          "isFieldValidating": [Function],
+          "isFieldsTouched": [Function],
+          "isFieldsValidating": [Function],
+          "isSubmitting": [Function],
+          "resetFields": [Function],
+          "setFields": [Function],
+          "setFieldsInitialValue": [Function],
+          "setFieldsValue": [Function],
+          "submit": [Function],
+          "validateFields": [Function],
+          "validateFieldsAndScroll": [Function],
+        }
+      }
+      handleSubmit={[Function]}
+      isOpen={false}
+      toggleDialog={[Function]}
+      wrappedComponentRef={[Function]}
+    >
+      <DialogFilter
+        defaultValue={Object {}}
+        dialogBtnContent="Update"
+        dialogTitle="Edit User"
+        form={
+          Object {
+            "getFieldDecorator": [Function],
+            "getFieldError": [Function],
+            "getFieldInstance": [Function],
+            "getFieldProps": [Function],
+            "getFieldValue": [Function],
+            "getFieldsError": [Function],
+            "getFieldsValue": [Function],
+            "isFieldTouched": [Function],
+            "isFieldValidating": [Function],
+            "isFieldsTouched": [Function],
+            "isFieldsValidating": [Function],
+            "isSubmitting": [Function],
+            "resetFields": [Function],
+            "setFields": [Function],
+            "setFieldsInitialValue": [Function],
+            "setFieldsValue": [Function],
+            "submit": [Function],
+            "validateFields": [Function],
+            "validateFieldsAndScroll": [Function],
+          }
+        }
+        handleSubmit={[Function]}
+        isOpen={false}
+        toggleDialog={[Function]}
+        wrappedComponentRef={[Function]}
+      >
+        <Modal
+          confirmLoading={false}
+          footer={
+            Array [
+              <Button
+                clicked={false}
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+            >
+                Cancel
+            </Button>,
+              <Button
+                clicked={false}
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+                type="primary"
+            >
+                Save
+            </Button>,
+            ]
+          }
+          maskTransitionName="fade"
+          onCancel={[Function]}
+          prefixCls="ant-modal"
+          title="Edit User"
+          transitionName="zoom"
+          visible={false}
+          width={520}
+        >
+          <DialogWrap
+            confirmLoading={false}
+            footer={
+              Array [
+                <Button
+                  clicked={false}
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+              >
+                  Cancel
+              </Button>,
+                <Button
+                  clicked={false}
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+                  type="primary"
+              >
+                  Save
+              </Button>,
+              ]
+            }
+            maskTransitionName="fade"
+            onCancel={[Function]}
+            onClose={[Function]}
+            prefixCls="ant-modal"
+            title="Edit User"
+            transitionName="zoom"
+            visible={false}
+            width={520}
+          />
+        </Modal>
+      </DialogFilter>
+    </Component>
+  </Form(WrappedComponent)>
+</EditUser>
+`;

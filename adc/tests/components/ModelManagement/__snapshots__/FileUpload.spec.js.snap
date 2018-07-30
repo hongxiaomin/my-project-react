@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) FileUpload render normally 1`] = `
+<span>
+  <a
+    onClick={[Function]}
+  >
+    Load Path File
+  </a>
+  <input
+    id="file"
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+</span>
+`;

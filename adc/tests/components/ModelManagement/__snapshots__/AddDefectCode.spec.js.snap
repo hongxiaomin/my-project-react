@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AddDefectCode render normally 1`] = `
+<Component
+  form={
+    Object {
+      "getFieldDecorator": [Function],
+      "getFieldValue": [Function],
+      "getFieldsValue": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+    }
+  }
+  that={Object {}}
+  wrappedComponentRef={[Function]}
+/>
+`;

@@ -1,0 +1,2712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) TestResult render mount 1`] = `
+<TestResult
+  checkData={Array []}
+  confidenceList={Array []}
+  dispatch={[Function]}
+  modelResultType={
+    Array [
+      Object {
+        "defectCode": "1",
+      },
+      Object {
+        "defectCode": "2",
+      },
+    ]
+  }
+  rowDetail={
+    Object {
+      "_original": Object {
+        "modelId": Object {
+          "toString": [Function],
+        },
+        "processId": 1,
+        "productId": 1,
+      },
+    }
+  }
+>
+  <div
+    className="TestResult-container"
+  >
+    <div
+      className="top-left"
+    >
+      <span
+        className="productGlass"
+      >
+        Confidence Threshold Setting：
+      </span>
+      <div
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <button
+          className="pt-button pt-intent-primary button"
+          onClick={[Function]}
+          type="button"
+        >
+          Restore Default
+        </button>
+        <button
+          className="pt-button pt-intent-primary button"
+          onClick={[Function]}
+          style={
+            Object {
+              "marginLeft": "20px",
+              "width": "80px",
+            }
+          }
+          type="button"
+        >
+          Update
+        </button>
+      </div>
+    </div>
+    <div
+      className="confidence"
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginLeft": "30px",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "fontSize": "16px",
+              }
+            }
+          >
+            Confidence
+          </span>
+        </div>
+        <Row
+          gutter={0}
+          style={
+            Object {
+              "margin": "10px 30px",
+            }
+          }
+        >
+          <div
+            className="ant-row"
+            style={
+              Object {
+                "margin": "10px 30px",
+              }
+            }
+          >
+            <Col
+              span={1}
+            >
+              <div
+                className="ant-col-1"
+              >
+                <div
+                  style={
+                    Object {
+                      "marginTop": "4px",
+                    }
+                  }
+                >
+                  1
+                </div>
+              </div>
+            </Col>
+            <Col
+              span={10}
+            >
+              <div
+                className="ant-col-10"
+              >
+                <Slider
+                  marks={
+                    Object {
+                      "0": "0%",
+                      "100": "100%",
+                      "20": "20%",
+                      "40": "40%",
+                      "60": "60%",
+                      "80": "80%",
+                    }
+                  }
+                  max={100}
+                  min={0}
+                  onChange={[Function]}
+                  prefixCls="ant-slider"
+                  step={1}
+                  tipFormatter={[Function]}
+                  tooltipPrefixCls="ant-tooltip"
+                >
+                  <ComponentEnhancer(undefined)
+                    activeDotStyle={Object {}}
+                    className=""
+                    disabled={false}
+                    dotStyle={Object {}}
+                    dots={false}
+                    handle={[Function]}
+                    handleStyle={
+                      Array [
+                        Object {},
+                      ]
+                    }
+                    included={true}
+                    marks={
+                      Object {
+                        "0": "0%",
+                        "100": "100%",
+                        "20": "20%",
+                        "40": "40%",
+                        "60": "60%",
+                        "80": "80%",
+                      }
+                    }
+                    max={100}
+                    min={0}
+                    onAfterChange={[Function]}
+                    onBeforeChange={[Function]}
+                    onChange={[Function]}
+                    prefixCls="ant-slider"
+                    railStyle={Object {}}
+                    step={1}
+                    tipFormatter={[Function]}
+                    tooltipPrefixCls="ant-tooltip"
+                    trackStyle={
+                      Array [
+                        Object {},
+                      ]
+                    }
+                    vertical={false}
+                  >
+                    <div
+                      className="ant-slider ant-slider-with-marks"
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <div
+                        className="ant-slider-rail"
+                        style={Object {}}
+                      />
+                      <Track
+                        className="ant-slider-track"
+                        included={true}
+                        length={0}
+                        offset={0}
+                        style={Object {}}
+                        vertical={false}
+                      >
+                        <div
+                          className="ant-slider-track"
+                          style={
+                            Object {
+                              "left": "0%",
+                              "visibility": "visible",
+                              "width": "0%",
+                            }
+                          }
+                        />
+                      </Track>
+                      <Steps
+                        activeDotStyle={Object {}}
+                        dotStyle={Object {}}
+                        dots={false}
+                        included={true}
+                        lowerBound={0}
+                        marks={
+                          Object {
+                            "0": "0%",
+                            "100": "100%",
+                            "20": "20%",
+                            "40": "40%",
+                            "60": "60%",
+                            "80": "80%",
+                          }
+                        }
+                        max={100}
+                        min={0}
+                        prefixCls="ant-slider"
+                        step={1}
+                        upperBound={0}
+                        vertical={false}
+                      >
+                        <div
+                          className="ant-slider-step"
+                        >
+                          <span
+                            className="ant-slider-dot ant-slider-dot-active"
+                            style={
+                              Object {
+                                "left": "0%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "20%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "40%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "60%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "80%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "100%",
+                              }
+                            }
+                          />
+                        </div>
+                      </Steps>
+                      <Tooltip
+                        arrowPointAtCenter={false}
+                        autoAdjustOverflow={true}
+                        mouseEnterDelay={0.1}
+                        mouseLeaveDelay={0.1}
+                        placement="top"
+                        prefixCls="ant-tooltip"
+                        title="0"
+                        transitionName="zoom-down"
+                        visible={false}
+                      >
+                        <Tooltip
+                          align={Object {}}
+                          arrowContent={null}
+                          arrowPointAtCenter={false}
+                          autoAdjustOverflow={true}
+                          builtinPlacements={
+                            Object {
+                              "bottom": Object {
+                                "offset": Array [
+                                  0,
+                                  4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tc",
+                                  "bc",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "bottomLeft": Object {
+                                "offset": Array [
+                                  0,
+                                  4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tl",
+                                  "bl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "bottomRight": Object {
+                                "offset": Array [
+                                  0,
+                                  4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tr",
+                                  "br",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "left": Object {
+                                "offset": Array [
+                                  -4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "cr",
+                                  "cl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "leftBottom": Object {
+                                "offset": Array [
+                                  -4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "br",
+                                  "bl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "leftTop": Object {
+                                "offset": Array [
+                                  -4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tr",
+                                  "tl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "right": Object {
+                                "offset": Array [
+                                  4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "cl",
+                                  "cr",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "rightBottom": Object {
+                                "offset": Array [
+                                  4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "bl",
+                                  "br",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "rightTop": Object {
+                                "offset": Array [
+                                  4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tl",
+                                  "tr",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "top": Object {
+                                "offset": Array [
+                                  0,
+                                  -4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "bc",
+                                  "tc",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "topLeft": Object {
+                                "offset": Array [
+                                  0,
+                                  -4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "bl",
+                                  "tl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "topRight": Object {
+                                "offset": Array [
+                                  0,
+                                  -4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "br",
+                                  "tr",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                            }
+                          }
+                          destroyTooltipOnHide={false}
+                          mouseEnterDelay={0.1}
+                          mouseLeaveDelay={0.1}
+                          onPopupAlign={[Function]}
+                          onVisibleChange={[Function]}
+                          overlay="0"
+                          placement="top"
+                          prefixCls="ant-tooltip"
+                          title="0"
+                          transitionName="zoom-down"
+                          trigger={
+                            Array [
+                              "hover",
+                            ]
+                          }
+                          visible={false}
+                        >
+                          <Trigger
+                            action={
+                              Array [
+                                "hover",
+                              ]
+                            }
+                            afterPopupVisibleChange={[Function]}
+                            arrowContent={null}
+                            arrowPointAtCenter={false}
+                            autoAdjustOverflow={true}
+                            blurDelay={0.15}
+                            builtinPlacements={
+                              Object {
+                                "bottom": Object {
+                                  "offset": Array [
+                                    0,
+                                    4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tc",
+                                    "bc",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "bottomLeft": Object {
+                                  "offset": Array [
+                                    0,
+                                    4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tl",
+                                    "bl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "bottomRight": Object {
+                                  "offset": Array [
+                                    0,
+                                    4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tr",
+                                    "br",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "left": Object {
+                                  "offset": Array [
+                                    -4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "cr",
+                                    "cl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "leftBottom": Object {
+                                  "offset": Array [
+                                    -4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "br",
+                                    "bl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "leftTop": Object {
+                                  "offset": Array [
+                                    -4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tr",
+                                    "tl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "right": Object {
+                                  "offset": Array [
+                                    4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "cl",
+                                    "cr",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "rightBottom": Object {
+                                  "offset": Array [
+                                    4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "bl",
+                                    "br",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "rightTop": Object {
+                                  "offset": Array [
+                                    4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tl",
+                                    "tr",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "top": Object {
+                                  "offset": Array [
+                                    0,
+                                    -4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "bc",
+                                    "tc",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "topLeft": Object {
+                                  "offset": Array [
+                                    0,
+                                    -4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "bl",
+                                    "tl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "topRight": Object {
+                                  "offset": Array [
+                                    0,
+                                    -4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "br",
+                                    "tr",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                              }
+                            }
+                            defaultPopupVisible={false}
+                            destroyPopupOnHide={false}
+                            focusDelay={0}
+                            getDocument={[Function]}
+                            getPopupClassNameFromAlign={[Function]}
+                            hideAction={Array []}
+                            mask={false}
+                            maskClosable={true}
+                            mouseEnterDelay={0.1}
+                            mouseLeaveDelay={0.1}
+                            onPopupAlign={[Function]}
+                            onPopupVisibleChange={[Function]}
+                            overlay="0"
+                            popup={[Function]}
+                            popupAlign={Object {}}
+                            popupClassName=""
+                            popupPlacement="top"
+                            popupStyle={Object {}}
+                            popupTransitionName="zoom-down"
+                            popupVisible={false}
+                            prefixCls="ant-tooltip"
+                            showAction={Array []}
+                            title="0"
+                            visible={false}
+                          >
+                            <Handle
+                              className="ant-slider-handle"
+                              disabled={false}
+                              max={100}
+                              min={0}
+                              offset={0}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={Object {}}
+                              value={0}
+                              vertical={false}
+                            >
+                              <div
+                                aria-disabled={false}
+                                aria-valuemax={100}
+                                aria-valuemin={0}
+                                aria-valuenow={0}
+                                className="ant-slider-handle"
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                role="slider"
+                                style={
+                                  Object {
+                                    "left": "0%",
+                                  }
+                                }
+                              />
+                            </Handle>
+                          </Trigger>
+                        </Tooltip>
+                      </Tooltip>
+                      <Marks
+                        className="ant-slider-mark"
+                        included={true}
+                        lowerBound={0}
+                        marks={
+                          Object {
+                            "0": "0%",
+                            "100": "100%",
+                            "20": "20%",
+                            "40": "40%",
+                            "60": "60%",
+                            "80": "80%",
+                          }
+                        }
+                        max={100}
+                        min={0}
+                        upperBound={0}
+                        vertical={false}
+                      >
+                        <div
+                          className="ant-slider-mark"
+                        >
+                          <span
+                            className="ant-slider-mark-text ant-slider-mark-text-active"
+                            style={
+                              Object {
+                                "left": "0%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            0%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "20%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            20%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "40%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            40%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "60%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            60%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "80%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            80%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "100%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            100%
+                          </span>
+                        </div>
+                      </Marks>
+                    </div>
+                  </ComponentEnhancer(undefined)>
+                </Slider>
+              </div>
+            </Col>
+            <Col
+              span={4}
+            >
+              <div
+                className="ant-col-4"
+              >
+                <InputNumber
+                  max={100}
+                  min={0}
+                  onChange={[Function]}
+                  prefixCls="ant-input-number"
+                  step={1}
+                  style={
+                    Object {
+                      "height": "30px",
+                      "marginLeft": "16px",
+                    }
+                  }
+                >
+                  <Component
+                    className=""
+                    focusOnUpDown={true}
+                    max={100}
+                    min={0}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    parser={[Function]}
+                    prefixCls="ant-input-number"
+                    step={1}
+                    style={
+                      Object {
+                        "height": "30px",
+                        "marginLeft": "16px",
+                      }
+                    }
+                    useTouch={false}
+                  >
+                    <div
+                      className="ant-input-number"
+                      style={
+                        Object {
+                          "height": "30px",
+                          "marginLeft": "16px",
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-input-number-handler-wrap"
+                      >
+                        <InputHandler
+                          aria-disabled={false}
+                          aria-label="Increase Value"
+                          className="ant-input-number-handler ant-input-number-handler-up "
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          prefixCls="ant-input-number"
+                          role="button"
+                          unselectable="unselectable"
+                        >
+                          <Touchable
+                            activeClassName="ant-input-number-handler-active"
+                            delayLongPress={370}
+                            delayPressIn={130}
+                            delayPressOut={100}
+                            disabled={false}
+                            fixClickPenetration={false}
+                            longPressCancelsPress={true}
+                            pressRetentionOffset={
+                              Object {
+                                "bottom": 20,
+                                "left": 20,
+                                "right": 20,
+                                "top": 20,
+                              }
+                            }
+                          >
+                            <span
+                              aria-disabled={false}
+                              aria-label="Increase Value"
+                              className="ant-input-number-handler ant-input-number-handler-up "
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchCancel={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              role="button"
+                              unselectable="unselectable"
+                            >
+                              <span
+                                className="ant-input-number-handler-up-inner"
+                                onClick={[Function]}
+                                unselectable="unselectable"
+                              />
+                            </span>
+                          </Touchable>
+                        </InputHandler>
+                        <InputHandler
+                          aria-disabled={false}
+                          aria-label="Decrease Value"
+                          className="ant-input-number-handler ant-input-number-handler-down "
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          prefixCls="ant-input-number"
+                          role="button"
+                          unselectable="unselectable"
+                        >
+                          <Touchable
+                            activeClassName="ant-input-number-handler-active"
+                            delayLongPress={370}
+                            delayPressIn={130}
+                            delayPressOut={100}
+                            disabled={false}
+                            fixClickPenetration={false}
+                            longPressCancelsPress={true}
+                            pressRetentionOffset={
+                              Object {
+                                "bottom": 20,
+                                "left": 20,
+                                "right": 20,
+                                "top": 20,
+                              }
+                            }
+                          >
+                            <span
+                              aria-disabled={false}
+                              aria-label="Decrease Value"
+                              className="ant-input-number-handler ant-input-number-handler-down "
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchCancel={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              role="button"
+                              unselectable="unselectable"
+                            >
+                              <span
+                                className="ant-input-number-handler-down-inner"
+                                onClick={[Function]}
+                                unselectable="unselectable"
+                              />
+                            </span>
+                          </Touchable>
+                        </InputHandler>
+                      </div>
+                      <div
+                        aria-valuemax={100}
+                        aria-valuemin={0}
+                        className="ant-input-number-input-wrap"
+                        role="spinbutton"
+                      >
+                        <input
+                          autoComplete="off"
+                          className="ant-input-number-input"
+                          max={100}
+                          min={0}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </Component>
+                </InputNumber>
+              </div>
+            </Col>
+          </div>
+        </Row>
+        <Row
+          gutter={0}
+          style={
+            Object {
+              "margin": "10px 30px",
+            }
+          }
+        >
+          <div
+            className="ant-row"
+            style={
+              Object {
+                "margin": "10px 30px",
+              }
+            }
+          >
+            <Col
+              span={1}
+            >
+              <div
+                className="ant-col-1"
+              >
+                <div
+                  style={
+                    Object {
+                      "marginTop": "4px",
+                    }
+                  }
+                >
+                  2
+                </div>
+              </div>
+            </Col>
+            <Col
+              span={10}
+            >
+              <div
+                className="ant-col-10"
+              >
+                <Slider
+                  marks={
+                    Object {
+                      "0": "0%",
+                      "100": "100%",
+                      "20": "20%",
+                      "40": "40%",
+                      "60": "60%",
+                      "80": "80%",
+                    }
+                  }
+                  max={100}
+                  min={0}
+                  onChange={[Function]}
+                  prefixCls="ant-slider"
+                  step={1}
+                  tipFormatter={[Function]}
+                  tooltipPrefixCls="ant-tooltip"
+                >
+                  <ComponentEnhancer(undefined)
+                    activeDotStyle={Object {}}
+                    className=""
+                    disabled={false}
+                    dotStyle={Object {}}
+                    dots={false}
+                    handle={[Function]}
+                    handleStyle={
+                      Array [
+                        Object {},
+                      ]
+                    }
+                    included={true}
+                    marks={
+                      Object {
+                        "0": "0%",
+                        "100": "100%",
+                        "20": "20%",
+                        "40": "40%",
+                        "60": "60%",
+                        "80": "80%",
+                      }
+                    }
+                    max={100}
+                    min={0}
+                    onAfterChange={[Function]}
+                    onBeforeChange={[Function]}
+                    onChange={[Function]}
+                    prefixCls="ant-slider"
+                    railStyle={Object {}}
+                    step={1}
+                    tipFormatter={[Function]}
+                    tooltipPrefixCls="ant-tooltip"
+                    trackStyle={
+                      Array [
+                        Object {},
+                      ]
+                    }
+                    vertical={false}
+                  >
+                    <div
+                      className="ant-slider ant-slider-with-marks"
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                    >
+                      <div
+                        className="ant-slider-rail"
+                        style={Object {}}
+                      />
+                      <Track
+                        className="ant-slider-track"
+                        included={true}
+                        length={0}
+                        offset={0}
+                        style={Object {}}
+                        vertical={false}
+                      >
+                        <div
+                          className="ant-slider-track"
+                          style={
+                            Object {
+                              "left": "0%",
+                              "visibility": "visible",
+                              "width": "0%",
+                            }
+                          }
+                        />
+                      </Track>
+                      <Steps
+                        activeDotStyle={Object {}}
+                        dotStyle={Object {}}
+                        dots={false}
+                        included={true}
+                        lowerBound={0}
+                        marks={
+                          Object {
+                            "0": "0%",
+                            "100": "100%",
+                            "20": "20%",
+                            "40": "40%",
+                            "60": "60%",
+                            "80": "80%",
+                          }
+                        }
+                        max={100}
+                        min={0}
+                        prefixCls="ant-slider"
+                        step={1}
+                        upperBound={0}
+                        vertical={false}
+                      >
+                        <div
+                          className="ant-slider-step"
+                        >
+                          <span
+                            className="ant-slider-dot ant-slider-dot-active"
+                            style={
+                              Object {
+                                "left": "0%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "20%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "40%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "60%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "80%",
+                              }
+                            }
+                          />
+                          <span
+                            className="ant-slider-dot"
+                            style={
+                              Object {
+                                "left": "100%",
+                              }
+                            }
+                          />
+                        </div>
+                      </Steps>
+                      <Tooltip
+                        arrowPointAtCenter={false}
+                        autoAdjustOverflow={true}
+                        mouseEnterDelay={0.1}
+                        mouseLeaveDelay={0.1}
+                        placement="top"
+                        prefixCls="ant-tooltip"
+                        title="0"
+                        transitionName="zoom-down"
+                        visible={false}
+                      >
+                        <Tooltip
+                          align={Object {}}
+                          arrowContent={null}
+                          arrowPointAtCenter={false}
+                          autoAdjustOverflow={true}
+                          builtinPlacements={
+                            Object {
+                              "bottom": Object {
+                                "offset": Array [
+                                  0,
+                                  4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tc",
+                                  "bc",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "bottomLeft": Object {
+                                "offset": Array [
+                                  0,
+                                  4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tl",
+                                  "bl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "bottomRight": Object {
+                                "offset": Array [
+                                  0,
+                                  4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tr",
+                                  "br",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "left": Object {
+                                "offset": Array [
+                                  -4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "cr",
+                                  "cl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "leftBottom": Object {
+                                "offset": Array [
+                                  -4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "br",
+                                  "bl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "leftTop": Object {
+                                "offset": Array [
+                                  -4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tr",
+                                  "tl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "right": Object {
+                                "offset": Array [
+                                  4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "cl",
+                                  "cr",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "rightBottom": Object {
+                                "offset": Array [
+                                  4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "bl",
+                                  "br",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "rightTop": Object {
+                                "offset": Array [
+                                  4,
+                                  0,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "tl",
+                                  "tr",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "top": Object {
+                                "offset": Array [
+                                  0,
+                                  -4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "bc",
+                                  "tc",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "topLeft": Object {
+                                "offset": Array [
+                                  0,
+                                  -4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "bl",
+                                  "tl",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                              "topRight": Object {
+                                "offset": Array [
+                                  0,
+                                  -4,
+                                ],
+                                "overflow": Object {
+                                  "adjustX": 1,
+                                  "adjustY": 1,
+                                },
+                                "points": Array [
+                                  "br",
+                                  "tr",
+                                ],
+                                "targetOffset": Array [
+                                  0,
+                                  0,
+                                ],
+                              },
+                            }
+                          }
+                          destroyTooltipOnHide={false}
+                          mouseEnterDelay={0.1}
+                          mouseLeaveDelay={0.1}
+                          onPopupAlign={[Function]}
+                          onVisibleChange={[Function]}
+                          overlay="0"
+                          placement="top"
+                          prefixCls="ant-tooltip"
+                          title="0"
+                          transitionName="zoom-down"
+                          trigger={
+                            Array [
+                              "hover",
+                            ]
+                          }
+                          visible={false}
+                        >
+                          <Trigger
+                            action={
+                              Array [
+                                "hover",
+                              ]
+                            }
+                            afterPopupVisibleChange={[Function]}
+                            arrowContent={null}
+                            arrowPointAtCenter={false}
+                            autoAdjustOverflow={true}
+                            blurDelay={0.15}
+                            builtinPlacements={
+                              Object {
+                                "bottom": Object {
+                                  "offset": Array [
+                                    0,
+                                    4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tc",
+                                    "bc",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "bottomLeft": Object {
+                                  "offset": Array [
+                                    0,
+                                    4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tl",
+                                    "bl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "bottomRight": Object {
+                                  "offset": Array [
+                                    0,
+                                    4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tr",
+                                    "br",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "left": Object {
+                                  "offset": Array [
+                                    -4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "cr",
+                                    "cl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "leftBottom": Object {
+                                  "offset": Array [
+                                    -4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "br",
+                                    "bl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "leftTop": Object {
+                                  "offset": Array [
+                                    -4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tr",
+                                    "tl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "right": Object {
+                                  "offset": Array [
+                                    4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "cl",
+                                    "cr",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "rightBottom": Object {
+                                  "offset": Array [
+                                    4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "bl",
+                                    "br",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "rightTop": Object {
+                                  "offset": Array [
+                                    4,
+                                    0,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "tl",
+                                    "tr",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "top": Object {
+                                  "offset": Array [
+                                    0,
+                                    -4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "bc",
+                                    "tc",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "topLeft": Object {
+                                  "offset": Array [
+                                    0,
+                                    -4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "bl",
+                                    "tl",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                                "topRight": Object {
+                                  "offset": Array [
+                                    0,
+                                    -4,
+                                  ],
+                                  "overflow": Object {
+                                    "adjustX": 1,
+                                    "adjustY": 1,
+                                  },
+                                  "points": Array [
+                                    "br",
+                                    "tr",
+                                  ],
+                                  "targetOffset": Array [
+                                    0,
+                                    0,
+                                  ],
+                                },
+                              }
+                            }
+                            defaultPopupVisible={false}
+                            destroyPopupOnHide={false}
+                            focusDelay={0}
+                            getDocument={[Function]}
+                            getPopupClassNameFromAlign={[Function]}
+                            hideAction={Array []}
+                            mask={false}
+                            maskClosable={true}
+                            mouseEnterDelay={0.1}
+                            mouseLeaveDelay={0.1}
+                            onPopupAlign={[Function]}
+                            onPopupVisibleChange={[Function]}
+                            overlay="0"
+                            popup={[Function]}
+                            popupAlign={Object {}}
+                            popupClassName=""
+                            popupPlacement="top"
+                            popupStyle={Object {}}
+                            popupTransitionName="zoom-down"
+                            popupVisible={false}
+                            prefixCls="ant-tooltip"
+                            showAction={Array []}
+                            title="0"
+                            visible={false}
+                          >
+                            <Handle
+                              className="ant-slider-handle"
+                              disabled={false}
+                              max={100}
+                              min={0}
+                              offset={0}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={Object {}}
+                              value={0}
+                              vertical={false}
+                            >
+                              <div
+                                aria-disabled={false}
+                                aria-valuemax={100}
+                                aria-valuemin={0}
+                                aria-valuenow={0}
+                                className="ant-slider-handle"
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                role="slider"
+                                style={
+                                  Object {
+                                    "left": "0%",
+                                  }
+                                }
+                              />
+                            </Handle>
+                          </Trigger>
+                        </Tooltip>
+                      </Tooltip>
+                      <Marks
+                        className="ant-slider-mark"
+                        included={true}
+                        lowerBound={0}
+                        marks={
+                          Object {
+                            "0": "0%",
+                            "100": "100%",
+                            "20": "20%",
+                            "40": "40%",
+                            "60": "60%",
+                            "80": "80%",
+                          }
+                        }
+                        max={100}
+                        min={0}
+                        upperBound={0}
+                        vertical={false}
+                      >
+                        <div
+                          className="ant-slider-mark"
+                        >
+                          <span
+                            className="ant-slider-mark-text ant-slider-mark-text-active"
+                            style={
+                              Object {
+                                "left": "0%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            0%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "20%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            20%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "40%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            40%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "60%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            60%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "80%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            80%
+                          </span>
+                          <span
+                            className="ant-slider-mark-text"
+                            style={
+                              Object {
+                                "left": "100%",
+                                "marginLeft": "-9%",
+                                "width": "18%",
+                              }
+                            }
+                          >
+                            100%
+                          </span>
+                        </div>
+                      </Marks>
+                    </div>
+                  </ComponentEnhancer(undefined)>
+                </Slider>
+              </div>
+            </Col>
+            <Col
+              span={4}
+            >
+              <div
+                className="ant-col-4"
+              >
+                <InputNumber
+                  max={100}
+                  min={0}
+                  onChange={[Function]}
+                  prefixCls="ant-input-number"
+                  step={1}
+                  style={
+                    Object {
+                      "height": "30px",
+                      "marginLeft": "16px",
+                    }
+                  }
+                >
+                  <Component
+                    className=""
+                    focusOnUpDown={true}
+                    max={100}
+                    min={0}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    parser={[Function]}
+                    prefixCls="ant-input-number"
+                    step={1}
+                    style={
+                      Object {
+                        "height": "30px",
+                        "marginLeft": "16px",
+                      }
+                    }
+                    useTouch={false}
+                  >
+                    <div
+                      className="ant-input-number"
+                      style={
+                        Object {
+                          "height": "30px",
+                          "marginLeft": "16px",
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-input-number-handler-wrap"
+                      >
+                        <InputHandler
+                          aria-disabled={false}
+                          aria-label="Increase Value"
+                          className="ant-input-number-handler ant-input-number-handler-up "
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          prefixCls="ant-input-number"
+                          role="button"
+                          unselectable="unselectable"
+                        >
+                          <Touchable
+                            activeClassName="ant-input-number-handler-active"
+                            delayLongPress={370}
+                            delayPressIn={130}
+                            delayPressOut={100}
+                            disabled={false}
+                            fixClickPenetration={false}
+                            longPressCancelsPress={true}
+                            pressRetentionOffset={
+                              Object {
+                                "bottom": 20,
+                                "left": 20,
+                                "right": 20,
+                                "top": 20,
+                              }
+                            }
+                          >
+                            <span
+                              aria-disabled={false}
+                              aria-label="Increase Value"
+                              className="ant-input-number-handler ant-input-number-handler-up "
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchCancel={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              role="button"
+                              unselectable="unselectable"
+                            >
+                              <span
+                                className="ant-input-number-handler-up-inner"
+                                onClick={[Function]}
+                                unselectable="unselectable"
+                              />
+                            </span>
+                          </Touchable>
+                        </InputHandler>
+                        <InputHandler
+                          aria-disabled={false}
+                          aria-label="Decrease Value"
+                          className="ant-input-number-handler ant-input-number-handler-down "
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          prefixCls="ant-input-number"
+                          role="button"
+                          unselectable="unselectable"
+                        >
+                          <Touchable
+                            activeClassName="ant-input-number-handler-active"
+                            delayLongPress={370}
+                            delayPressIn={130}
+                            delayPressOut={100}
+                            disabled={false}
+                            fixClickPenetration={false}
+                            longPressCancelsPress={true}
+                            pressRetentionOffset={
+                              Object {
+                                "bottom": 20,
+                                "left": 20,
+                                "right": 20,
+                                "top": 20,
+                              }
+                            }
+                          >
+                            <span
+                              aria-disabled={false}
+                              aria-label="Decrease Value"
+                              className="ant-input-number-handler ant-input-number-handler-down "
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchCancel={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              role="button"
+                              unselectable="unselectable"
+                            >
+                              <span
+                                className="ant-input-number-handler-down-inner"
+                                onClick={[Function]}
+                                unselectable="unselectable"
+                              />
+                            </span>
+                          </Touchable>
+                        </InputHandler>
+                      </div>
+                      <div
+                        aria-valuemax={100}
+                        aria-valuemin={0}
+                        className="ant-input-number-input-wrap"
+                        role="spinbutton"
+                      >
+                        <input
+                          autoComplete="off"
+                          className="ant-input-number-input"
+                          max={100}
+                          min={0}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </Component>
+                </InputNumber>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "padding": "30px 30px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "width": "45%",
+            }
+          }
+        >
+          <h5>
+            Apply for other processes：
+          </h5>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "padding": "30px 0px",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginRight": "60px",
+                }
+              }
+            >
+              Optional Process ID
+            </div>
+            <div
+              style={
+                Object {
+                  "border": "1px solid #eee",
+                  "height": "300px",
+                  "padding": "30px 30px",
+                  "position": "relative",
+                  "width": "80%",
+                }
+              }
+            >
+              <CheckboxGroup
+                onChange={[Function]}
+                options={Array []}
+                prefixCls="ant-checkbox-group"
+                value={
+                  Array [
+                    1,
+                  ]
+                }
+              >
+                <div
+                  className="ant-checkbox-group"
+                />
+              </CheckboxGroup>
+              <Checkbox
+                indeterminate={true}
+                onChange={[Function]}
+                prefixCls="ant-checkbox"
+                style={
+                  Object {
+                    "bottom": "10px",
+                    "position": "absolute",
+                    "right": "10px",
+                  }
+                }
+              >
+                <label
+                  className="ant-checkbox-wrapper"
+                  style={
+                    Object {
+                      "bottom": "10px",
+                      "position": "absolute",
+                      "right": "10px",
+                    }
+                  }
+                >
+                  <Checkbox
+                    className="ant-checkbox-indeterminate"
+                    defaultChecked={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    prefixCls="ant-checkbox"
+                    style={Object {}}
+                    type="checkbox"
+                  >
+                    <span
+                      className="ant-checkbox ant-checkbox-indeterminate"
+                      style={Object {}}
+                    >
+                      <input
+                        checked={false}
+                        className="ant-checkbox-input"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="ant-checkbox-inner"
+                      />
+                    </span>
+                  </Checkbox>
+                  <span>
+                    Select All
+                  </span>
+                </label>
+              </Checkbox>
+            </div>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "10%",
+              "width": "45%",
+            }
+          }
+        >
+          <h5>
+            Apply for other products：
+          </h5>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "padding": "30px 0px",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginRight": "60px",
+                }
+              }
+            >
+              Optional Product ID
+            </div>
+            <div
+              style={
+                Object {
+                  "border": "1px solid #eee",
+                  "height": "300px",
+                  "padding": "30px 30px",
+                  "position": "relative",
+                  "width": "80%",
+                }
+              }
+            >
+              <CheckboxGroup
+                onChange={[Function]}
+                options={Array []}
+                prefixCls="ant-checkbox-group"
+                value={
+                  Array [
+                    1,
+                  ]
+                }
+              >
+                <div
+                  className="ant-checkbox-group"
+                />
+              </CheckboxGroup>
+              <Checkbox
+                indeterminate={true}
+                onChange={[Function]}
+                prefixCls="ant-checkbox"
+                style={
+                  Object {
+                    "bottom": "10px",
+                    "position": "absolute",
+                    "right": "10px",
+                  }
+                }
+              >
+                <label
+                  className="ant-checkbox-wrapper"
+                  style={
+                    Object {
+                      "bottom": "10px",
+                      "position": "absolute",
+                      "right": "10px",
+                    }
+                  }
+                >
+                  <Checkbox
+                    className="ant-checkbox-indeterminate"
+                    defaultChecked={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    prefixCls="ant-checkbox"
+                    style={Object {}}
+                    type="checkbox"
+                  >
+                    <span
+                      className="ant-checkbox ant-checkbox-indeterminate"
+                      style={Object {}}
+                    >
+                      <input
+                        checked={false}
+                        className="ant-checkbox-input"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="ant-checkbox-inner"
+                      />
+                    </span>
+                  </Checkbox>
+                  <span>
+                    Select All
+                  </span>
+                </label>
+              </Checkbox>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</TestResult>
+`;
+
+exports[`(Component) TestResult render normally 1`] = `
+<div
+  className="TestResult-container"
+>
+  <div
+    className="top-left"
+  >
+    <span
+      className="productGlass"
+    >
+      Confidence Threshold Setting：
+    </span>
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <button
+        className="pt-button pt-intent-primary button"
+        onClick={[Function]}
+        type="button"
+      >
+        Restore Default
+      </button>
+      <button
+        className="pt-button pt-intent-primary button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "20px",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Update
+      </button>
+    </div>
+  </div>
+  <div
+    className="confidence"
+  >
+    <div
+      style={
+        Object {
+          "borderBottom": "1px solid #ccc",
+          "paddingBottom": "20px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "marginLeft": "30px",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "fontSize": "16px",
+            }
+          }
+        >
+          Confidence
+        </span>
+      </div>
+      <Row
+        gutter={0}
+        style={
+          Object {
+            "margin": "10px 30px",
+          }
+        }
+      >
+        <Col
+          span={1}
+        >
+          <div
+            style={
+              Object {
+                "marginTop": "4px",
+              }
+            }
+          >
+            1
+          </div>
+        </Col>
+        <Col
+          span={10}
+        >
+          <Slider
+            marks={
+              Object {
+                "0": "0%",
+                "100": "100%",
+                "20": "20%",
+                "40": "40%",
+                "60": "60%",
+                "80": "80%",
+              }
+            }
+            max={100}
+            min={0}
+            onChange={[Function]}
+            prefixCls="ant-slider"
+            step={1}
+            tipFormatter={[Function]}
+            tooltipPrefixCls="ant-tooltip"
+          />
+        </Col>
+        <Col
+          span={4}
+        >
+          <InputNumber
+            max={100}
+            min={0}
+            onChange={[Function]}
+            prefixCls="ant-input-number"
+            step={1}
+            style={
+              Object {
+                "height": "30px",
+                "marginLeft": "16px",
+              }
+            }
+          />
+        </Col>
+      </Row>
+      <Row
+        gutter={0}
+        style={
+          Object {
+            "margin": "10px 30px",
+          }
+        }
+      >
+        <Col
+          span={1}
+        >
+          <div
+            style={
+              Object {
+                "marginTop": "4px",
+              }
+            }
+          >
+            2
+          </div>
+        </Col>
+        <Col
+          span={10}
+        >
+          <Slider
+            marks={
+              Object {
+                "0": "0%",
+                "100": "100%",
+                "20": "20%",
+                "40": "40%",
+                "60": "60%",
+                "80": "80%",
+              }
+            }
+            max={100}
+            min={0}
+            onChange={[Function]}
+            prefixCls="ant-slider"
+            step={1}
+            tipFormatter={[Function]}
+            tooltipPrefixCls="ant-tooltip"
+          />
+        </Col>
+        <Col
+          span={4}
+        >
+          <InputNumber
+            max={100}
+            min={0}
+            onChange={[Function]}
+            prefixCls="ant-input-number"
+            step={1}
+            style={
+              Object {
+                "height": "30px",
+                "marginLeft": "16px",
+              }
+            }
+          />
+        </Col>
+      </Row>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "padding": "30px 30px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "width": "45%",
+          }
+        }
+      >
+        <h5>
+          Apply for other processes：
+        </h5>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "padding": "30px 0px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "marginRight": "60px",
+              }
+            }
+          >
+            Optional Process ID
+          </div>
+          <div
+            style={
+              Object {
+                "border": "1px solid #eee",
+                "height": "300px",
+                "padding": "30px 30px",
+                "position": "relative",
+                "width": "80%",
+              }
+            }
+          >
+            <CheckboxGroup
+              onChange={[Function]}
+              options={Array []}
+              prefixCls="ant-checkbox-group"
+              value={
+                Array [
+                  1,
+                ]
+              }
+            />
+            <Checkbox
+              indeterminate={true}
+              onChange={[Function]}
+              prefixCls="ant-checkbox"
+              style={
+                Object {
+                  "bottom": "10px",
+                  "position": "absolute",
+                  "right": "10px",
+                }
+              }
+            >
+              Select All
+            </Checkbox>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "10%",
+            "width": "45%",
+          }
+        }
+      >
+        <h5>
+          Apply for other products：
+        </h5>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "padding": "30px 0px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "marginRight": "60px",
+              }
+            }
+          >
+            Optional Product ID
+          </div>
+          <div
+            style={
+              Object {
+                "border": "1px solid #eee",
+                "height": "300px",
+                "padding": "30px 30px",
+                "position": "relative",
+                "width": "80%",
+              }
+            }
+          >
+            <CheckboxGroup
+              onChange={[Function]}
+              options={Array []}
+              prefixCls="ant-checkbox-group"
+              value={
+                Array [
+                  1,
+                ]
+              }
+            />
+            <Checkbox
+              indeterminate={true}
+              onChange={[Function]}
+              prefixCls="ant-checkbox"
+              style={
+                Object {
+                  "bottom": "10px",
+                  "position": "absolute",
+                  "right": "10px",
+                }
+              }
+            >
+              Select All
+            </Checkbox>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

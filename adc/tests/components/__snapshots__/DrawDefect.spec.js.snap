@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DrawDefect render mount 1`] = `
+<DrawDefect
+  addLabeling={Object {}}
+  dispatch={[Function]}
+  div={Object {}}
+  imageInfo={Object {}}
+  offset={Object {}}
+  scale={0.5}
+  selectedDefectCode={Object {}}
+  selectedImageInfo={Object {}}
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <svg
+      height="100%"
+      preserveAspectRatio="xMinYMin meet"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <title>
+        Labeling Tool
+      </title>
+    </svg>
+  </div>
+</DrawDefect>
+`;
+
+exports[`(Component) DrawDefect render normally 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <svg
+    height="100%"
+    preserveAspectRatio="xMinYMin meet"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <title>
+      Labeling Tool
+    </title>
+  </svg>
+</div>
+`;

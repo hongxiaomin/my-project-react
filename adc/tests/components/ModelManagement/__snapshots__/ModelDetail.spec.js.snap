@@ -1,0 +1,816 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelDetail render normally 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top-left"
+  >
+    <span>
+      Model Detail Information：
+    </span>
+    <div>
+      models
+       / Traning
+      <span
+        style={
+          Object {
+            "color": "rgb(102, 204, 0)",
+          }
+        }
+      >
+         incomplete 
+      </span>
+      / Testing
+      <span
+        style={
+          Object {
+            "color": "rgb(102, 204, 0)",
+          }
+        }
+      >
+         incomplete 
+      </span>
+    </div>
+  </div>
+  <div
+    className="divContainer"
+  >
+    <div
+      className="singleDiv"
+    >
+      <div
+        className="title"
+      >
+        Attribute
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Create Time：
+          </div>
+          <div
+            className="valueNoWrap"
+          >
+            2017-10-20 15:14:16.0
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Process ID：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Product ID：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Defect：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+      </div>
+      <Connect(PropertyDetail)
+        data={
+          Object {
+            "createTime": "2017-10-20 15:14:16.0",
+            "defect": Array [],
+            "process": Array [],
+            "product": Array [],
+          }
+        }
+        isDetail={
+          Object {
+            "createTime": "Jan 30, 2018 9:14:36 PM",
+            "currentState": "none",
+            "id": 1,
+            "isDefault": false,
+            "isPublished": false,
+            "isTrained": true,
+            "isVerified": true,
+            "iteration": 5000,
+            "lossRate": 0.00005,
+            "name": "models",
+            "path": "sfdfsdfsf",
+            "status": "none",
+            "version": "1.0",
+          }
+        }
+      />
+    </div>
+    <div
+      className="singleDiv"
+    >
+      <div
+        className="title"
+      >
+        Training
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Training at：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Estimated remaining：
+          </div>
+          <div
+            className="value"
+          >
+            , trainingBeginTime: 
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Progress：
+          </div>
+          <div
+            className="value"
+          >
+            NaN%
+          </div>
+        </div>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "bottom": "6%",
+            "position": "absolute",
+            "right": "4%",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Enter
+      </button>
+    </div>
+    <div
+      className="singleDiv"
+      style={
+        Object {
+          "borderRight": "none",
+        }
+      }
+    >
+      <div
+        className="title"
+      >
+        Testing
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Testing at：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Estimated remaining：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Progress：
+          </div>
+          <div
+            className="value"
+          >
+            NaN%
+          </div>
+        </div>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "bottom": "6%",
+            "position": "absolute",
+            "right": "4%",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Enter
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) ModelDetail testingProgress === 1 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top-left"
+  >
+    <span>
+      Model Detail Information：
+    </span>
+    <div>
+      models
+       / Traning
+      <span
+        style={
+          Object {
+            "color": "rgb(102, 204, 0)",
+          }
+        }
+      >
+         incomplete 
+      </span>
+      / Testing
+      <span
+        style={
+          Object {
+            "color": "rgb(102, 204, 0)",
+          }
+        }
+      >
+         incomplete 
+      </span>
+    </div>
+  </div>
+  <div
+    className="divContainer"
+  >
+    <div
+      className="singleDiv"
+    >
+      <div
+        className="title"
+      >
+        Attribute
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Create Time：
+          </div>
+          <div
+            className="valueNoWrap"
+          >
+            2017-10-20 15:14:16.0
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Process ID：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Product ID：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Defect：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+      </div>
+      <Connect(PropertyDetail)
+        data={
+          Object {
+            "createTime": "2017-10-20 15:14:16.0",
+            "defect": Array [],
+            "process": Array [],
+            "product": Array [],
+          }
+        }
+        isDetail={
+          Object {
+            "createTime": "Jan 30, 2018 9:14:36 PM",
+            "currentState": "none",
+            "id": 1,
+            "isDefault": false,
+            "isPublished": false,
+            "isTrained": true,
+            "isVerified": true,
+            "iteration": 5000,
+            "lossRate": 0.00005,
+            "name": "models",
+            "path": "sfdfsdfsf",
+            "status": "none",
+            "version": "1.0",
+          }
+        }
+      />
+    </div>
+    <div
+      className="singleDiv"
+    >
+      <div
+        className="title"
+      >
+        Training
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Training at：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Done at：
+          </div>
+          <div
+            className="value"
+          >
+            , trainingBeginTime: 
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Progress：
+          </div>
+          <div
+            className="value"
+          >
+            NaN%
+          </div>
+        </div>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "bottom": "6%",
+            "position": "absolute",
+            "right": "4%",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Enter
+      </button>
+    </div>
+    <div
+      className="singleDiv"
+      style={
+        Object {
+          "borderRight": "none",
+        }
+      }
+    >
+      <div
+        className="title"
+      >
+        Testing
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Testing at：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Done at：
+          </div>
+          <div
+            className="value"
+          >
+            , testingBeginTime: 
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Progress：
+          </div>
+          <div
+            className="value"
+          >
+            NaN%
+          </div>
+        </div>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "bottom": "6%",
+            "position": "absolute",
+            "right": "4%",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Enter
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) ModelDetail trainingProgress === 1 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top-left"
+  >
+    <span>
+      Model Detail Information：
+    </span>
+    <div>
+      models
+       / Traning
+      <span
+        style={
+          Object {
+            "color": "rgb(102, 204, 0)",
+          }
+        }
+      >
+         incomplete 
+      </span>
+      / Testing
+      <span
+        style={
+          Object {
+            "color": "rgb(102, 204, 0)",
+          }
+        }
+      >
+         incomplete 
+      </span>
+    </div>
+  </div>
+  <div
+    className="divContainer"
+  >
+    <div
+      className="singleDiv"
+    >
+      <div
+        className="title"
+      >
+        Attribute
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Create Time：
+          </div>
+          <div
+            className="valueNoWrap"
+          >
+            2017-10-20 15:14:16.0
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Process ID：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Product ID：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Paired Defect：
+          </div>
+          <div
+            className="valueNoWrap"
+          />
+        </div>
+      </div>
+      <Connect(PropertyDetail)
+        data={
+          Object {
+            "createTime": "2017-10-20 15:14:16.0",
+            "defect": Array [],
+            "process": Array [],
+            "product": Array [],
+          }
+        }
+        isDetail={
+          Object {
+            "createTime": "Jan 30, 2018 9:14:36 PM",
+            "currentState": "none",
+            "id": 1,
+            "isDefault": false,
+            "isPublished": false,
+            "isTrained": true,
+            "isVerified": true,
+            "iteration": 5000,
+            "lossRate": 0.00005,
+            "name": "models",
+            "path": "sfdfsdfsf",
+            "status": "none",
+            "version": "1.0",
+          }
+        }
+      />
+    </div>
+    <div
+      className="singleDiv"
+    >
+      <div
+        className="title"
+      >
+        Training
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Training at：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Done at：
+          </div>
+          <div
+            className="value"
+          >
+            , trainingBeginTime: 
+          </div>
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Progress：
+          </div>
+          <div
+            className="value"
+          >
+            NaN%
+          </div>
+        </div>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "bottom": "6%",
+            "position": "absolute",
+            "right": "4%",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Enter
+      </button>
+    </div>
+    <div
+      className="singleDiv"
+      style={
+        Object {
+          "borderRight": "none",
+        }
+      }
+    >
+      <div
+        className="title"
+      >
+        Testing
+      </div>
+      <div
+        className="detail"
+      >
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Testing at：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Estimated remaining：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Progress：
+          </div>
+          <div
+            className="value"
+          >
+            NaN%
+          </div>
+        </div>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "bottom": "6%",
+            "position": "absolute",
+            "right": "4%",
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Enter
+      </button>
+    </div>
+  </div>
+</div>
+`;

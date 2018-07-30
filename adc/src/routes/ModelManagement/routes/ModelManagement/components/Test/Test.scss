@@ -1,0 +1,104 @@
+$border: solid 1px #d7d7d7;
+  .progress {
+    float: right;
+    width: 50%;
+    overflow-x: auto;
+  }
+  .top {
+    height: 80px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #f7f7f7;
+    border-bottom: solid 1px #d7d7d7;
+    border: solid 1px #d7d7d7;
+    border-radius: 4px;
+    float: left;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+  }
+  .top2 {
+    height: 80px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #f7f7f7;
+    border-bottom: solid 1px #d7d7d7;
+    border: solid 1px #d7d7d7;
+    border-radius: 4px;
+    float: left;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .top-left{
+    align-items: center;
+    // margin-right: 70%;
+    display: flex;
+
+  }
+  .firstTop {
+    align-items: center;
+    // margin-right: 70%;
+    display: flex;
+  }
+  .btn {
+    width: 70px;
+    margin: 0px 5px;
+  }
+  .complete {
+    clear: left;
+  }
+  .content {
+    border: $border;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+    .center {
+      // width: 20%;
+      padding-top: 10px;
+      margin: 0 auto;
+    }
+    .right {
+      // width: 20%;
+      padding-top: 10px;
+      margin: 0 auto;
+    }
+    .left {
+      // width: 20%;
+      margin: 0 auto;
+      // padding: 20px 80px;
+      // display: flex;
+      // flex-direction: space-between;
+      // border: $border;
+      // margin-bottom: 20px;
+    }
+    .test {
+      font-weight:  bold;
+      font-size: 16px;
+    }
+    .strong {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 8px 0px;
+    }
+    .textField {
+      padding: 10px 0;
+      display: flex;
+      justify-content: between;
+      align-items: flex-start;
+    }
+    .key {
+      margin-right: 20px;
+    }
+
+    .value {
+      word-break: break-all;
+      overflow:hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .ant-progress-circle-trail {
+      stroke: red!important
+    }

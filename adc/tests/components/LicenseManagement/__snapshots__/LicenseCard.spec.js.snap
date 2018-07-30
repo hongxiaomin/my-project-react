@@ -1,0 +1,1265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) edit is false render activate 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+        title="a"
+      >
+        a
+      </span>
+    </div>
+    <Icon
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div />
+    </div>
+    <div>
+      <div
+        className="licen"
+      >
+        <div>
+          Serial Number：
+        </div>
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+            }
+          }
+        >
+          Get Serial Number
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "margin": "0px 20px 20px 20px",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <span>
+          License：
+        </span>
+        <Input
+          disabled={false}
+          onChange={[Function]}
+          prefixCls="ant-input"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginTop": "16px",
+              "width": "60%",
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) edit is false render button getLicense 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+        title="a"
+      >
+        a
+      </span>
+    </div>
+    <Icon
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div />
+    </div>
+    <div>
+      <div
+        className="licen"
+      >
+        <div>
+          Serial Number：
+        </div>
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+            }
+          }
+        >
+          Get Serial Number
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "margin": "0px 20px 20px 20px",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <span>
+          License：
+        </span>
+        <Input
+          disabled={false}
+          onChange={[Function]}
+          prefixCls="ant-input"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginTop": "16px",
+              "width": "60%",
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) edit is false render input handleChangeOtherString 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+        title="a"
+      >
+        a
+      </span>
+    </div>
+    <Icon
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div />
+    </div>
+    <div>
+      <div
+        className="licen"
+      >
+        <div>
+          Serial Number：
+        </div>
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+            }
+          }
+        >
+          Get Serial Number
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "margin": "0px 20px 20px 20px",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <span>
+          License：
+        </span>
+        <Input
+          disabled={false}
+          onChange={[Function]}
+          prefixCls="ant-input"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginTop": "16px",
+              "width": "60%",
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) edit is false render radioGroup 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+        title="a"
+      >
+        a
+      </span>
+    </div>
+    <Icon
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div />
+    </div>
+    <div>
+      <div
+        className="licen"
+      >
+        <div>
+          Serial Number：
+        </div>
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+            }
+          }
+        >
+          Get Serial Number
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "margin": "0px 20px 20px 20px",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <span>
+          License：
+        </span>
+        <Input
+          disabled={false}
+          onChange={[Function]}
+          prefixCls="ant-input"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginTop": "16px",
+              "width": "60%",
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          defaultValue="name"
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) edit is true render name state 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <Input
+        disabled={false}
+        onChange={[Function]}
+        prefixCls="ant-input"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginTop": "16px",
+            "width": "auto",
+          }
+        }
+        type="text"
+        value="name"
+      />
+    </div>
+    <div>
+      <Icon
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "fontSize": "20px",
+            "height": "20px",
+            "margin": "20px 10px 0 0",
+            "width": "20px",
+          }
+        }
+        title="Save"
+        type="check"
+      />
+      <Icon
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "fontSize": "20px",
+            "height": "20px",
+            "marginTop": "20px",
+            "width": "20px",
+          }
+        }
+        title="cancel"
+        type="close-circle-o"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div />
+    </div>
+    <div>
+      <div
+        className="licen"
+      >
+        <div>
+          Serial Number：
+        </div>
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+            }
+          }
+        >
+          Get Serial Number
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "margin": "0px 20px 20px 20px",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <span>
+          License：
+        </span>
+        <Input
+          disabled={false}
+          onChange={[Function]}
+          prefixCls="ant-input"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginTop": "16px",
+              "width": "60%",
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) edit is true render normally 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+      />
+    </div>
+    <Icon
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div />
+    </div>
+    <div>
+      <div
+        className="licen"
+      >
+        <div>
+          Serial Number：
+        </div>
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+            }
+          }
+        >
+          Get Serial Number
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #ccc",
+            "margin": "0px 20px 20px 20px",
+            "paddingBottom": "20px",
+          }
+        }
+      >
+        <span>
+          License：
+        </span>
+        <Input
+          disabled={false}
+          onChange={[Function]}
+          prefixCls="ant-input"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginTop": "16px",
+              "width": "60%",
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) isactivate is true render 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+        title="a"
+      >
+        a
+      </span>
+    </div>
+    <Icon
+      disabled={true}
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "start",
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <div>
+            GPU ID：
+          </div>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "start",
+                "marginLeft": "20px",
+              }
+            }
+          >
+            <div>
+              Service：
+            </div>
+            <InputNumber
+              disabled={true}
+              min={0}
+              onBlur={[Function]}
+              onChange={[Function]}
+              prefixCls="ant-input-number"
+              step={1}
+              style={
+                Object {
+                  "marginLeft": "20px",
+                  "width": "100px",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div />
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) isactivate is true render input number 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "borderRadius": "5px",
+      "boxShadow": "6px 6px #ccc",
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingRight": "20px",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <div>
+        Device
+      </div>
+      ：
+      <span
+        style={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": "300px",
+          }
+        }
+        title="a"
+      >
+        a
+      </span>
+    </div>
+    <Icon
+      disabled={true}
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "fontSize": "20px",
+          "height": "20px",
+          "marginTop": "20px",
+          "width": "20px",
+        }
+      }
+      title="Edit"
+      type="edit"
+    />
+  </div>
+  <div>
+    <div
+      className="hash"
+    >
+      Device Hash：
+    </div>
+    <div
+      className="num"
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "start",
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <div>
+            GPU ID：
+          </div>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "start",
+                "marginLeft": "20px",
+              }
+            }
+          >
+            <div>
+              Service：
+            </div>
+            <InputNumber
+              disabled={true}
+              min={0}
+              onBlur={[Function]}
+              onChange={[Function]}
+              prefixCls="ant-input-number"
+              step={1}
+              style={
+                Object {
+                  "marginLeft": "20px",
+                  "width": "100px",
+                }
+              }
+              value="1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div />
+    <div
+      className="mode"
+    >
+      <div>
+        Operation Mode：
+      </div>
+      <div>
+        <RadioGroup
+          disabled={false}
+          onChange={[Function]}
+        >
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={true}
+          >
+            Training
+          </Radio>
+          <Radio
+            prefixCls="ant-radio"
+            type="radio"
+            value={false}
+          >
+            Judging
+          </Radio>
+        </RadioGroup>
+      </div>
+    </div>
+    <div
+      className="radio"
+    >
+      <button
+        className="pt-button pt-intent-primary"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Activate
+      </button>
+    </div>
+  </div>
+</div>
+`;

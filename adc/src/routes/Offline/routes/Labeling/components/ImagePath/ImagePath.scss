@@ -1,0 +1,33 @@
+.image-path {
+  width: 100%;
+  margin-bottom: -15px;
+  background: #fff;
+
+  h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 0;
+    background: #F7F7F7;
+
+    a {
+      float: right;
+      margin-left: 20px;
+    }
+  }
+}
+
+.hr {
+  height: 1px;
+  background: #E5E5E5;
+  margin: 15px -15px;
+}
+
+:global {
+  .search-images-form {
+    .ant-form-item-label {
+
+    }
+  }
+}

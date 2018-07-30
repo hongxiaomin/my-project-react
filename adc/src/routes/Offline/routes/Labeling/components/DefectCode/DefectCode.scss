@@ -1,0 +1,18 @@
+.defect-code {
+  border: 1px solid #979797;
+  min-height: 500px;
+
+  h4 {
+    background: #4A90E2;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}

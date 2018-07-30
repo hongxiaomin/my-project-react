@@ -1,0 +1,39 @@
+.container {
+  padding: 1% 1%;
+  margin: 20px 20px ;
+  // display: flex;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+}
+.model {
+  margin-right: 10px;
+  padding-top: 3px;
+}
+.searchDiv {
+ display: flex;
+ justify-content: flex-start;
+ margin-top: 20px;
+}
+.singleSearch {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 5% ;
+}
+.h5 {
+  padding-top: 6px;
+   margin-right: 10px;
+}
+.select {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: inherit;
+  box-shadow: none;
+  margin: 0;
+  border: 1px solid #D9D9D9;
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
+}

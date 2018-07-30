@@ -1,0 +1,114 @@
+.top-left{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 30px;
+  background-color: #f7f7f7;
+  // border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.button {
+  height: 30px;
+  margin-top: 10px;
+}
+.cn{
+    text-align: center;
+}
+.dialog {
+  width:400px;
+  padding:2px;
+  background: #F7F7F7;
+}
+.headerTitle {
+  margin: 10px 0px 10px 15px;
+  font-size: 16px;
+}
+
+.headerID {
+  margin-left: 15px;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+.dialogBody {
+  background: #fff;
+  color: #000;
+}
+.filter {
+  border-bottom: solid 1px #C9C8C9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:65px;
+  line-height:60px;
+  margin:0px 10px;
+  font-size: 14px;
+}
+.select {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: inherit;
+  box-shadow: none;
+  margin: 0;
+  border: 1px solid #D9D9D9;
+  height: 30px;
+  width: 160px;
+  border-radius: 3px;
+}
+.btnGroup {
+  float: right;
+  margin:17px 0px;
+}
+.btnEdit {
+  background: #0087DC;
+  color: #fff;
+  margin: 0px 10px 0px 15px;
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+}
+.btnCancel {
+  background: #fff;
+  border: 1px solid #0087DC !important;
+  color: #0087DC !important;
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+}
+.hardCodeText {
+  text-align: center;
+}
+.isContinuous{
+  position: absolute;
+  bottom: 13px;
+  left: 20px;
+}
+.filter {
+  color: #5f5f5f;
+  border-bottom: solid 1px #d7d7d7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: inherit;
+  box-shadow: none;
+  width: auto;
+  margin: 0;
+  direction: rtl;
+}
+ .rt-tr.-odd {
+  display: flex !important;
+  align-items: center !important;
+}
+.ReactTable .rt-table {
+  flex: auto 1 !important;
+}

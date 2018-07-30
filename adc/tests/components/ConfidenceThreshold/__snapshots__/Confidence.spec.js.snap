@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Confidence render normally 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div
+      className="top"
+    >
+      <h4
+        className="model"
+      >
+        Confidence Threshold Setting
+      </h4>
+    </div>
+    <div
+      className="searchDiv"
+    >
+      <div
+        className="singleSearch"
+      >
+        <h5
+          className="h5"
+        >
+          Process ID
+        </h5>
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="singleSearch"
+      >
+        <h5
+          className="h5"
+        >
+          Product ID
+        </h5>
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="productId"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="singleSearch"
+      >
+        <h5
+          className="h5"
+        >
+          Model
+        </h5>
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        disabled={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Search 
+      </button>
+    </div>
+  </div>
+  <Connect(ConfidenceList)
+    checkData={Array []}
+    confidenceList={Array []}
+    isDetail={[Function]}
+  />
+  <Connect(TestResult)
+    checkData={Array []}
+    confidenceList={Array []}
+    rowDetail={Object {}}
+  />
+</div>
+`;

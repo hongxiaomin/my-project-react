@@ -1,0 +1,27 @@
+.navbar {
+  .item {
+    height: 100%;
+  }
+
+  .button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #727171;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0px 20px;
+
+    &:hover, &.active {
+      color: #00adef;
+      // background: #0087DC;
+      border-bottom: 4px solid #00adef;
+    }
+  }
+}
+
+.h1 {
+  color: #727171;
+  font-size: 24px;
+  font-weight: 700;
+}

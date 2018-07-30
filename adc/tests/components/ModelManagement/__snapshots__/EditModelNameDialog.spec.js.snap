@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Dialog render normally 1`] = `
+<div
+  className="OneStep-container"
+>
+  <div
+    className="dialogBody"
+  >
+    <div>
+      <div
+        className="filter"
+      >
+        Model Name:
+        <input
+          className="pt-input"
+          onChange={[Function]}
+          type="text"
+          value="model"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Description:
+        <textarea
+          className="pt-input"
+          onChange={[Function]}
+          style={
+            Object {
+              "width": "200px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

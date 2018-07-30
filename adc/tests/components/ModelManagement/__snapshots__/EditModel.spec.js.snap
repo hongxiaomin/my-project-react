@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) EditModel render normally 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        size="large"
+    >
+        Cancel
+    </Button>,
+      <Button
+        clicked={false}
+        disabled={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        size="large"
+        type="primary"
+    >
+        Next
+    </Button>,
+    ]
+  }
+  maskClosable={false}
+  maskTransitionName="fade"
+  onCancel={[Function]}
+  prefixCls="ant-modal"
+  title="edit"
+  transitionName="zoom"
+  visible={false}
+  width={600}
+>
+  <Steps
+    current={0}
+    iconPrefix="ant"
+    prefixCls="ant-steps"
+    size="small"
+  >
+    <Step
+      title="Parameters"
+    />
+    <Step
+      title="Training Image Path"
+    />
+  </Steps>
+  <div
+    style={
+      Object {
+        "height": "20px",
+      }
+    }
+  />
+  <Spin
+    prefixCls="ant-spin"
+    size="default"
+    spinning={false}
+    wrapperClassName=""
+  >
+    <OneStep
+      that={
+        EditModel {
+          "_reactInternalInstance": ShallowComponentWrapper {
+            "_calledComponentWillUnmount": false,
+            "_compositeType": 0,
+            "_context": Object {},
+            "_currentElement": <EditModel
+              allDefectCode={
+                    Object {
+                          "othersCode": Object {
+                            "id": 1,
+                            "name": "2",
+                          },
+                          "targetCode": Object {
+                            "id": 1,
+                            "name": "1",
+                          },
+                        }
+              }
+              dataDetail={
+                    Object {
+                          "original": Object {
+                            "id": "1",
+                            "name": "model",
+                          },
+                        }
+              }
+              dispatch={[Function]}
+              editOpen={false}
+              title="edit"
+              toggle={[Function]}
+              visible={false}
+        />,
+            "_debugID": 1,
+            "_hostContainerInfo": null,
+            "_hostParent": null,
+            "_instance": [Circular],
+            "_mountOrder": 1,
+            "_pendingCallbacks": null,
+            "_pendingElement": null,
+            "_pendingForceUpdate": false,
+            "_pendingReplaceState": false,
+            "_pendingStateQueue": null,
+            "_renderedComponent": NoopInternalComponent {
+              "_currentElement": <Modal
+                confirmLoading={false}
+                footer={
+                        Array [
+                                <Button
+                                  clicked={false}
+                                  ghost={false}
+                                  loading={false}
+                                  onClick={[Function]}
+                                  prefixCls="ant-btn"
+                                  size="large"
+                        >
+                                  Cancel
+                        </Button>,
+                                <Button
+                                  clicked={false}
+                                  disabled={false}
+                                  ghost={false}
+                                  loading={false}
+                                  onClick={[Function]}
+                                  prefixCls="ant-btn"
+                                  size="large"
+                                  type="primary"
+                        >
+                                  Next
+                        </Button>,
+                              ]
+                }
+                maskClosable={false}
+                maskTransitionName="fade"
+                onCancel={[Function]}
+                prefixCls="ant-modal"
+                title="edit"
+                transitionName="zoom"
+                visible={false}
+                width={600}
+        >
+                <Steps
+                        current={0}
+                        iconPrefix="ant"
+                        prefixCls="ant-steps"
+                        size="small"
+                >
+                        <Step
+                                title="Parameters"
+                        />
+                        <Step
+                                title="Training Image Path"
+                        />
+                </Steps>
+                <div
+                        style={
+                                Object {
+                                        "height": "20px",
+                                      }
+                        }
+                />
+                <Spin
+                        prefixCls="ant-spin"
+                        size="default"
+                        spinning={false}
+                        wrapperClassName=""
+                >
+                        <OneStep
+                                that={[Circular]}
+                        />
+                </Spin>
+        </Modal>,
+              "_debugID": 2,
+              "_renderedOutput": <Modal
+                confirmLoading={false}
+                footer={
+                        Array [
+                                <Button
+                                  clicked={false}
+                                  ghost={false}
+                                  loading={false}
+                                  onClick={[Function]}
+                                  prefixCls="ant-btn"
+                                  size="large"
+                        >
+                                  Cancel
+                        </Button>,
+                                <Button
+                                  clicked={false}
+                                  disabled={false}
+                                  ghost={false}
+                                  loading={false}
+                                  onClick={[Function]}
+                                  prefixCls="ant-btn"
+                                  size="large"
+                                  type="primary"
+                        >
+                                  Next
+                        </Button>,
+                              ]
+                }
+                maskClosable={false}
+                maskTransitionName="fade"
+                onCancel={[Function]}
+                prefixCls="ant-modal"
+                title="edit"
+                transitionName="zoom"
+                visible={false}
+                width={600}
+        >
+                <Steps
+                        current={0}
+                        iconPrefix="ant"
+                        prefixCls="ant-steps"
+                        size="small"
+                >
+                        <Step
+                                title="Parameters"
+                        />
+                        <Step
+                                title="Training Image Path"
+                        />
+                </Steps>
+                <div
+                        style={
+                                Object {
+                                        "height": "20px",
+                                      }
+                        }
+                />
+                <Spin
+                        prefixCls="ant-spin"
+                        size="default"
+                        spinning={false}
+                        wrapperClassName=""
+                >
+                        <OneStep
+                                that={[Circular]}
+                        />
+                </Spin>
+        </Modal>,
+            },
+            "_renderedNodeType": 1,
+            "_rootNodeID": 0,
+            "_topLevelWrapper": null,
+            "_updateBatchNumber": null,
+            "_warnedAboutRefsInRender": false,
+          },
+          "back": [Function],
+          "context": Object {},
+          "handleCancel": [Function],
+          "handleOk": [Function],
+          "props": Object {
+            "allDefectCode": Object {
+              "othersCode": Object {
+                "id": 1,
+                "name": "2",
+              },
+              "targetCode": Object {
+                "id": 1,
+                "name": "1",
+              },
+            },
+            "dataDetail": Object {
+              "original": Object {
+                "id": "1",
+                "name": "model",
+              },
+            },
+            "dispatch": [Function],
+            "editOpen": false,
+            "title": "edit",
+            "toggle": [Function],
+            "visible": false,
+          },
+          "refs": Object {},
+          "state": Object {
+            "confirmLoading": false,
+            "data": Object {
+              "dateRange": undefined,
+              "othersDefectCode": undefined,
+              "processId": undefined,
+              "productId": undefined,
+              "targetCode": undefined,
+            },
+            "dataSource": Array [],
+            "defectOthersValue": "",
+            "defectValue": "",
+            "description": "",
+            "id": undefined,
+            "imageSource": Object {},
+            "interation": 100,
+            "loading": false,
+            "lossRate": 0.00001,
+            "modelName": "",
+            "othersSource": Array [],
+            "sourceType": "path",
+            "step": 0,
+            "trainingData": Object {},
+            "visible": false,
+          },
+          "updater": Object {
+            "enqueueCallback": [Function],
+            "enqueueCallbackInternal": [Function],
+            "enqueueElementInternal": [Function],
+            "enqueueForceUpdate": [Function],
+            "enqueueReplaceState": [Function],
+            "enqueueSetState": [Function],
+            "isMounted": [Function],
+            "validateCallback": [Function],
+          },
+        }
+      }
+    />
+  </Spin>
+</Modal>
+`;

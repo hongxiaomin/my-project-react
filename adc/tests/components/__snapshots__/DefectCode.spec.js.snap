@@ -1,0 +1,1391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DefectCode render normally 1`] = `
+<div
+  styleName="defect-code"
+>
+  <h4>
+    Select Defect Code 
+    <Icon
+      alt="Add defect"
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+          "float": "right",
+          "fontSize": 16,
+        }
+      }
+      title="Add defect"
+      type="plus-circle-o"
+    />
+  </h4>
+  <DataList
+    data={Array []}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    selectedData={Array []}
+  />
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className=""
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Defect Code",
+          "accessor": "defectCode",
+        },
+      ]
+    }
+    data={Array []}
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPageSize={20}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageSize={14}
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={false}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={
+      Object {
+        "height": "555px",
+      }
+    }
+    subRowsKey="_subRows"
+  />
+  <Form(WrappedComponent)
+    addDefectCode={[Function]}
+    handleCancel={[Function]}
+    visible={false}
+  />
+</div>
+`;
+
+exports[`(Component) DefectCode render normally 2`] = `
+<DefectCode
+  addDefectCode={[Function]}
+  addLabeling={Object {}}
+  defaultDefectCode={Array []}
+  defectCodeList={Array []}
+  getSelectInfo={[Function]}
+  selectedDefectCode={Object {}}
+  selectedImageInfo={Object {}}
+  setDefaultDefectCode={[Function]}
+  setSelectedDefectCode={[Function]}
+  setSelectedImage={[Function]}
+  updateAddLabeling={[Function]}
+  updateResetKeyCodeStatus={[Function]}
+>
+  <div
+    styleName="defect-code"
+  >
+    <h4>
+      Select Defect Code 
+      <Icon
+        alt="Add defect"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "float": "right",
+            "fontSize": 16,
+          }
+        }
+        title="Add defect"
+        type="plus-circle-o"
+      >
+        <i
+          alt="Add defect"
+          className="anticon anticon-plus-circle-o"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "float": "right",
+              "fontSize": 16,
+            }
+          }
+          title="Add defect"
+        />
+      </Icon>
+    </h4>
+    <DataList
+      data={Array []}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      selectedData={Array []}
+    >
+      <div
+        className="DataList-container"
+      >
+        <div
+          className="input-div"
+        >
+          <input
+            className="pt-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDoubleClick={[Function]}
+            onFocus={[Function]}
+            placeholder="Please select"
+            style={
+              Object {
+                "border": "none",
+                "boxShadow": "none",
+                "height": "20px",
+                "lineHeight": "20px",
+                "padding": 0,
+                "position": "relative",
+                "width": "93%",
+              }
+            }
+            type="text"
+            value=""
+          />
+          <span
+            className="pt-icon-standard pt-icon-caret-down input-icon"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+    </DataList>
+    <ReactTable
+      AggregatedComponent={[Function]}
+      ExpanderComponent={[Function]}
+      FilterComponent={[Function]}
+      LoadingComponent={[Function]}
+      NoDataComponent={[Function]}
+      PadRowComponent={[Function]}
+      PaginationComponent={[Function]}
+      PivotValueComponent={[Function]}
+      ResizerComponent={[Function]}
+      TableComponent={[Function]}
+      TbodyComponent={[Function]}
+      TdComponent={[Function]}
+      TfootComponent={[Function]}
+      ThComponent={[Function]}
+      TheadComponent={[Function]}
+      TrComponent={[Function]}
+      TrGroupComponent={[Function]}
+      aggregatedKey="_aggregated"
+      className=""
+      collapseOnDataChange={true}
+      collapseOnPageChange={true}
+      collapseOnSortingChange={true}
+      column={
+        Object {
+          "Aggregated": undefined,
+          "Cell": undefined,
+          "Expander": undefined,
+          "Filter": undefined,
+          "Footer": undefined,
+          "Header": undefined,
+          "Pivot": undefined,
+          "PivotValue": undefined,
+          "aggregate": undefined,
+          "className": "",
+          "filterAll": false,
+          "filterMethod": undefined,
+          "filterable": undefined,
+          "footerClassName": "",
+          "footerStyle": Object {},
+          "getFooterProps": [Function],
+          "getHeaderProps": [Function],
+          "getProps": [Function],
+          "headerClassName": "",
+          "headerStyle": Object {},
+          "minWidth": 100,
+          "resizable": undefined,
+          "show": true,
+          "sortMethod": undefined,
+          "sortable": undefined,
+          "style": Object {},
+        }
+      }
+      columns={
+        Array [
+          Object {
+            "Cell": [Function],
+            "Header": "Defect Code",
+            "accessor": "defectCode",
+          },
+        ]
+      }
+      data={Array []}
+      defaultExpanded={Object {}}
+      defaultFilterMethod={[Function]}
+      defaultFiltered={Array []}
+      defaultPageSize={20}
+      defaultResized={Array []}
+      defaultSortDesc={false}
+      defaultSortMethod={[Function]}
+      defaultSorted={Array []}
+      expanderDefaults={
+        Object {
+          "filterable": false,
+          "resizable": false,
+          "sortable": false,
+          "width": 35,
+        }
+      }
+      filterable={false}
+      freezeWhenExpanded={false}
+      getLoadingProps={[Function]}
+      getNoDataProps={[Function]}
+      getPaginationProps={[Function]}
+      getProps={[Function]}
+      getResizerProps={[Function]}
+      getTableProps={[Function]}
+      getTbodyProps={[Function]}
+      getTdProps={[Function]}
+      getTfootProps={[Function]}
+      getTfootTdProps={[Function]}
+      getTfootTrProps={[Function]}
+      getTheadFilterProps={[Function]}
+      getTheadFilterThProps={[Function]}
+      getTheadFilterTrProps={[Function]}
+      getTheadGroupProps={[Function]}
+      getTheadGroupThProps={[Function]}
+      getTheadGroupTrProps={[Function]}
+      getTheadProps={[Function]}
+      getTheadThProps={[Function]}
+      getTheadTrProps={[Function]}
+      getTrGroupProps={[Function]}
+      getTrProps={[Function]}
+      groupedByPivotKey="_groupedByPivot"
+      indexKey="_index"
+      loading={false}
+      loadingText="Loading..."
+      nestingLevelKey="_nestingLevel"
+      nextText="Next"
+      noDataText="No rows found"
+      ofText="of"
+      onFetchData={[Function]}
+      originalKey="_original"
+      pageSize={14}
+      pageSizeOptions={
+        Array [
+          5,
+          10,
+          20,
+          25,
+          50,
+          100,
+        ]
+      }
+      pageText="Page"
+      pivotDefaults={Object {}}
+      pivotIDKey="_pivotID"
+      pivotValKey="_pivotVal"
+      previousText="Previous"
+      resizable={true}
+      rowsText="rows"
+      showPageJump={true}
+      showPageSizeOptions={true}
+      showPagination={false}
+      showPaginationBottom={true}
+      showPaginationTop={false}
+      sortable={true}
+      style={
+        Object {
+          "height": "555px",
+        }
+      }
+      subRowsKey="_subRows"
+    >
+      <div
+        className="ReactTable"
+        style={
+          Object {
+            "height": "555px",
+          }
+        }
+      >
+        <Table
+          className=""
+        >
+          <div
+            className="rt-table"
+          >
+            <Thead
+              className="-header"
+              style={
+                Object {
+                  "minWidth": "100px",
+                }
+              }
+            >
+              <div
+                className="rt-thead -header"
+                style={
+                  Object {
+                    "minWidth": "100px",
+                  }
+                }
+              >
+                <Tr>
+                  <div
+                    className="rt-tr"
+                  >
+                    <ThComponent
+                      className=" rt-resizable-header -cursor-pointer"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className=" rt-resizable-header -cursor-pointer rt-th"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Defect Code
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                  </div>
+                </Tr>
+              </div>
+            </Thead>
+            <Tbody
+              className=""
+              style={
+                Object {
+                  "minWidth": "100px",
+                }
+              }
+            >
+              <div
+                className="rt-tbody"
+                style={
+                  Object {
+                    "minWidth": "100px",
+                  }
+                }
+              >
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -odd"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+                <TrGroup>
+                  <div
+                    className="rt-tr-group"
+                  >
+                    <Tr
+                      className="-padRow -even"
+                      style={
+                        Object {
+                          "height": "35px",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        style={
+                          Object {
+                            "height": "35px",
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <Td
+                          className=""
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <span>
+                               
+                            </span>
+                          </div>
+                        </Td>
+                      </div>
+                    </Tr>
+                  </div>
+                </TrGroup>
+              </div>
+            </Tbody>
+          </div>
+        </Table>
+        <NoData>
+          <div
+            className="rt-noData"
+          >
+            No rows found
+          </div>
+        </NoData>
+        <LoadingComponent
+          loading={false}
+          loadingText="Loading..."
+        >
+          <div
+            className="-loading"
+          >
+            <div
+              className="-loading-inner"
+            >
+              Loading...
+            </div>
+          </div>
+        </LoadingComponent>
+      </div>
+    </ReactTable>
+    <Form(WrappedComponent)
+      addDefectCode={[Function]}
+      handleCancel={[Function]}
+      visible={false}
+    >
+      <Component
+        addDefectCode={[Function]}
+        form={
+          Object {
+            "getFieldDecorator": [Function],
+            "getFieldError": [Function],
+            "getFieldInstance": [Function],
+            "getFieldProps": [Function],
+            "getFieldValue": [Function],
+            "getFieldsError": [Function],
+            "getFieldsValue": [Function],
+            "isFieldTouched": [Function],
+            "isFieldValidating": [Function],
+            "isFieldsTouched": [Function],
+            "isFieldsValidating": [Function],
+            "isSubmitting": [Function],
+            "resetFields": [Function],
+            "setFields": [Function],
+            "setFieldsInitialValue": [Function],
+            "setFieldsValue": [Function],
+            "submit": [Function],
+            "validateFields": [Function],
+            "validateFieldsAndScroll": [Function],
+          }
+        }
+        handleCancel={[Function]}
+        visible={false}
+        wrappedComponentRef={[Function]}
+      >
+        <AddDefectCode
+          addDefectCode={[Function]}
+          form={
+            Object {
+              "getFieldDecorator": [Function],
+              "getFieldError": [Function],
+              "getFieldInstance": [Function],
+              "getFieldProps": [Function],
+              "getFieldValue": [Function],
+              "getFieldsError": [Function],
+              "getFieldsValue": [Function],
+              "isFieldTouched": [Function],
+              "isFieldValidating": [Function],
+              "isFieldsTouched": [Function],
+              "isFieldsValidating": [Function],
+              "isSubmitting": [Function],
+              "resetFields": [Function],
+              "setFields": [Function],
+              "setFieldsInitialValue": [Function],
+              "setFieldsValue": [Function],
+              "submit": [Function],
+              "validateFields": [Function],
+              "validateFieldsAndScroll": [Function],
+            }
+          }
+          handleCancel={[Function]}
+          visible={false}
+          wrappedComponentRef={[Function]}
+        >
+          <Modal
+            confirmLoading={false}
+            footer={
+              Array [
+                <Button
+                  clicked={false}
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+                  size="large"
+              >
+                  Cancel
+              </Button>,
+                <Button
+                  clicked={false}
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+                  size="large"
+                  type="primary"
+              >
+                  Save
+              </Button>,
+              ]
+            }
+            maskTransitionName="fade"
+            onCancel={[Function]}
+            onOk={[Function]}
+            prefixCls="ant-modal"
+            title="Add New Defect Code"
+            transitionName="zoom"
+            visible={false}
+            width={520}
+          >
+            <DialogWrap
+              confirmLoading={false}
+              footer={
+                Array [
+                  <Button
+                    clicked={false}
+                    ghost={false}
+                    loading={false}
+                    onClick={[Function]}
+                    prefixCls="ant-btn"
+                    size="large"
+                >
+                    Cancel
+                </Button>,
+                  <Button
+                    clicked={false}
+                    ghost={false}
+                    loading={false}
+                    onClick={[Function]}
+                    prefixCls="ant-btn"
+                    size="large"
+                    type="primary"
+                >
+                    Save
+                </Button>,
+                ]
+              }
+              maskTransitionName="fade"
+              onCancel={[Function]}
+              onClose={[Function]}
+              onOk={[Function]}
+              prefixCls="ant-modal"
+              title="Add New Defect Code"
+              transitionName="zoom"
+              visible={false}
+              width={520}
+            />
+          </Modal>
+        </AddDefectCode>
+      </Component>
+    </Form(WrappedComponent)>
+  </div>
+</DefectCode>
+`;

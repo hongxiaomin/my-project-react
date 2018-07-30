@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ResetDialog render normally 1`] = `
+<div
+  className="Dialog-container"
+>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        Confirmation
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <br />
+      <p
+        className="cn"
+      >
+        Whether to reset this data?
+      </p>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;

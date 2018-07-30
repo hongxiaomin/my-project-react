@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ServiceManagement render normally 1`] = `
+<div
+  className="ServiceManagement-container"
+>
+  <Connect(ServiceManagementList) />
+  <Connect(QueueList) />
+</div>
+`;

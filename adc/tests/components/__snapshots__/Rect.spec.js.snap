@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Rect render mount 1`] = `
+<Rect
+  addLabeling={Object {}}
+  aspectRatio={0.5}
+  borderColor="red"
+  dispatch={[Function]}
+  imageInfo={Object {}}
+  info={Object {}}
+  scale={1}
+  selectedImageInfo={Object {}}
+/>
+`;
+
+exports[`(Component) Rect render normally 1`] = `null`;

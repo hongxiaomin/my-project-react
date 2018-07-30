@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DialogFilter render DialogID is empty 1`] = `
+<div>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="onlyHeaderTitle"
+      >
+        dialog
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Name
+        <Input
+          disabled={false}
+          prefixCls="ant-input"
+          readOnly="true"
+          type="text"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Model
+        <Select
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={false}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;
+
+exports[`(Component) DialogFilter render dataDetail is not empty 1`] = `
+<div>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        dialog
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Name
+        <Input
+          disabled={false}
+          prefixCls="ant-input"
+          readOnly="true"
+          type="text"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Model
+        <Select
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={false}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;
+
+exports[`(Component) DialogFilter render modelList is not empty 1`] = `
+<div>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        dialog
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Name
+        <Input
+          disabled={false}
+          prefixCls="ant-input"
+          readOnly="true"
+          type="text"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Model
+        <Select
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={false}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        >
+          <Option />
+        </Select>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;
+
+exports[`(Component) DialogFilter render normally 1`] = `<div />`;

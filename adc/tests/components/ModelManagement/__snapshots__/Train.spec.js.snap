@@ -1,0 +1,769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Train render currentState=none && istrained 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div>
+        <div
+          className="strong"
+        >
+          Model Training
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <TrainDiv>
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Go to testing"
+          style={
+            Object {
+              "marginRight": "20px",
+            }
+          }
+        />
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Main Page"
+          style={
+            Object {
+              "width": "100px",
+            }
+          }
+        />
+      </TrainDiv>
+    </div>
+  </div>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div
+        className="strong"
+      >
+        Training Progress 
+      </div>
+    </div>
+  </div>
+  <div
+    className="progress"
+  >
+    <ModelTrainingProgress
+      accuracy={Array []}
+      lossRate={Array []}
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="left"
+    >
+      <div
+        className="strong"
+      >
+        Status：
+      </div>
+      <Progress
+        format={[Function]}
+        percent="NaN"
+        prefixCls="ant-progress"
+        showInfo={true}
+        trailColor="#f3f3f3"
+        type="circle"
+      />
+    </div>
+    <div
+      className="center"
+    >
+      <div
+        className="strong"
+      >
+        Time
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Initialized at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Running at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Will Finish：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div>
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Train render currentState=testing 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div>
+        <div
+          className="strong"
+        >
+          Model Training
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <TrainDiv>
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Go to testing"
+          style={
+            Object {
+              "marginRight": "20px",
+            }
+          }
+        />
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Main Page"
+          style={
+            Object {
+              "width": "100px",
+            }
+          }
+        />
+      </TrainDiv>
+    </div>
+  </div>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div
+        className="strong"
+      >
+        Training Progress 
+      </div>
+    </div>
+  </div>
+  <div
+    className="progress"
+  >
+    <ModelTrainingProgress
+      accuracy={Array []}
+      lossRate={Array []}
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="left"
+    >
+      <div
+        className="strong"
+      >
+        Status： none
+      </div>
+      <Progress
+        format={[Function]}
+        percent="NaN"
+        prefixCls="ant-progress"
+        showInfo={true}
+        trailColor="#f3f3f3"
+        type="circle"
+      />
+    </div>
+    <div
+      className="center"
+    >
+      <div
+        className="strong"
+      >
+        Time
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Initialized at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Running at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Will Finish：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div>
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Train render trainingStatus=inited 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div>
+        <div
+          className="strong"
+        >
+          Model Training
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <TrainDiv>
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Start"
+          style={
+            Object {
+              "marginRight": "20px",
+            }
+          }
+        />
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Main Page"
+          style={
+            Object {
+              "width": "100px",
+            }
+          }
+        />
+      </TrainDiv>
+    </div>
+  </div>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div
+        className="strong"
+      >
+        Training Progress 
+      </div>
+    </div>
+  </div>
+  <div
+    className="progress"
+  >
+    <ModelTrainingProgress
+      accuracy={Array []}
+      lossRate={Array []}
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="left"
+    >
+      <div
+        className="strong"
+      >
+        Status：
+      </div>
+      <Progress
+        format={[Function]}
+        percent="NaN"
+        prefixCls="ant-progress"
+        showInfo={true}
+        trailColor="#f3f3f3"
+        type="circle"
+      />
+    </div>
+    <div
+      className="center"
+    >
+      <div
+        className="strong"
+      >
+        Time
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Initialized at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Running at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Will Finish：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div>
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Train render trainingStatus=none percent=1 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div>
+        <div
+          className="strong"
+        >
+          Model Training
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <TrainDiv>
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Start"
+          style={
+            Object {
+              "marginRight": "20px",
+            }
+          }
+        />
+        <TrainButton
+          className=""
+          handleClick={[Function]}
+          name="Main Page"
+          style={
+            Object {
+              "width": "100px",
+            }
+          }
+        />
+      </TrainDiv>
+    </div>
+  </div>
+  <div
+    className="top"
+  >
+    <div
+      className="top-left"
+    >
+      <div
+        className="strong"
+      >
+        Training Progress 
+      </div>
+    </div>
+  </div>
+  <div
+    className="progress"
+  >
+    <ModelTrainingProgress
+      accuracy={Array []}
+      lossRate={Array []}
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="left"
+    >
+      <div
+        className="strong"
+      >
+        Status：
+      </div>
+      <Progress
+        format={[Function]}
+        percent="NaN"
+        prefixCls="ant-progress"
+        showInfo={true}
+        trailColor="#f3f3f3"
+        type="circle"
+      />
+    </div>
+    <div
+      className="center"
+    >
+      <div
+        className="strong"
+      >
+        Time
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Initialized at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Running at：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Will Finish：
+        </div>
+        <div
+          className="value"
+        />
+      </div>
+      <div>
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

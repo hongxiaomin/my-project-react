@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Layout) PageLayout renders LockScreen = true 1`] = `
+<div>
+  <Blueprint.Dialog
+    isOpen={true}
+    style={
+      Object {
+        "width": "540px",
+      }
+    }
+  >
+    <Connect(LoginForm) />
+  </Blueprint.Dialog>
+  <Child />
+</div>
+`;
+
+exports[`(Layout) PageLayout renders its children inside of the viewport 1`] = `
+<PageLayout
+  dispatch={[Function]}
+  lockScreen={false}
+  token=""
+>
+  <div>
+    <Child>
+      <h2>
+        child
+      </h2>
+    </Child>
+  </div>
+</PageLayout>
+`;

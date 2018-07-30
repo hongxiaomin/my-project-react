@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CreateServiceDialog render normally 1`] = `
+<Connect(DialogFilter)
+  DialogTitle="Init Service"
+  info={Object {}}
+  isOpen={false}
+  toggleDialog={[Function]}
+/>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) AddDefectCode render normally 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        size="large"
+    >
+        Cancel
+    </Button>,
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        size="large"
+        type="primary"
+    >
+        Save
+    </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  onCancel={[Function]}
+  onOk={[Function]}
+  prefixCls="ant-modal"
+  title="Add New Defect Code"
+  transitionName="zoom"
+  visible={true}
+  width={520}
+>
+  <Form
+    hideRequiredMark={false}
+    layout="horizontal"
+    onSubmit={[Function]}
+    prefixCls="ant-form"
+  >
+    <FormItem
+      colon={true}
+      hasFeedback={false}
+      label="Defect Code"
+      labelCol={
+        Object {
+          "sm": Object {
+            "span": 6,
+          },
+          "xs": Object {
+            "span": 24,
+          },
+        }
+      }
+      prefixCls="ant-form"
+      wrapperCol={
+        Object {
+          "sm": Object {
+            "span": 14,
+          },
+          "xs": Object {
+            "span": 24,
+          },
+        }
+      }
+    />
+  </Form>
+</Modal>
+`;

@@ -1,0 +1,23 @@
+:global {
+  .ant-form-item-label {
+    text-align: left;
+    padding-left: 24px;
+  }
+}
+.hot-keys {
+  margin-bottom: 10px;
+
+  h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 0;
+    background: #F7F7F7;
+
+    a {
+      float: right;
+      margin-left: 20px;
+    }
+  }
+}

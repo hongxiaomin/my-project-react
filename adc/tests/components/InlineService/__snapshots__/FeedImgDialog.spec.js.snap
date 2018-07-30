@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) FeedImgDialog render normally 1`] = `
+<div
+  className="Dialog-container"
+>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        Feed Image来源
+        ( ID 
+        1
+        )
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <br />
+      <label
+        className="pt-label pt-inline filter"
+        style={
+          Object {
+            "paddingLeft": "80px",
+          }
+        }
+      >
+        图片类型
+        <div
+          className="pt-select"
+        >
+          <select
+            className="select"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              请选择
+            </option>
+            <option
+              value="CSOT图片"
+            >
+              CSOT图片
+            </option>
+            <option
+              value="焊锡检测图片"
+            >
+              焊锡检测图片
+            </option>
+          </select>
+        </div>
+      </label>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Checkbox
+          checked={true}
+          className="isContinuous"
+          onChange={[Function]}
+        >
+          重复循环
+        </Blueprint.Checkbox>
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;

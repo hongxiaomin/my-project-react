@@ -1,0 +1,3546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Test render render status=feeded && percent =1 1`] = `
+<div
+  className="Test-container"
+  style={
+    Object {
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginTop": "30px 0px",
+      }
+    }
+  >
+    <div
+      className="top"
+      style={
+        Object {
+          "borderBottom": "none",
+        }
+      }
+    >
+      <div>
+        <div
+          className="test"
+        >
+          Model Testing
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "marginLeft": "40px",
+            "width": "80%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          <Connect(FileUpload)
+            rowDetail={1}
+            that={
+              Test {
+                "BeginTesting": [Function],
+                "_reactInternalInstance": ShallowComponentWrapper {
+                  "_calledComponentWillUnmount": false,
+                  "_compositeType": 0,
+                  "_context": Object {},
+                  "_currentElement": <Test
+                    dispatch={[Function]}
+                    modelList={
+                          Array [
+                                Object {
+                                  "description": "aaa",
+                                  "id": 1,
+                                  "name": "model",
+                                },
+                              ]
+                    }
+                    percent={1}
+                    rowDetail={
+                          Object {
+                                "id": 1,
+                                "name": "model",
+                              }
+                    }
+                    status="feeded"
+                    viewId="1"
+              />,
+                  "_debugID": 3,
+                  "_hostContainerInfo": null,
+                  "_hostParent": null,
+                  "_instance": [Circular],
+                  "_mountOrder": 2,
+                  "_pendingCallbacks": null,
+                  "_pendingElement": null,
+                  "_pendingForceUpdate": false,
+                  "_pendingReplaceState": false,
+                  "_pendingStateQueue": null,
+                  "_renderedComponent": NoopInternalComponent {
+                    "_currentElement": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "padding": "5px 0 0 10px",
+                                                                    }
+                                                      }
+                                              >
+                                                      The number of images is 
+                                              </div>
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                    "_debugID": 4,
+                    "_renderedOutput": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "padding": "5px 0 0 10px",
+                                                                    }
+                                                      }
+                                              >
+                                                      The number of images is 
+                                              </div>
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                  },
+                  "_renderedNodeType": 0,
+                  "_rootNodeID": 0,
+                  "_topLevelWrapper": null,
+                  "_updateBatchNumber": null,
+                  "_warnedAboutRefsInRender": false,
+                },
+                "context": Object {},
+                "destroy": [Function],
+                "inputChange": [Function],
+                "mainPage": [Function],
+                "props": Object {
+                  "dispatch": [Function],
+                  "modelList": Array [
+                    Object {
+                      "description": "aaa",
+                      "id": 1,
+                      "name": "model",
+                    },
+                  ],
+                  "percent": 1,
+                  "rowDetail": Object {
+                    "id": 1,
+                    "name": "model",
+                  },
+                  "status": "feeded",
+                  "viewId": "1",
+                },
+                "refs": Object {},
+                "restart": [Function],
+                "setButton": [Function],
+                "state": Object {
+                  "confidence": 60,
+                  "inputValue": "",
+                  "isLoad": false,
+                  "message": "",
+                  "messageColor": "",
+                  "progress": 1,
+                  "result": false,
+                  "run": "",
+                  "status": "Ready",
+                },
+                "stopTesting": [Function],
+                "updater": Object {
+                  "enqueueCallback": [Function],
+                  "enqueueCallbackInternal": [Function],
+                  "enqueueElementInternal": [Function],
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                  "validateCallback": [Function],
+                },
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "color": "",
+              }
+            }
+          />
+        </div>
+        <Connect(SearchImages)
+          rowDetail={1}
+        />
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          Image Path
+        </span>
+        <input
+          className="pt-input"
+          onChange={[Function]}
+          style={
+            Object {
+              "marginLeft": "20px",
+              "width": "40%",
+            }
+          }
+          type="text"
+        />
+        <Blueprint.Button
+          className="pt-intent-primary btn"
+          disabled={true}
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+              "marginLeft": "20px",
+            }
+          }
+        >
+          Set
+        </Blueprint.Button>
+        <div
+          style={
+            Object {
+              "padding": "5px 0 0 10px",
+            }
+          }
+        >
+          The number of images is 
+        </div>
+      </div>
+    </div>
+    <div
+      className="top2"
+    >
+      <div
+        className="rightTraning"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="left"
+      >
+        <div
+          className="strong"
+          style={
+            Object {
+              "marginLeft": "16%",
+            }
+          }
+        >
+          Status: 
+        </div>
+        <Progress
+          format={[Function]}
+          percent="NaN"
+          prefixCls="ant-progress"
+          showInfo={true}
+          trailColor="#f3f3f3"
+          type="circle"
+        />
+      </div>
+      <div
+        className="center"
+      >
+        <div
+          className="time"
+        >
+          <div
+            className="strong"
+          >
+            Time
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Initialized at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Running at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Will Finish：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="right"
+      >
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Test render testingStatus=inited 1`] = `
+<div
+  className="Test-container"
+  style={
+    Object {
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginTop": "30px 0px",
+      }
+    }
+  >
+    <div
+      className="top"
+      style={
+        Object {
+          "borderBottom": "none",
+        }
+      }
+    >
+      <div>
+        <div
+          className="test"
+        >
+          Model Testing
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "marginLeft": "40px",
+            "width": "80%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          <Connect(FileUpload)
+            rowDetail={1}
+            that={
+              Test {
+                "BeginTesting": [Function],
+                "_reactInternalInstance": ShallowComponentWrapper {
+                  "_calledComponentWillUnmount": false,
+                  "_compositeType": 0,
+                  "_context": Object {},
+                  "_currentElement": <Test
+                    dispatch={[Function]}
+                    modelList={
+                          Array [
+                                Object {
+                                  "description": "aaa",
+                                  "id": 1,
+                                  "name": "model",
+                                },
+                              ]
+                    }
+                    rowDetail={
+                          Object {
+                                "id": 1,
+                                "name": "model",
+                              }
+                    }
+                    testingStatus="inited"
+                    viewId="1"
+              />,
+                  "_debugID": 1,
+                  "_hostContainerInfo": null,
+                  "_hostParent": null,
+                  "_instance": [Circular],
+                  "_mountOrder": 1,
+                  "_pendingCallbacks": null,
+                  "_pendingElement": null,
+                  "_pendingForceUpdate": false,
+                  "_pendingReplaceState": false,
+                  "_pendingStateQueue": null,
+                  "_renderedComponent": NoopInternalComponent {
+                    "_currentElement": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "padding": "5px 0 0 10px",
+                                                                    }
+                                                      }
+                                              >
+                                                      The number of images is 
+                                              </div>
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                    "_debugID": 2,
+                    "_renderedOutput": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "padding": "5px 0 0 10px",
+                                                                    }
+                                                      }
+                                              >
+                                                      The number of images is 
+                                              </div>
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                  },
+                  "_renderedNodeType": 0,
+                  "_rootNodeID": 0,
+                  "_topLevelWrapper": null,
+                  "_updateBatchNumber": null,
+                  "_warnedAboutRefsInRender": false,
+                },
+                "context": Object {},
+                "destroy": [Function],
+                "inputChange": [Function],
+                "mainPage": [Function],
+                "props": Object {
+                  "dispatch": [Function],
+                  "modelList": Array [
+                    Object {
+                      "description": "aaa",
+                      "id": 1,
+                      "name": "model",
+                    },
+                  ],
+                  "rowDetail": Object {
+                    "id": 1,
+                    "name": "model",
+                  },
+                  "testingStatus": "inited",
+                  "viewId": "1",
+                },
+                "refs": Object {},
+                "restart": [Function],
+                "setButton": [Function],
+                "state": Object {
+                  "confidence": 60,
+                  "inputValue": "",
+                  "isLoad": false,
+                  "message": "",
+                  "messageColor": "",
+                  "progress": 1,
+                  "result": false,
+                  "run": "",
+                  "status": "Ready",
+                },
+                "stopTesting": [Function],
+                "updater": Object {
+                  "enqueueCallback": [Function],
+                  "enqueueCallbackInternal": [Function],
+                  "enqueueElementInternal": [Function],
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                  "validateCallback": [Function],
+                },
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "color": "",
+              }
+            }
+          />
+        </div>
+        <Connect(SearchImages)
+          rowDetail={1}
+        />
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          Image Path
+        </span>
+        <input
+          className="pt-input"
+          onChange={[Function]}
+          style={
+            Object {
+              "marginLeft": "20px",
+              "width": "40%",
+            }
+          }
+          type="text"
+        />
+        <Blueprint.Button
+          className="pt-intent-primary btn"
+          disabled={true}
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+              "marginLeft": "20px",
+            }
+          }
+        >
+          Set
+        </Blueprint.Button>
+        <div
+          style={
+            Object {
+              "padding": "5px 0 0 10px",
+            }
+          }
+        >
+          The number of images is 
+        </div>
+      </div>
+    </div>
+    <div
+      className="top2"
+    >
+      <div
+        className="rightTraning"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="left"
+      >
+        <div
+          className="strong"
+          style={
+            Object {
+              "marginLeft": "16%",
+            }
+          }
+        >
+          Status: 
+        </div>
+        <Progress
+          format={[Function]}
+          percent="NaN"
+          prefixCls="ant-progress"
+          showInfo={true}
+          trailColor="#f3f3f3"
+          type="circle"
+        />
+      </div>
+      <div
+        className="center"
+      >
+        <div
+          className="time"
+        >
+          <div
+            className="strong"
+          >
+            Time
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Initialized at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Running at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Will Finish：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="right"
+      >
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Test this.props.testingImageCount !== 0 1`] = `
+<div
+  className="Test-container"
+  style={
+    Object {
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginTop": "30px 0px",
+      }
+    }
+  >
+    <div
+      className="top"
+      style={
+        Object {
+          "borderBottom": "none",
+        }
+      }
+    >
+      <div>
+        <div
+          className="test"
+        >
+          Model Testing
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "marginLeft": "40px",
+            "width": "80%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          <Connect(FileUpload)
+            rowDetail={1}
+            that={
+              Test {
+                "BeginTesting": [Function],
+                "_reactInternalInstance": ShallowComponentWrapper {
+                  "_calledComponentWillUnmount": false,
+                  "_compositeType": 0,
+                  "_context": Object {},
+                  "_currentElement": <Test
+                    dispatch={[Function]}
+                    modelList={
+                          Array [
+                                Object {
+                                  "description": "aaa",
+                                  "id": 1,
+                                  "name": "model",
+                                },
+                              ]
+                    }
+                    rowDetail={
+                          Object {
+                                "id": 1,
+                                "name": "model",
+                              }
+                    }
+                    testingImageCount={1}
+                    viewId="1"
+              />,
+                  "_debugID": 7,
+                  "_hostContainerInfo": null,
+                  "_hostParent": null,
+                  "_instance": [Circular],
+                  "_mountOrder": 4,
+                  "_pendingCallbacks": null,
+                  "_pendingElement": null,
+                  "_pendingForceUpdate": false,
+                  "_pendingReplaceState": false,
+                  "_pendingStateQueue": null,
+                  "_renderedComponent": NoopInternalComponent {
+                    "_currentElement": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "padding": "5px 0 0 10px",
+                                                                    }
+                                                      }
+                                              >
+                                                      The number of images is 
+                                                      1
+                                              </div>
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                    "_debugID": 8,
+                    "_renderedOutput": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "padding": "5px 0 0 10px",
+                                                                    }
+                                                      }
+                                              >
+                                                      The number of images is 
+                                                      1
+                                              </div>
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                  },
+                  "_renderedNodeType": 0,
+                  "_rootNodeID": 0,
+                  "_topLevelWrapper": null,
+                  "_updateBatchNumber": null,
+                  "_warnedAboutRefsInRender": false,
+                },
+                "context": Object {},
+                "destroy": [Function],
+                "inputChange": [Function],
+                "mainPage": [Function],
+                "props": Object {
+                  "dispatch": [Function],
+                  "modelList": Array [
+                    Object {
+                      "description": "aaa",
+                      "id": 1,
+                      "name": "model",
+                    },
+                  ],
+                  "rowDetail": Object {
+                    "id": 1,
+                    "name": "model",
+                  },
+                  "testingImageCount": 1,
+                  "viewId": "1",
+                },
+                "refs": Object {},
+                "restart": [Function],
+                "setButton": [Function],
+                "state": Object {
+                  "confidence": 60,
+                  "inputValue": "",
+                  "isLoad": false,
+                  "message": "",
+                  "messageColor": "",
+                  "progress": 1,
+                  "result": false,
+                  "run": "",
+                  "status": "Ready",
+                },
+                "stopTesting": [Function],
+                "updater": Object {
+                  "enqueueCallback": [Function],
+                  "enqueueCallbackInternal": [Function],
+                  "enqueueElementInternal": [Function],
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                  "validateCallback": [Function],
+                },
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "color": "",
+              }
+            }
+          />
+        </div>
+        <Connect(SearchImages)
+          rowDetail={1}
+        />
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          Image Path
+        </span>
+        <input
+          className="pt-input"
+          onChange={[Function]}
+          style={
+            Object {
+              "marginLeft": "20px",
+              "width": "40%",
+            }
+          }
+          type="text"
+        />
+        <Blueprint.Button
+          className="pt-intent-primary btn"
+          disabled={true}
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+              "marginLeft": "20px",
+            }
+          }
+        >
+          Set
+        </Blueprint.Button>
+        <div
+          style={
+            Object {
+              "padding": "5px 0 0 10px",
+            }
+          }
+        >
+          The number of images is 
+          1
+        </div>
+      </div>
+    </div>
+    <div
+      className="top2"
+    >
+      <div
+        className="rightTraning"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="left"
+      >
+        <div
+          className="strong"
+          style={
+            Object {
+              "marginLeft": "16%",
+            }
+          }
+        >
+          Status: 
+        </div>
+        <Progress
+          format={[Function]}
+          percent="NaN"
+          prefixCls="ant-progress"
+          showInfo={true}
+          trailColor="#f3f3f3"
+          type="circle"
+        />
+      </div>
+      <div
+        className="center"
+      >
+        <div
+          className="time"
+        >
+          <div
+            className="strong"
+          >
+            Time
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Initialized at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Running at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Will Finish：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="right"
+      >
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Component) Test this.props.testingImageCount == 0 1`] = `
+<div
+  className="Test-container"
+  style={
+    Object {
+      "marginTop": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginTop": "30px 0px",
+      }
+    }
+  >
+    <div
+      className="top"
+      style={
+        Object {
+          "borderBottom": "none",
+        }
+      }
+    >
+      <div>
+        <div
+          className="test"
+        >
+          Model Testing
+        </div>
+        <div
+          className="strong"
+        >
+          ID：
+          1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "marginLeft": "40px",
+            "width": "80%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          <Connect(FileUpload)
+            rowDetail={1}
+            that={
+              Test {
+                "BeginTesting": [Function],
+                "_reactInternalInstance": ShallowComponentWrapper {
+                  "_calledComponentWillUnmount": false,
+                  "_compositeType": 0,
+                  "_context": Object {},
+                  "_currentElement": <Test
+                    dispatch={[Function]}
+                    modelList={
+                          Array [
+                                Object {
+                                  "description": "aaa",
+                                  "id": 1,
+                                  "name": "model",
+                                },
+                              ]
+                    }
+                    rowDetail={
+                          Object {
+                                "id": 1,
+                                "name": "model",
+                              }
+                    }
+                    testingImageCount={0}
+                    viewId="1"
+              />,
+                  "_debugID": 9,
+                  "_hostContainerInfo": null,
+                  "_hostParent": null,
+                  "_instance": [Circular],
+                  "_mountOrder": 5,
+                  "_pendingCallbacks": null,
+                  "_pendingElement": null,
+                  "_pendingForceUpdate": false,
+                  "_pendingReplaceState": false,
+                  "_pendingStateQueue": null,
+                  "_renderedComponent": NoopInternalComponent {
+                    "_currentElement": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div />
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                    "_debugID": 10,
+                    "_renderedOutput": <div
+                      className="Test-container"
+                      style={
+                              Object {
+                                      "marginTop": "30px",
+                                    }
+                      }
+              >
+                      <div
+                              style={
+                                      Object {
+                                              "marginTop": "30px 0px",
+                                            }
+                              }
+                      >
+                              <div
+                                      className="top"
+                                      style={
+                                              Object {
+                                                      "borderBottom": "none",
+                                                    }
+                                      }
+                              >
+                                      <div>
+                                              <div
+                                                      className="test"
+                                              >
+                                                      Model Testing
+                                              </div>
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      ID：
+                                                      1
+                                              </div>
+                                      </div>
+                                      <div
+                                              style={
+                                                      Object {
+                                                              "display": "flex",
+                                                              "marginLeft": "40px",
+                                                              "width": "80%",
+                                                            }
+                                              }
+                                      >
+                                              <div
+                                                      style={
+                                                              Object {
+                                                                      "display": "flex",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      <Connect(FileUpload)
+                                                              rowDetail={1}
+                                                              that={[Circular]}
+                                                      />
+                                                      <div
+                                                              style={
+                                                                      Object {
+                                                                              "color": "",
+                                                                            }
+                                                              }
+                                                      />
+                                              </div>
+                                              <Connect(SearchImages)
+                                                      rowDetail={1}
+                                              />
+                                              <span
+                                                      style={
+                                                              Object {
+                                                                      "fontWeight": "bold",
+                                                                      "marginLeft": "40px",
+                                                                      "paddingTop": "3px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Image Path
+                                              </span>
+                                              <input
+                                                      className="pt-input"
+                                                      onChange={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "20px",
+                                                                      "width": "40%",
+                                                                    }
+                                                      }
+                                                      type="text"
+                                              />
+                                              <Blueprint.Button
+                                                      className="pt-intent-primary btn"
+                                                      disabled={true}
+                                                      onClick={[Function]}
+                                                      style={
+                                                              Object {
+                                                                      "height": "30px",
+                                                                      "marginLeft": "20px",
+                                                                    }
+                                                      }
+                                              >
+                                                      Set
+                                              </Blueprint.Button>
+                                              <div />
+                                      </div>
+                              </div>
+                              <div
+                                      className="top2"
+                              >
+                                      <div
+                                              className="rightTraning"
+                                      />
+                              </div>
+                              <div
+                                      className="content"
+                              >
+                                      <div
+                                              className="left"
+                                      >
+                                              <div
+                                                      className="strong"
+                                                      style={
+                                                              Object {
+                                                                      "marginLeft": "16%",
+                                                                    }
+                                                      }
+                                              >
+                                                      Status: 
+                                              </div>
+                                              <Progress
+                                                      format={[Function]}
+                                                      percent="NaN"
+                                                      prefixCls="ant-progress"
+                                                      showInfo={true}
+                                                      trailColor="#f3f3f3"
+                                                      type="circle"
+                                              />
+                                      </div>
+                                      <div
+                                              className="center"
+                                      >
+                                              <div
+                                                      className="time"
+                                              >
+                                                      <div
+                                                              className="strong"
+                                                      >
+                                                              Time
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Initialized at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Running at：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                                      <div
+                                                              className="textField"
+                                                      >
+                                                              <div
+                                                                      className="key"
+                                                              >
+                                                                      Will Finish：
+                                                              </div>
+                                                              <div
+                                                                      className="value"
+                                                              >
+                                                                      
+                                                              </div>
+                                                      </div>
+                                              </div>
+                                      </div>
+                                      <div
+                                              className="right"
+                                      >
+                                              <div
+                                                      className="strong"
+                                              >
+                                                      Hardware Usage
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Memory：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              GPU Utilization：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                              <div
+                                                      className="textField"
+                                              >
+                                                      <div
+                                                              className="key"
+                                                      >
+                                                              Temperature：
+                                                      </div>
+                                                      <div
+                                                              className="value"
+                                                      >
+                                                              
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+                      </div>
+              </div>,
+                  },
+                  "_renderedNodeType": 0,
+                  "_rootNodeID": 0,
+                  "_topLevelWrapper": null,
+                  "_updateBatchNumber": null,
+                  "_warnedAboutRefsInRender": false,
+                },
+                "context": Object {},
+                "destroy": [Function],
+                "inputChange": [Function],
+                "mainPage": [Function],
+                "props": Object {
+                  "dispatch": [Function],
+                  "modelList": Array [
+                    Object {
+                      "description": "aaa",
+                      "id": 1,
+                      "name": "model",
+                    },
+                  ],
+                  "rowDetail": Object {
+                    "id": 1,
+                    "name": "model",
+                  },
+                  "testingImageCount": 0,
+                  "viewId": "1",
+                },
+                "refs": Object {},
+                "restart": [Function],
+                "setButton": [Function],
+                "state": Object {
+                  "confidence": 60,
+                  "inputValue": "",
+                  "isLoad": false,
+                  "message": "",
+                  "messageColor": "",
+                  "progress": 1,
+                  "result": false,
+                  "run": "",
+                  "status": "Ready",
+                },
+                "stopTesting": [Function],
+                "updater": Object {
+                  "enqueueCallback": [Function],
+                  "enqueueCallbackInternal": [Function],
+                  "enqueueElementInternal": [Function],
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                  "validateCallback": [Function],
+                },
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "color": "",
+              }
+            }
+          />
+        </div>
+        <Connect(SearchImages)
+          rowDetail={1}
+        />
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+              "marginLeft": "40px",
+              "paddingTop": "3px",
+            }
+          }
+        >
+          Image Path
+        </span>
+        <input
+          className="pt-input"
+          onChange={[Function]}
+          style={
+            Object {
+              "marginLeft": "20px",
+              "width": "40%",
+            }
+          }
+          type="text"
+        />
+        <Blueprint.Button
+          className="pt-intent-primary btn"
+          disabled={true}
+          onClick={[Function]}
+          style={
+            Object {
+              "height": "30px",
+              "marginLeft": "20px",
+            }
+          }
+        >
+          Set
+        </Blueprint.Button>
+        <div />
+      </div>
+    </div>
+    <div
+      className="top2"
+    >
+      <div
+        className="rightTraning"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="left"
+      >
+        <div
+          className="strong"
+          style={
+            Object {
+              "marginLeft": "16%",
+            }
+          }
+        >
+          Status: 
+        </div>
+        <Progress
+          format={[Function]}
+          percent="NaN"
+          prefixCls="ant-progress"
+          showInfo={true}
+          trailColor="#f3f3f3"
+          type="circle"
+        />
+      </div>
+      <div
+        className="center"
+      >
+        <div
+          className="time"
+        >
+          <div
+            className="strong"
+          >
+            Time
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Initialized at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Running at：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+          <div
+            className="textField"
+          >
+            <div
+              className="key"
+            >
+              Will Finish：
+            </div>
+            <div
+              className="value"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="right"
+      >
+        <div
+          className="strong"
+        >
+          Hardware Usage
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Memory：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            GPU Utilization：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+        <div
+          className="textField"
+        >
+          <div
+            className="key"
+          >
+            Temperature：
+          </div>
+          <div
+            className="value"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DialogFilter render dialogid = " "  1`] = `
+<div>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="onlyHeaderTitle"
+      >
+        TITLE
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Process ID
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Product ID
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="productId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "color": "red",
+            "margin": "0 10px",
+          }
+        }
+      >
+        Tips：
+        a
+      </div>
+      <div
+        className="filter"
+      >
+        Model Name
+        <Select
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div />
+      <div
+        className="filter"
+      >
+        TrialRun
+        <Checkbox
+          checked={true}
+          indeterminate={false}
+          onChange={[Function]}
+          prefixCls="ant-checkbox"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "width": "200px",
+            }
+          }
+        >
+          Set As TrialRun
+        </Checkbox>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;
+
+exports[`(Component) DialogFilter render normally 1`] = `
+<div>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        TITLE
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Process ID
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Product ID
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="productId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "color": "red",
+            "margin": "0 10px",
+          }
+        }
+      >
+        Tips：
+        a
+      </div>
+      <div
+        className="filter"
+      >
+        Model Name
+        <Select
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="filterDefect"
+      >
+        Defect Code
+        <div
+          style={
+            Object {
+              "backgroundColor": "#eee",
+              "borderRadius": "5px",
+              "margin": "10px",
+              "padding": "10px",
+              "width": "200px",
+              "wordWrap": "break-word",
+            }
+          }
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        TrialRun
+        <Checkbox
+          checked={true}
+          indeterminate={false}
+          onChange={[Function]}
+          prefixCls="ant-checkbox"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "width": "200px",
+            }
+          }
+        >
+          Set As TrialRun
+        </Checkbox>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;
+
+exports[`(Component) DialogFilter render status = false 1`] = `
+<div>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        TITLE
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Process ID
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Product ID
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="productId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "color": "red",
+            "margin": "0 10px",
+          }
+        }
+      >
+        Tips：
+        a
+      </div>
+      <div
+        className="filter"
+      >
+        Model Name
+        <Select
+          choiceTransitionName="zoom"
+          name="model"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div />
+      <div
+        className="filter"
+      >
+        TrialRun
+        <Checkbox
+          checked={true}
+          indeterminate={false}
+          onChange={[Function]}
+          prefixCls="ant-checkbox"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "width": "200px",
+            }
+          }
+        >
+          Set As TrialRun
+        </Checkbox>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;

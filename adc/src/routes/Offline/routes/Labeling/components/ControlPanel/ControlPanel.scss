@@ -1,0 +1,116 @@
+.control-panel {
+  background: #E8E8E8;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  .div {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 30px;
+  }
+
+  .add {
+    color: #2EADEF;
+  }
+
+  .delete {
+    color: #EC5252;
+  }
+
+  .cut {
+    border-left: 1px solid #A1A1A1;
+  }
+
+  .control-panel-button {
+    cursor: pointer;
+
+    i, em {
+      font-style: normal;
+    }
+    em {
+      display: none;
+    }
+  }
+
+
+  :global {
+    .anticon {
+      font-size: 16px;
+    }
+    .anticon-zoomin, .anticon-zoomout {
+      font-size: 20px;
+    }
+  }
+}
+
+.control-panel-2 {
+  background: #E8E8E8;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: left;
+
+  .add {
+    color: #2EADEF;
+  }
+
+  .delete {
+    color: #EC5252;
+  }
+
+  .cut {
+    border-left: none;
+  }
+
+  .div {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    align-items: left;
+
+    &:nth-child(n) {
+      order: 1;
+    }
+    &:nth-child(5) {
+      display: none;
+    }
+    &:nth-child(4) {
+      order: 6;
+    }
+    &:nth-child(6) {
+      order: 0;
+    }
+  }
+
+  .control-panel-button {
+    cursor: pointer;
+    display: block;
+    i, em {
+      font-style: normal;
+    }
+    em {
+      display: inline;
+      vertical-align: top;
+    }
+    &:nth-child(2) {
+      padding-top: 10px;
+    }
+  }
+
+  :global {
+    .anticon {
+      font-size: 16px;
+      padding: 0 !important;
+    }
+    .anticon-zoomin, .anticon-zoomout {
+      font-size: 20px;
+    }
+  }
+}

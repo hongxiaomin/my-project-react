@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) License render normally 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+      "margin": "30px 40px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <h4
+        className="model"
+      >
+        User Management
+      </h4>
+      <Connect(CreateUser)
+        type="create"
+      />
+    </div>
+    <div>
+      <div
+        className="top-left"
+      >
+        <span
+          className="productGlass"
+        >
+          User List
+        </span>
+      </div>
+      <ReactTable
+        AggregatedComponent={[Function]}
+        ExpanderComponent={[Function]}
+        FilterComponent={[Function]}
+        LoadingComponent={[Function]}
+        NoDataComponent={[Function]}
+        PadRowComponent={[Function]}
+        PaginationComponent={[Function]}
+        PivotValueComponent={[Function]}
+        ResizerComponent={[Function]}
+        TableComponent={[Function]}
+        TbodyComponent={[Function]}
+        TdComponent={[Function]}
+        TfootComponent={[Function]}
+        ThComponent={[Function]}
+        TheadComponent={[Function]}
+        TrComponent={[Function]}
+        TrGroupComponent={[Function]}
+        aggregatedKey="_aggregated"
+        className="-striped -highlight"
+        collapseOnDataChange={true}
+        collapseOnPageChange={true}
+        collapseOnSortingChange={true}
+        column={
+          Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          }
+        }
+        columns={
+          Array [
+            Object {
+              "Header": "User ID",
+              "accessor": "userId",
+              "style": Object {
+                "textAlign": "center",
+              },
+            },
+            Object {
+              "Header": "User Name",
+              "accessor": "userName",
+              "style": Object {
+                "textAlign": "center",
+              },
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Role",
+              "accessor": "roleIds",
+              "style": Object {
+                "textAlign": "center",
+              },
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Action",
+              "accessor": "",
+              "style": Object {
+                "padding": "5px",
+                "textAlign": "center",
+              },
+              "width": 80,
+            },
+          ]
+        }
+        data={Array []}
+        defaultExpanded={Object {}}
+        defaultFilterMethod={[Function]}
+        defaultFiltered={Array []}
+        defaultPageSize={10}
+        defaultResized={Array []}
+        defaultSortDesc={false}
+        defaultSortMethod={[Function]}
+        defaultSorted={Array []}
+        expanderDefaults={
+          Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          }
+        }
+        filterable={false}
+        freezeWhenExpanded={false}
+        getLoadingProps={[Function]}
+        getNoDataProps={[Function]}
+        getPaginationProps={[Function]}
+        getProps={[Function]}
+        getResizerProps={[Function]}
+        getTableProps={[Function]}
+        getTbodyProps={[Function]}
+        getTdProps={[Function]}
+        getTfootProps={[Function]}
+        getTfootTdProps={[Function]}
+        getTfootTrProps={[Function]}
+        getTheadFilterProps={[Function]}
+        getTheadFilterThProps={[Function]}
+        getTheadFilterTrProps={[Function]}
+        getTheadGroupProps={[Function]}
+        getTheadGroupThProps={[Function]}
+        getTheadGroupTrProps={[Function]}
+        getTheadProps={[Function]}
+        getTheadThProps={[Function]}
+        getTheadTrProps={[Function]}
+        getTrGroupProps={[Function]}
+        getTrProps={[Function]}
+        groupedByPivotKey="_groupedByPivot"
+        indexKey="_index"
+        loading={false}
+        loadingText="Loading..."
+        nestingLevelKey="_nestingLevel"
+        nextText="Next"
+        noDataText="No rows found"
+        ofText="of"
+        onFetchData={[Function]}
+        onPageSizeChange={[Function]}
+        originalKey="_original"
+        pageSizeOptions={
+          Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ]
+        }
+        pageText="Page"
+        pivotDefaults={Object {}}
+        pivotIDKey="_pivotID"
+        pivotValKey="_pivotVal"
+        previousText="Previous"
+        resizable={true}
+        rowsText="rows"
+        showPageJump={true}
+        showPageSizeOptions={true}
+        showPagination={true}
+        showPaginationBottom={true}
+        showPaginationTop={false}
+        sortable={true}
+        style={
+          Object {
+            "height": "auto",
+            "maxHeight": "500px",
+          }
+        }
+        subRowsKey="_subRows"
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "width": "45%",
+      }
+    }
+  >
+    <div
+      className="top"
+    >
+      <h4
+        className="model"
+      >
+        License Management
+      </h4>
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Reload
+      </button>
+    </div>
+    <div
+      className="licenseCard"
+    />
+  </div>
+  <Connect(EditUser)
+    defaultValue={Object {}}
+    isOpen={false}
+    toggleDialog={[Function]}
+  />
+  <Confirm
+    handleCancel={[Function]}
+    handleOk={[Function]}
+    isOpen={false}
+    title="Are you sure to delete this user?"
+  />
+</div>
+`;

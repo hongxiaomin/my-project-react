@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ServiceManagementEdit render normally 1`] = `
+<div
+  className="ServiceManagementEdit-container"
+>
+  <section
+    className="title"
+  >
+    <h4>
+      Service Detail
+    </h4>
+    <p>
+      <strong>
+        ID 
+      </strong>
+    </p>
+    <button
+      className="edit pt-button pt-intent-primary pt-large"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Edit Mode
+    </button>
+    <Connect(ServiceDetailDialog)
+      data={Object {}}
+      getModel={[Function]}
+      getServiceDetail={[Function]}
+      that={
+        ServiceManagementEdit {
+          "_reactInternalInstance": ShallowComponentWrapper {
+            "_calledComponentWillUnmount": false,
+            "_compositeType": 0,
+            "_context": Object {},
+            "_currentElement": <ServiceManagementEdit
+              data={Object {}}
+              getModel={[Function]}
+              getServiceDetail={[Function]}
+              ojsData={Object {}}
+              statusType={Object {}}
+        />,
+            "_debugID": 3,
+            "_hostContainerInfo": null,
+            "_hostParent": null,
+            "_instance": [Circular],
+            "_mountOrder": 1,
+            "_pendingCallbacks": null,
+            "_pendingElement": null,
+            "_pendingForceUpdate": false,
+            "_pendingReplaceState": false,
+            "_pendingStateQueue": null,
+            "_renderedComponent": NoopInternalComponent {
+              "_currentElement": <div
+                className="ServiceManagementEdit-container"
+        >
+                <section
+                        className="title"
+                >
+                        <h4>
+                                Service Detail
+                        </h4>
+                        <p>
+                                <strong>
+                                        ID 
+                                        
+                                </strong>
+                        </p>
+                        <button
+                                className="edit pt-button pt-intent-primary pt-large"
+                                disabled={true}
+                                onClick={[Function]}
+                                type="button"
+                        >
+                                Edit Mode
+                        </button>
+                        <Connect(ServiceDetailDialog)
+                                DialogID={undefined}
+                                DialogName={undefined}
+                                data={Object {}}
+                                getModel={[Function]}
+                                getServiceDetail={[Function]}
+                                isOpen={undefined}
+                                kernelId={undefined}
+                                modelId={undefined}
+                                that={[Circular]}
+                                toggleDialog={[Function]}
+                        />
+                </section>
+                <section>
+                        <div
+                                className="form-group"
+                        >
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Name
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Name"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Status
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Status"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Model ID
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Model ID"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Data Source
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Data Source"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                GPU ID
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="GPU ID"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+        </div>,
+              "_debugID": 4,
+              "_renderedOutput": <div
+                className="ServiceManagementEdit-container"
+        >
+                <section
+                        className="title"
+                >
+                        <h4>
+                                Service Detail
+                        </h4>
+                        <p>
+                                <strong>
+                                        ID 
+                                        
+                                </strong>
+                        </p>
+                        <button
+                                className="edit pt-button pt-intent-primary pt-large"
+                                disabled={true}
+                                onClick={[Function]}
+                                type="button"
+                        >
+                                Edit Mode
+                        </button>
+                        <Connect(ServiceDetailDialog)
+                                DialogID={undefined}
+                                DialogName={undefined}
+                                data={Object {}}
+                                getModel={[Function]}
+                                getServiceDetail={[Function]}
+                                isOpen={undefined}
+                                kernelId={undefined}
+                                modelId={undefined}
+                                that={[Circular]}
+                                toggleDialog={[Function]}
+                        />
+                </section>
+                <section>
+                        <div
+                                className="form-group"
+                        >
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Name
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Name"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Status
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Status"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Model ID
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Model ID"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                Data Source
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="Data Source"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                                <div
+                                        className="form-group-item"
+                                >
+                                        <div
+                                                className="left"
+                                        >
+                                                GPU ID
+                                        </div>
+                                        <div
+                                                className="right"
+                                        >
+                                                <input
+                                                        className="right-input pt-input"
+                                                        disabled={true}
+                                                        onChange={[Function]}
+                                                        placeholder="GPU ID"
+                                                        type="text"
+                                                />
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+        </div>,
+            },
+            "_renderedNodeType": 0,
+            "_rootNodeID": 0,
+            "_topLevelWrapper": null,
+            "_updateBatchNumber": null,
+            "_warnedAboutRefsInRender": false,
+          },
+          "context": Object {},
+          "handleChange": [Function],
+          "isEdit": false,
+          "props": Object {
+            "data": Object {},
+            "getModel": [Function],
+            "getServiceDetail": [Function],
+            "ojsData": Object {},
+            "statusType": Object {},
+          },
+          "refs": Object {},
+          "state": Object {
+            "data": Object {},
+          },
+          "toggleDialog": [Function],
+          "updater": Object {
+            "enqueueCallback": [Function],
+            "enqueueCallbackInternal": [Function],
+            "enqueueElementInternal": [Function],
+            "enqueueForceUpdate": [Function],
+            "enqueueReplaceState": [Function],
+            "enqueueSetState": [Function],
+            "isMounted": [Function],
+            "validateCallback": [Function],
+          },
+        }
+      }
+      toggleDialog={[Function]}
+    />
+  </section>
+  <section>
+    <div
+      className="form-group"
+    >
+      <div
+        className="form-group-item"
+      >
+        <div
+          className="left"
+        >
+          Name
+        </div>
+        <div
+          className="right"
+        >
+          <input
+            className="right-input pt-input"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group-item"
+      >
+        <div
+          className="left"
+        >
+          Status
+        </div>
+        <div
+          className="right"
+        >
+          <input
+            className="right-input pt-input"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="Status"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group-item"
+      >
+        <div
+          className="left"
+        >
+          Model ID
+        </div>
+        <div
+          className="right"
+        >
+          <input
+            className="right-input pt-input"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="Model ID"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group-item"
+      >
+        <div
+          className="left"
+        >
+          Data Source
+        </div>
+        <div
+          className="right"
+        >
+          <input
+            className="right-input pt-input"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="Data Source"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group-item"
+      >
+        <div
+          className="left"
+        >
+          GPU ID
+        </div>
+        <div
+          className="right"
+        >
+          <input
+            className="right-input pt-input"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="GPU ID"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

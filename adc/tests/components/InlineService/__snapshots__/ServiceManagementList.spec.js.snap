@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ServiceManagementList render normally 1`] = `
+<div
+  className="ServiceManagementList-container"
+>
+  <section
+    className="title clear"
+  >
+    <h4
+      className="left"
+    >
+      Service Management
+    </h4>
+  </section>
+  <div
+    className="cards"
+  >
+    <Connect(ServiceCard)
+      item={
+        Object {
+          "id": 1,
+        }
+      }
+      loading={false}
+    />
+    <Connect(ServiceCard)
+      item={
+        Object {
+          "id": 2,
+        }
+      }
+      loading={false}
+    />
+  </div>
+  <AlertMqttError
+    handleCancel={[Function]}
+    isError="loading"
+    isOpen={false}
+  />
+</div>
+`;

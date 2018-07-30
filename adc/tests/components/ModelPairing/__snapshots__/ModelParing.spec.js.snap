@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelParing render normally 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div
+      className="top"
+    >
+      <h4
+        className="model"
+      >
+        Model Pairing Setting
+      </h4>
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Create
+      </button>
+    </div>
+    <div
+      className="searchDiv"
+    >
+      <h5
+        style={
+          Object {
+            "marginRight": "10px",
+            "marginTop": "6px",
+          }
+        }
+      >
+        Search condition:
+      </h5>
+      <div
+        className="singleSearch"
+      >
+        <h5
+          className="h5"
+        >
+          Process ID
+        </h5>
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="singleSearch"
+      >
+        <h5
+          className="h5"
+        >
+          Product ID
+        </h5>
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        />
+      </div>
+      <div
+        className="singleSearch"
+      >
+        <h5
+          className="h5"
+        >
+          Model
+        </h5>
+        <Select
+          allowClear={true}
+          choiceTransitionName="zoom"
+          name="processId"
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Please select"
+          prefixCls="ant-select"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+        >
+          <Option
+            value="1"
+          >
+            undefined(Default Model)
+          </Option>
+          <Option
+            value="1"
+          />
+        </Select>
+      </div>
+      <button
+        className="pt-button pt-intent-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "width": "80px",
+          }
+        }
+        type="button"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+  <Connect(ModelSettingList)
+    modelList={
+      Array [
+        Object {
+          "id": 1,
+          "isDefault": true,
+          "isPublished": true,
+        },
+        Object {
+          "id": 1,
+          "isDefault": false,
+          "isPublished": true,
+        },
+      ]
+    }
+    searchParam={
+      Object {
+        "modelId": "cc",
+        "processId": "aa",
+        "productId": "bb",
+      }
+    }
+  />
+  <Connect(CreateModelParing)
+    isOpen={true}
+    toggleDialog={[Function]}
+  />
+</div>
+`;

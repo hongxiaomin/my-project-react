@@ -1,0 +1,112 @@
+.ServiceManagementList-container {
+  width: 45%;
+
+  // float: left;
+  // overflow: hidden;
+  // border: 1px solid #0087DC;
+  border-radius: 5px;
+  padding: 0 0 10px 0;
+  // height: 415px;
+}
+.cards {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-center;
+  flex-wrap: wrap;
+}
+  // .clear{
+  //
+  //   &:after{
+  //     content: '';
+  //     display: block;
+  //     clear: both;
+  //   }
+  // }
+  // .right{
+  //   float: right;
+  // }
+  // .left{
+  //   float: left;
+  // }
+  // .mr10{
+  //   margin-right: 10px;
+  // }
+  // .ml10{
+  //   margin-left: 10px;
+  // }
+  // .c1{
+  //   color: #0087DC;
+  // }
+  // .cn{
+  //   text-align: center;
+  // }
+  //
+  // .action{
+  //   position: absolute;
+  //   top: 30px;
+  //   right: 140px;
+  // }
+  //
+  // .eye{
+  //   position: absolute;
+  //   top: 30px;
+  //   right: 82px;
+  // }
+  //
+  // .log{
+  //   position: absolute;
+  //   top: 30px;
+  //   right: 20px;
+  // }
+
+  .title{
+    // background: #F7F7F7;
+    padding: 10px;
+    position: relative;
+  }
+
+//   .ag-table{
+//     height: 330px;
+//   }
+//
+//   .cell {
+//     border-radius: 5px;
+//     color: #fff;
+//     background: #9B9B9B;
+//     display: inline-block;
+//     width: 100px;
+//     overflow: hidden;
+//     font-size: 12px
+//   }
+//
+//   .progress {
+//     width: initial;
+//     margin-left: 5px;
+//     padding: 0 5px;
+//     background: #2887C3;
+//     border-radius: 0;
+//   }
+//
+//   .status{
+//     padding: 5px 10px;
+//     border-radius: 5px 0 5px 0;
+//     color: #fff;
+//     background: #9B9B9B;
+//     &.status-s{
+//       background: #7ED321;
+//     }
+//
+//     &.status-d{
+//       background: #D0021B;
+//     }
+//
+//     &.status-w{
+//       background: #F5A623;
+//     }
+//
+//     &.status-p{
+//       background: #4A90E2;
+//     }
+//
+//   }
+// }

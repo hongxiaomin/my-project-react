@@ -1,0 +1,131 @@
+.LabelingToolExpand {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 0 0 0 40px;
+
+  &:after {
+    content:'';
+    clear: both;
+    display: block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .controlLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px 0 0;
+  }
+
+}
+
+.selectDefectCode {
+  width: 270px;
+  overflow: hidden;
+}
+
+
+.labelingInfo {
+  height: 50px;
+  line-height: 50px;
+  background: #f7f7f7;
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  z-index: 102;
+
+  &:after {
+    content:'';
+    clear: both;
+    display: block;
+  }
+
+  a {
+    color: #108ee9;
+    float: left;
+    font-size: 16px;
+  }
+
+  span {
+    float: right;
+  }
+
+  em {
+    font-style: normal;
+  }
+}
+
+.imageInfo {
+  width: 100%;
+  padding: 0 70px;
+  position: relative;
+
+  .imageInfoBox {
+    width: 100%;
+  }
+
+  .imageInfoLeft, .imageInfoRight {
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .imageInfoLeft {
+    left: 0 ;
+  }
+  .imageInfoRight {
+    right: 0;
+  }
+
+}
+
+.buttons {
+  width: 175px;
+}
+
+.labelingPath {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 101;
+  padding-top: 50px;
+
+  .handle {
+    position: absolute;
+    right: -30px;
+    background: rgba(226,226,226, .5);
+    height: 60px;
+    width: 30px;
+    top: 75px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.labelingPathContent {
+  background: rgba(226,226,226, 1);
+  box-sizing: border-box;
+  padding: 30px 15px 15px;
+  height: 100%;
+  overflow-y: auto;
+}

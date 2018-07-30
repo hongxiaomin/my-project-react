@@ -1,0 +1,655 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DialogFilter render cancel click 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+    >
+        Cancel
+    </Button>,
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        type="primary"
+    >
+        Save
+    </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  onCancel={[Function]}
+  prefixCls="ant-modal"
+  title=""
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 20px 0 20px",
+      }
+    }
+  >
+    <Form
+      hideRequiredMark={false}
+      layout="horizontal"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User ID"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User Name"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label={
+          <span
+            style={
+              Object {
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            Password
+          </span>
+        }
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="Role"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+    </Form>
+  </div>
+</Modal>
+`;
+
+exports[`(Component) DialogFilter render dialogBtnContent = update 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+    >
+        Cancel
+    </Button>,
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        type="primary"
+    >
+        Save
+    </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  onCancel={[Function]}
+  prefixCls="ant-modal"
+  title=""
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 20px 0 20px",
+      }
+    }
+  >
+    <Form
+      hideRequiredMark={false}
+      layout="horizontal"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User ID"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User Name"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label={
+          <span
+            style={
+              Object {
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            Password
+          </span>
+        }
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="Role"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+    </Form>
+  </div>
+</Modal>
+`;
+
+exports[`(Component) DialogFilter render icon click 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+    >
+        Cancel
+    </Button>,
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        type="primary"
+    >
+        Save
+    </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  onCancel={[Function]}
+  prefixCls="ant-modal"
+  title=""
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 20px 0 20px",
+      }
+    }
+  >
+    <Form
+      hideRequiredMark={false}
+      layout="horizontal"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User ID"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User Name"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label={
+          <span
+            style={
+              Object {
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            Password
+          </span>
+        }
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="Role"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+    </Form>
+  </div>
+</Modal>
+`;
+
+exports[`(Component) DialogFilter render normally 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+    >
+        Cancel
+    </Button>,
+      <Button
+        clicked={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+        type="primary"
+    >
+        Save
+    </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  onCancel={[Function]}
+  prefixCls="ant-modal"
+  title=""
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 20px 0 20px",
+      }
+    }
+  >
+    <Form
+      hideRequiredMark={false}
+      layout="horizontal"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User ID"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="User Name"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="Password"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+      <FormItem
+        colon={true}
+        hasFeedback={false}
+        label="Role"
+        labelCol={
+          Object {
+            "sm": Object {
+              "span": 6,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+        prefixCls="ant-form"
+        wrapperCol={
+          Object {
+            "sm": Object {
+              "span": 18,
+            },
+            "xs": Object {
+              "span": 24,
+            },
+          }
+        }
+      />
+    </Form>
+  </div>
+</Modal>
+`;

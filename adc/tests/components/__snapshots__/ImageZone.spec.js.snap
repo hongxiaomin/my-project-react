@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ImageZone render normally 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #ccc",
+      "height": -70,
+      "margin": "0 auto",
+      "overflow": "hidden",
+      "position": "resative",
+      "width": -70,
+    }
+  }
+>
+  <DragOrZoom
+    onChange={[Function]}
+    scale={0.5}
+  >
+    <ImageLoad
+      imgPath=""
+      onChange={[Function]}
+    >
+      <Connect(DrawDefect)
+        div={null}
+        imageInfo={
+          Object {
+            "aspectRatio": -1.4,
+            "height": 50,
+            "imgWidth": undefined,
+            "width": 50,
+          }
+        }
+        offset={
+          Object {
+            "x": 1,
+            "y": 1,
+          }
+        }
+        scale={0.5}
+      />
+    </ImageLoad>
+  </DragOrZoom>
+</div>
+`;
+
+exports[`(Component) mount render isUpdate = false 1`] = `
+<ImageZone
+  isUpdate={false}
+  path=""
+  scale={0.5}
+>
+  <div
+    style={
+      Object {
+        "border": "1px solid #ccc",
+        "height": "300px",
+        "margin": "",
+        "overflow": "hidden",
+        "position": "resative",
+        "width": "100%",
+      }
+    }
+  >
+    <DragOrZoom
+      onChange={[Function]}
+      scale={0.5}
+    >
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "transform": "scale(0.5) translate(0px, 0px)",
+            "transformOrigin": "0 0",
+            "width": "100%",
+          }
+        }
+      >
+        <ImageLoad
+          imgPath=""
+          onChange={[Function]}
+        />
+      </div>
+    </DragOrZoom>
+  </div>
+</ImageZone>
+`;
+
+exports[`(Component) mount render normally 1`] = `
+<ImageZone
+  isUpdate={true}
+  path=""
+  scale={0.5}
+>
+  <div
+    style={
+      Object {
+        "border": "1px solid #ccc",
+        "height": "600px",
+        "margin": "0 auto",
+        "overflow": "hidden",
+        "position": "resative",
+        "width": "100%",
+      }
+    }
+  >
+    <DragOrZoom
+      onChange={[Function]}
+      scale={0.5}
+    >
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "transform": "scale(0.5) translate(0px, 0px)",
+            "transformOrigin": "0 0",
+            "width": "100%",
+          }
+        }
+      >
+        <ImageLoad
+          imgPath=""
+          onChange={[Function]}
+        />
+      </div>
+    </DragOrZoom>
+  </div>
+</ImageZone>
+`;

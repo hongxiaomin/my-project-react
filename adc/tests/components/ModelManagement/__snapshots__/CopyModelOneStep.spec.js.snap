@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) OneStep render normally 1`] = `
+<div
+  className="OneStep-container"
+>
+  <div
+    className="dialogBody"
+  >
+    <div>
+      <div
+        className="filter"
+      >
+        Number Of Interations:
+        <Slider
+          className="slider"
+          disabled={false}
+          initialValue={0}
+          labelStepSize={100000}
+          max={100000}
+          min={0}
+          onChange={[Function]}
+          showTrackFill={true}
+          stepSize={100}
+          value={11111}
+        />
+        <input
+          className="pt-input interations"
+          defaultValue={11111}
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Loss Rate:
+        <Slider
+          className="slider"
+          disabled={false}
+          initialValue={0}
+          labelStepSize={0.1}
+          max={0.1}
+          min={0}
+          onChange={[Function]}
+          showTrackFill={true}
+          stepSize={0.00001}
+          value={0}
+        />
+        <input
+          className="pt-input interations"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Model Name:
+        <input
+          className="pt-input"
+          defaultValue="1"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="filter"
+      >
+        Description:
+        <textarea
+          className="pt-input"
+          defaultValue="1"
+          onChange={[Function]}
+          style={
+            Object {
+              "width": "200px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

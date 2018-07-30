@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) QueueList render normally 1`] = `
+<div
+  style={
+    Object {
+      "width": "50%",
+    }
+  }
+>
+  <h4
+    style={
+      Object {
+        "paddingTop": "10px",
+      }
+    }
+  >
+    Queue Information
+  </h4>
+  <div
+    styleName="top-left"
+  >
+    <div
+      style={
+        Object {
+          "padding": "10px 0",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "fontSize": "14px",
+          }
+        }
+      >
+        Filter: 
+      </span>
+      <PickerWrapper
+        disabledDate={[Function]}
+        format="YYYY-MM-DD HH:mm:ss"
+        inputPrefixCls="ant-input"
+        locale={Object {}}
+        onChange={[Function]}
+        onOk={[Function]}
+        onOpenChange={[Function]}
+        placeholder={
+          Array [
+            "Start Time",
+            "End Time",
+          ]
+        }
+        popupStyle={Object {}}
+        prefixCls="ant-calendar"
+        showTime={true}
+        transitionName="slide-up"
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "padding": "10px 0",
+        }
+      }
+    >
+      <RadioGroup
+        disabled={false}
+        onChange={[Function]}
+        value=""
+      >
+        <RadioButton
+          prefixCls="ant-radio-button"
+          value="manualMode"
+        >
+          Manual mode
+        </RadioButton>
+        <RadioButton
+          prefixCls="ant-radio-button"
+          value="autoMode"
+        >
+          Auto mode
+        </RadioButton>
+      </RadioGroup>
+    </div>
+  </div>
+  <Connect(Table)
+    showAction={false}
+  />
+</div>
+`;

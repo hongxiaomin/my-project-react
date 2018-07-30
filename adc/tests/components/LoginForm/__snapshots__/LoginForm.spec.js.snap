@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) LoginForm render normally 1`] = `
+<form
+  styleName="form"
+>
+  <span
+    styleName="submessage"
+  >
+    Sign in
+  </span>
+  <p
+    style={
+      Object {
+        "color": "red",
+        "height": "40px",
+        "textAlign": "center",
+      }
+    }
+  />
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="User ID"
+    styleName="form-input"
+    type="text"
+    value=""
+  />
+  <br />
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Password"
+    styleName="form-input"
+    type="password"
+    value=""
+  />
+  <br />
+  <Button
+    clicked={false}
+    ghost={false}
+    loading={false}
+    onClick={[Function]}
+    prefixCls="ant-btn"
+    type="primary"
+  >
+    Sign in
+  </Button>
+</form>
+`;
+
+exports[`(Component) LoginForm render normally 2`] = `
+<LoginForm
+  goIndex={[Function]}
+>
+  <form
+    styleName="form"
+  >
+    <span
+      styleName="submessage"
+    >
+      Sign in
+    </span>
+    <p
+      style={
+        Object {
+          "color": "red",
+          "height": "40px",
+          "textAlign": "center",
+        }
+      }
+    />
+    <input
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="User ID"
+      styleName="form-input"
+      type="text"
+      value="user"
+    />
+    <br />
+    <input
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Password"
+      styleName="form-input"
+      type="password"
+      value="password"
+    />
+    <br />
+    <Button
+      clicked={false}
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      type="primary"
+    >
+      <button
+        className="ant-btn ant-btn-primary"
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          Sign in
+        </span>
+      </button>
+    </Button>
+  </form>
+</LoginForm>
+`;
+
+exports[`(Component) LoginForm render password=empty 1`] = `
+<LoginForm
+  goIndex={[Function]}
+>
+  <form
+    styleName="form"
+  >
+    <span
+      styleName="submessage"
+    >
+      Sign in
+    </span>
+    <p
+      style={
+        Object {
+          "color": "red",
+          "height": "40px",
+          "textAlign": "center",
+        }
+      }
+    >
+      Please enter user name and password.
+    </p>
+    <input
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="User ID"
+      styleName="form-input"
+      type="text"
+      value=""
+    />
+    <br />
+    <input
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Password"
+      styleName="form-input"
+      type="password"
+      value=""
+    />
+    <br />
+    <Button
+      clicked={false}
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      type="primary"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-clicked"
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          Sign in
+        </span>
+      </button>
+    </Button>
+  </form>
+</LoginForm>
+`;

@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DialogFilter render normally 1`] = `
+<div
+  className="DialogFilter-container"
+>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        dialog
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Name
+        <div>
+          <Input
+            disabled={false}
+            onChange={[Function]}
+            placeholder="service name"
+            prefixCls="ant-input"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="filter"
+      >
+        Model
+        <div />
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;
+
+exports[`(Component) DialogFilter render normally modellist is not null  1`] = `
+<div
+  className="DialogFilter-container"
+>
+  <Blueprint.Dialog
+    className="dialog"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <h6
+        className="headerTitle"
+      >
+        dialog
+      </h6>
+    </div>
+    <div
+      className="dialogBody"
+    >
+      <div
+        className="filter"
+      >
+        Name
+        <div>
+          <Input
+            disabled={false}
+            onChange={[Function]}
+            placeholder="service name"
+            prefixCls="ant-input"
+            type="text"
+            value="aa"
+          />
+        </div>
+      </div>
+      <div
+        className="filter"
+      >
+        Model
+        <div>
+          <Select
+            choiceTransitionName="zoom"
+            className="select"
+            onChange={[Function]}
+            placeholder="Please select"
+            prefixCls="ant-select"
+            showSearch={false}
+            transitionName="slide-up"
+          >
+            <Option
+              value="1"
+            >
+              1
+            </Option>
+          </Select>
+        </div>
+      </div>
+      <div
+        className="btnGroup"
+      >
+        <Blueprint.Button
+          className="btnCancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </Blueprint.Button>
+        <Blueprint.Button
+          className="pt-button pt-intent-primary btnEdit"
+          onClick={[Function]}
+        >
+          Save
+        </Blueprint.Button>
+      </div>
+    </div>
+  </Blueprint.Dialog>
+</div>
+`;

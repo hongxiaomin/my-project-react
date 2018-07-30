@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) TestResult render normally 1`] = `
+<div
+  className="TestResultCopy-container"
+>
+  <div
+    className="top-left"
+  >
+    <span
+      className="productGlass"
+    >
+      Testing Result
+    </span>
+    <button
+      className="pt-button pt-intent-primary button"
+      onClick={[Function]}
+      style={
+        Object {
+          "marginLeft": "20px",
+          "width": "80px",
+        }
+      }
+      type="button"
+    >
+      Save
+    </button>
+  </div>
+  <div
+    className="confidence"
+  >
+    <div
+      style={
+        Object {
+          "borderBottom": "1px solid #ccc",
+          "paddingBottom": "20px",
+        }
+      }
+    >
+      <Connect(ResultTable)
+        id="1"
+      />
+      <div
+        className="confidenceHeader"
+      >
+        <span
+          style={
+            Object {
+              "fontSize": "16px",
+            }
+          }
+        >
+          Confidence
+        </span>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "marginTop": "30px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginBottom": "10px",
+              "marginLeft": "30px",
+              "marginTop": "10px",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "marginRight": "30px",
+                "paddingTop": "5px",
+              }
+            }
+          >
+            TNDAC1
+          </span>
+          <Slider
+            className="slider"
+            marks={
+              Object {
+                "0": "0%",
+                "100": "100%",
+                "20": "20%",
+                "40": "40%",
+                "60": "60%",
+                "80": "80%",
+              }
+            }
+            max={100}
+            min={0}
+            onChange={[Function]}
+            prefixCls="ant-slider"
+            step={1}
+            tipFormatter={[Function]}
+            tooltipPrefixCls="ant-tooltip"
+            value={0}
+          />
+          <InputNumber
+            max={100}
+            min={0}
+            onChange={[Function]}
+            prefixCls="ant-input-number"
+            step={1}
+            style={
+              Object {
+                "height": "30px",
+              }
+            }
+            value={0}
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "marginLeft": "2%",
+              "marginTop": "10px",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "marginLeft": "6%",
+              }
+            }
+          >
+            Recall:
+            <span>
+              0%
+            </span>
+          </div>
+          <div
+            style={
+              Object {
+                "marginLeft": "6%",
+              }
+            }
+          >
+            ErrorRate:
+            <span>
+              0%
+            </span>
+          </div>
+          <div
+            style={
+              Object {
+                "marginLeft": "6%",
+              }
+            }
+          >
+            Others:
+            <span>
+              0%
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

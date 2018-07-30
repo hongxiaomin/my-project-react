@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelManagement render modelDetail is not null 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <h4
+      className="model"
+    >
+      Model Management
+    </h4>
+    <CreateModel />
+  </div>
+  <h5
+    style={
+      Object {
+        "margin": "15px 0px",
+      }
+    }
+  >
+    Remaining Service: 0
+  </h5>
+  <Connect(ModelList)
+    isDetail={[Function]}
+  />
+  <AlertMqttError
+    handleCancel={[Function]}
+    isError="loading"
+    isOpen={false}
+  />
+  <AlertModelMqttError
+    errorMsg=""
+    handleCancel={[Function]}
+    isOpen={false}
+  />
+</div>
+`;
+
+exports[`(Component) ModelManagement render modelDetail is null 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <h4
+      className="model"
+    >
+      Model Management
+    </h4>
+    <CreateModel />
+  </div>
+  <h5
+    style={
+      Object {
+        "margin": "15px 0px",
+      }
+    }
+  >
+    Remaining Service: 0
+  </h5>
+  <Connect(ModelList)
+    isDetail={[Function]}
+  />
+  <AlertMqttError
+    handleCancel={[Function]}
+    isError="loading"
+    isOpen={false}
+  />
+  <AlertModelMqttError
+    errorMsg=""
+    handleCancel={[Function]}
+    isOpen={false}
+  />
+</div>
+`;
+
+exports[`(Component) ModelManagement render normally 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <h4
+      className="model"
+    >
+      Model Management
+    </h4>
+    <CreateModel />
+  </div>
+  <h5
+    style={
+      Object {
+        "margin": "15px 0px",
+      }
+    }
+  >
+    Remaining Service: 0
+  </h5>
+  <Connect(ModelList)
+    isDetail={[Function]}
+  />
+  <AlertMqttError
+    handleCancel={[Function]}
+    isError="loading"
+    isOpen={false}
+  />
+  <AlertModelMqttError
+    errorMsg=""
+    handleCancel={[Function]}
+    isOpen={false}
+  />
+</div>
+`;
+
+exports[`(Component) ModelManagement render pageStatus === startTrainPage 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+  >
+    <h4
+      className="model"
+    >
+      Model Management
+    </h4>
+    <CreateModel />
+  </div>
+  <h5
+    style={
+      Object {
+        "margin": "15px 0px",
+      }
+    }
+  >
+    Remaining Service: 0
+  </h5>
+  <Connect(ModelList)
+    isDetail={[Function]}
+  />
+  <Connect(Train)
+    rowDetail={Object {}}
+  />
+  <AlertMqttError
+    handleCancel={[Function]}
+    isError="loading"
+    isOpen={false}
+  />
+  <AlertModelMqttError
+    errorMsg=""
+    handleCancel={[Function]}
+    isOpen={false}
+  />
+</div>
+`;

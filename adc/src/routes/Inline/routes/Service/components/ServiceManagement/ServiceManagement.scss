@@ -1,0 +1,44 @@
+:global {
+  .ReactTable .rt-tbody .rt-expandable {
+    text-overflow: clip;
+  }
+  .ReactTable .rt-expander {
+    &:after {
+      content: '+';
+      border: none;
+      color: rgba(0, 0, 0, 0.65);
+      font-size: 18px;
+      margin-left: -5px;
+      width: auto;
+      height: auto;
+      transition: none;
+    }
+  }
+  .ReactTable .rt-expander.-open {
+    &:after {
+      content: '-';
+      margin-left: -3px;
+      margin-top: -3px;
+    }
+  }
+}
+
+.ServiceManagement-container {
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+}
+.top-left{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 30px;
+  background-color: #f7f7f7;
+  // border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  margin-top: 20px;
+
+}

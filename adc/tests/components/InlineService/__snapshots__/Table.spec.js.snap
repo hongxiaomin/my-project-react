@@ -1,0 +1,675 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Table render normally 1`] = `
+<div>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    SubComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className="-striped -highlight"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Process ID",
+          "accessor": "processName",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Product ID",
+          "accessor": "productName",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Model",
+          "accessor": "modelName",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+        },
+        Object {
+          "Cell": [Function],
+          "Header": <div
+            styleName="filter-elem-w"
+      >
+            <span>
+                  Status
+            </span>
+            <Icon
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "cursor": "pointer",
+                              "fontSize": 16,
+                              "left": 3,
+                              "position": "relative",
+                              "top": 4,
+                            }
+                  }
+                  type="filter"
+            />
+            <div
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "display": "none",
+                              "top": "auto10",
+                            }
+                  }
+                  styleName="filter-elem"
+            >
+                  <CheckboxGroup
+                        defaultValue={
+                              Array [
+                                    "received",
+                                    "receiving",
+                                    "running",
+                                    "done",
+                                    "waiting",
+                                  ]
+                        }
+                        onChange={[Function]}
+                        options={Array []}
+                        prefixCls="ant-checkbox-group"
+                        value={
+                              Array [
+                                    "received",
+                                    "receiving",
+                                    "running",
+                                    "done",
+                                    "waiting",
+                                  ]
+                        }
+                  >
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="received"
+                              >
+                                    received
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="receiving"
+                              >
+                                    receiving
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="running"
+                              >
+                                    running
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="done"
+                              >
+                                    done
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="waiting"
+                              >
+                                    waiting
+                              </Checkbox>
+                        </p>
+                  </CheckboxGroup>
+                  <p
+                        styleName="cut-off"
+                  />
+                  <a
+                        onClick={[Function]}
+                        style={
+                              Object {
+                                    "float": "left",
+                                  }
+                        }
+                  >
+                        OK
+                  </a>
+                  <a
+                        onClick={[Function]}
+                        style={
+                              Object {
+                                    "float": "right",
+                                  }
+                        }
+                  >
+                        Reset
+                  </a>
+            </div>
+      </div>,
+          "accessor": "messageStatus",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+          "width": 80,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Arrival Time",
+          "accessor": "arrivalTime",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+          "width": 120,
+        },
+      ]
+    }
+    data={Array []}
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPageSize={5}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanded={Object {}}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    manual={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onExpandedChange={[Function]}
+    onFetchData={[Function]}
+    onPageChange={[Function]}
+    onPageSizeChange={[Function]}
+    onSortedChange={[Function]}
+    originalKey="_original"
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+      ]
+    }
+    pageText="Page"
+    pages={1}
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={false}
+    style={
+      Object {
+        "height": "auto",
+        "maxHeight": "475px",
+      }
+    }
+    subRowsKey="_subRows"
+  />
+  <p
+    style={
+      Object {
+        "lineHeight": "40px",
+      }
+    }
+  >
+    Total number 
+    1
+  </p>
+</div>
+`;
+
+exports[`(Component) Table render showAction is not null 1`] = `
+<div>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    SubComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className="-striped -highlight"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Process ID",
+          "accessor": "processName",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Product ID",
+          "accessor": "productName",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Model",
+          "accessor": "modelName",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+        },
+        Object {
+          "Cell": [Function],
+          "Header": <div
+            styleName="filter-elem-w"
+      >
+            <span>
+                  Status
+            </span>
+            <Icon
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "cursor": "pointer",
+                              "fontSize": 16,
+                              "left": 3,
+                              "position": "relative",
+                              "top": 4,
+                            }
+                  }
+                  type="filter"
+            />
+            <div
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "display": "block",
+                              "top": "auto10",
+                            }
+                  }
+                  styleName="filter-elem"
+            >
+                  <CheckboxGroup
+                        defaultValue={
+                              Array [
+                                    "received",
+                                    "receiving",
+                                    "running",
+                                    "done",
+                                    "waiting",
+                                  ]
+                        }
+                        onChange={[Function]}
+                        options={Array []}
+                        prefixCls="ant-checkbox-group"
+                        value={
+                              Array [
+                                    "received",
+                                    "receiving",
+                                    "running",
+                                    "done",
+                                    "waiting",
+                                  ]
+                        }
+                  >
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="received"
+                              >
+                                    received
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="receiving"
+                              >
+                                    receiving
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="running"
+                              >
+                                    running
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="done"
+                              >
+                                    done
+                              </Checkbox>
+                        </p>
+                        <p>
+                              <Checkbox
+                                    indeterminate={false}
+                                    prefixCls="ant-checkbox"
+                                    value="waiting"
+                              >
+                                    waiting
+                              </Checkbox>
+                        </p>
+                  </CheckboxGroup>
+                  <p
+                        styleName="cut-off"
+                  />
+                  <a
+                        onClick={[Function]}
+                        style={
+                              Object {
+                                    "float": "left",
+                                  }
+                        }
+                  >
+                        OK
+                  </a>
+                  <a
+                        onClick={[Function]}
+                        style={
+                              Object {
+                                    "float": "right",
+                                  }
+                        }
+                  >
+                        Reset
+                  </a>
+            </div>
+      </div>,
+          "accessor": "messageStatus",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+          "width": 80,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Arrival Time",
+          "accessor": "arrivalTime",
+          "minWidth": "auto",
+          "resizable": false,
+          "style": Object {
+            "textAlign": "center",
+          },
+          "width": 120,
+        },
+      ]
+    }
+    data={Array []}
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPageSize={11}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanded={Object {}}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    manual={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onExpandedChange={[Function]}
+    onFetchData={[Function]}
+    onPageChange={[Function]}
+    onPageSizeChange={[Function]}
+    onSortedChange={[Function]}
+    originalKey="_original"
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        30,
+        40,
+        50,
+      ]
+    }
+    pageText="Page"
+    pages={1}
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={false}
+    style={
+      Object {
+        "height": "475px",
+        "maxHeight": "475px",
+      }
+    }
+    subRowsKey="_subRows"
+  />
+  <p
+    style={
+      Object {
+        "lineHeight": "40px",
+      }
+    }
+  >
+    Total number 
+    1
+  </p>
+</div>
+`;

@@ -1,0 +1,65 @@
+.image-list {
+  margin-bottom: 10px;
+  background: #fff;
+
+  :global {
+    .ant-select-selection{
+      border: 0;
+      background: none;
+    }
+    .ant-select-selection-selected-value {
+      float: right;
+      margin-right: 10px;
+    }
+  }
+
+  h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 0;
+    background: #F7F7F7;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    a {
+      float: right;
+      margin-left: 20px;
+
+      &.active {
+        &:after {
+          content: '';
+          display: block;
+          border-bottom: 2px solid #4C7AA8;
+          position: relative;
+          bottom: 8px;
+        }
+      }
+    }
+  }
+}
+
+.filter-elem-w {
+  position: relative;
+  .filter-elem {
+    overflow-x: hidden;
+    position: fixed;
+    width: 100px;
+    text-align: left;
+    left: 110px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    z-index: 100;
+    max-height: 150px;
+    overflow: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+}

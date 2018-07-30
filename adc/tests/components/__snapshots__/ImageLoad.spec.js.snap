@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ImageLoad render imagePath is empty 1`] = `null`;
+
+exports[`(Component) ImageLoad render normally 1`] = `
+<div>
+  <img
+    src="aefef"
+    width="100%"
+  />
+</div>
+`;
+
+exports[`(Component) mount render normally 1`] = `
+<ImageLoad
+  a={Object {}}
+  imgPath="aefef"
+  onChange={[Function]}
+>
+  <div>
+    <img
+      src="aefef"
+      width="100%"
+    />
+  </div>
+</ImageLoad>
+`;

@@ -1,0 +1,31 @@
+.labeling-tool {
+  padding: 15px 20px 0;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .default-code {
+    width: 25%;
+    float: left;
+  }
+
+  .image-zone {
+    width: 75%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+.labeling-tool-left {
+  width: 30%;
+  float: left;
+}
+
+.labeling-tool-right {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}

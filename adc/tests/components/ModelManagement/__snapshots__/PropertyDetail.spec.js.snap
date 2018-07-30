@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) PropertyDetail render normally 1`] = `
+<div>
+  <button
+    className="pt-button pt-intent-primary"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "bottom": "6%",
+        "position": "absolute",
+        "right": "4%",
+      }
+    }
+    type="button"
+  >
+    Show More
+  </button>
+  <Modal
+    closable={false}
+    confirmLoading={false}
+    footer={
+      Array [
+        <Button
+          clicked={false}
+          ghost={false}
+          loading={false}
+          onClick={[Function]}
+          prefixCls="ant-btn"
+          size="large"
+      >
+          Cancel
+      </Button>,
+      ]
+    }
+    maskTransitionName="fade"
+    prefixCls="ant-modal"
+    title="Model Details"
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <div
+      className="detail"
+    >
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Create Time：
+        </div>
+        <div
+          className="value"
+        >
+          2018-10-10
+        </div>
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Paired Process ID：
+        </div>
+        <div
+          className="value"
+        >
+          1 / 2 / 3
+        </div>
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Paired Product ID：
+        </div>
+        <div
+          className="value"
+        >
+          1 / 2 / 3
+        </div>
+      </div>
+      <div
+        className="textField"
+      >
+        <div
+          className="key"
+        >
+          Paired Defect：
+        </div>
+        <div
+          className="value"
+        >
+          1 / 2 / 3
+        </div>
+      </div>
+    </div>
+  </Modal>
+</div>
+`;

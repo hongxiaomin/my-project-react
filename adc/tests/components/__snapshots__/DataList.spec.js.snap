@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DataList render normally 1`] = `
+<div
+  className="DataList-container"
+>
+  <div
+    className="input-div"
+  >
+    <input
+      className="pt-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onDoubleClick={[Function]}
+      onFocus={[Function]}
+      placeholder="Please select"
+      style={
+        Object {
+          "border": "none",
+          "boxShadow": "none",
+          "height": "20px",
+          "lineHeight": "20px",
+          "padding": 0,
+          "position": "relative",
+          "width": "93%",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <span
+      className="pt-icon-standard pt-icon-caret-down input-icon"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

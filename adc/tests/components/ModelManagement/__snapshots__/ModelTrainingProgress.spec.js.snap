@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ModelTrainingProgress render normally 1`] = `
+<div
+  className="ModelTrainingProgress-container"
+>
+  <ECharts
+    config={Object {}}
+    id="chart"
+    lazyUpdate={false}
+    notMerge={false}
+    option={
+      Object {
+        "legend": Object {
+          "data": Array [
+            "Loss Rate",
+            "Accuracy",
+          ],
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              0.1,
+              0.2,
+              0.3,
+            ],
+            "name": "Loss Rate",
+            "type": "line",
+          },
+          Object {
+            "data": Array [
+              0.5,
+              0.1,
+              0.8,
+            ],
+            "name": "Accuracy",
+            "type": "line",
+            "yAxisIndex": 1,
+          },
+        ],
+        "tooltip": Object {
+          "trigger": "axis",
+        },
+        "xAxis": Array [
+          Object {
+            "data": Array [
+              1,
+              2,
+              3,
+            ],
+            "type": "category",
+          },
+        ],
+        "yAxis": Array [
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "name": "Loss Rate",
+            "type": "value",
+          },
+          Object {
+            "axisLabel": Object {
+              "formatter": "{value}",
+            },
+            "name": "Accuracy",
+            "type": "value",
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "height": "370px",
+        "overflow": "none",
+      }
+    }
+  />
+</div>
+`;
